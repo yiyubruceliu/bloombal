@@ -182,7 +182,6 @@ footer {
 footer a {
     color: var(--secondary);
     text-decoration: none;
-    margin: 0 0.5rem;
 }
 
 footer a:hover {
@@ -870,31 +869,47 @@ h1::after, h2::after {
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
+    width: 100%;
+    max-width: 72rem;
+    margin-inline: auto;
 }
 
-.footer-cta {
-    margin-bottom: 1rem;
+.footer-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    width: 100%;
 }
 
-.footer-contact {
-    margin-bottom: 1rem;
+.footer-logo {
+    width: 200px;
+    max-width: 36%;
+    height: auto;
+    flex-shrink: 0;
 }
 
-.footer-contact a {
-    color: var(--secondary);
-    text-decoration: none;
+.footer-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1.25rem;
+    min-width: 0;
+    flex: 1 1 auto;
+}
+
+.footer-email {
     font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-.footer-contact a:hover {
-    color: #fff;
 }
 
 footer .cta-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     background: rgba(119, 202, 252, 0.9);
     color: var(--primary);
     border-color: rgba(255, 255, 255, 0.4);
+    white-space: nowrap;
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
@@ -903,18 +918,11 @@ footer .cta-button:hover {
     color: var(--primary);
 }
 
-.footer-contact i {
-    color: var(--secondary);
-    font-size: 1.1em;
-    vertical-align: middle;
-}
-
-.footer-contact:hover > i {
-    color: #fff;
-}
-
-footer .row {
-    min-height: 200px;  /* Or whatever height matches your logo */
+.footer-legal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem 1.5rem;
 }
 
 .logo-glow {
@@ -922,18 +930,10 @@ footer .row {
             drop-shadow(0 0 24px rgba(119, 202, 252, 0.35));
 }
 
-footer .col-lg-6 {
-    padding: 20px 0;
-}
-
-footer .footer-cta {
-    margin-bottom: 1.5rem;
-}
-
 .social-links {
     display: flex;
     gap: 1.5rem;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .social-link {
@@ -944,6 +944,29 @@ footer .footer-cta {
 
 .social-link:hover i {
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    .footer-main {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .footer-logo {
+        display: none;
+    }
+
+    .footer-actions {
+        align-items: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    footer .cta-button {
+        white-space: nowrap;
+    }
 }
 
 /* Navbar icon styling */
