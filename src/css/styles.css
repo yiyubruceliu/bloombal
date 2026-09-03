@@ -275,10 +275,12 @@ footer a:focus-visible {
 /* Smooth scrolling for the whole page */
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
 }
 
-/* Section spacing: use scroll-margin for fixed navbar (no overlap) */
-section {
+#home,
+section,
+footer#contact {
     scroll-margin-top: 5.5rem;
 }
 

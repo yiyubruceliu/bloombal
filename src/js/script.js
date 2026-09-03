@@ -11,22 +11,8 @@ window.addEventListener('scroll', function() {
   }
 });
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function(e) {
-    const href = this.getAttribute('href');
-    if (!href || href === '#') {
-      return;
-    }
-    const target = document.querySelector(href);
-    if (!target) {
-      return;
-    }
-    e.preventDefault();
-    target.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    });
-
+document.querySelectorAll('#mainNav a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function() {
     const collapse = document.getElementById('navbarSupportedContent');
     if (collapse && collapse.classList.contains('show') && window.bootstrap) {
       window.bootstrap.Collapse.getOrCreateInstance(collapse).hide();
