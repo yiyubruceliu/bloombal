@@ -1,6 +1,9 @@
 // Add background on scroll
 window.addEventListener('scroll', function() {
   const navbar = document.getElementById('mainNav');
+  if (!navbar) {
+    return;
+  }
   if (window.scrollY > 50) {
     navbar.classList.add('scrolled');
   } else {
@@ -8,7 +11,6 @@ window.addEventListener('scroll', function() {
   }
 });
 
-// Smooth scroll for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
     const href = this.getAttribute('href');
@@ -21,13 +23,25 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
     e.preventDefault();
     target.scrollIntoView({
-      behavior: 'smooth'
+      behavior: 'smooth',
+      block: 'start'
     });
+
+    const collapse = document.getElementById('navbarSupportedContent');
+    if (collapse && collapse.classList.contains('show') && window.bootstrap) {
+      window.bootstrap.Collapse.getOrCreateInstance(collapse).hide();
+    }
   });
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (reduceMotion) {
+    document.querySelectorAll('video[autoplay]').forEach((video) => {
+      video.removeAttribute('autoplay');
+      video.pause();
+    });
     return;
   }
 
@@ -42,17 +56,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, {
     root: null,
-    rootMargin: '0px 0px -8% 0px',
-    threshold: 0.12
+    rootMargin: '0px 0px -10% 0px',
+    threshold: 0.18
   });
 
-  document.querySelectorAll('header, section, footer').forEach((section) => {
-    section.querySelectorAll('h1, h2, p, img, video, ul, .logos, .cta-button, a:not(.navbar *)').forEach((element) => {
-      if (element.classList.contains('scroll-indicator')) {
-        return;
-      }
-      element.classList.add('fade-pending');
-      fadeObserver.observe(element);
-    });
+  document.querySelectorAll('section.section, footer').forEach((block) => {
+    if (block.id === 'social-proof') {
+      return;
+    }
+    block.classList.add('fade-pending');
+    fadeObserver.observe(block);
   });
 });
