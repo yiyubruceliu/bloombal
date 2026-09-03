@@ -879,7 +879,6 @@ h1::after, h2::after {
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    width: 100%;
 }
 
 .footer-logo {
@@ -892,7 +891,7 @@ h1::after, h2::after {
 .footer-actions {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 1.25rem;
     min-width: 0;
     flex: 0 1 auto;
