@@ -59,6 +59,11 @@ module.exports = {
                 { 
                     from: "src/videos", 
                     to: "videos"
+                },
+                {
+                    from: "CNAME",
+                    to: "CNAME",
+                    toType: "file"
                 }
             ],
         }),
