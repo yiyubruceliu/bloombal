@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-03T20:51:00+02:00",
+  "title": "Design System: Bloombal",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Logo Navy",
+        "canonical": "#082848",
+        "tonalRamp": ["#041525", "#082848", "#0e3a66", "#164a7a", "#386491", "#5a8ab0", "#9ec0d8", "#d5e8f4"]
+      },
+      "navy-mid": {
+        "role": "primary",
+        "displayName": "Navy Mid",
+        "canonical": "#0e3a66",
+        "tonalRamp": ["#05182c", "#0a2c4e", "#0e3a66", "#1a527e", "#386491", "#6b96bc", "#a8c5d9", "#e2eef6"]
+      },
+      "steel": {
+        "role": "primary",
+        "displayName": "Steel",
+        "canonical": "#386491",
+        "tonalRamp": ["#1a334c", "#244a6c", "#386491", "#4a7aa8", "#6b96bc", "#93b4d0", "#c2d6e6", "#e8f0f6"]
+      },
+      "ice": {
+        "role": "secondary",
+        "displayName": "Ice Cyan",
+        "canonical": "#77cafc",
+        "tonalRamp": ["#0a4a6e", "#1a6a94", "#2d8bb8", "#51b7e7", "#77cafc", "#90d7f7", "#b8e7fb", "#e5f6fd"]
+      },
+      "frost": {
+        "role": "secondary",
+        "displayName": "Frost",
+        "canonical": "#90d7f7",
+        "tonalRamp": ["#1a5a78", "#2d8bb8", "#51b7e7", "#77cafc", "#90d7f7", "#b8e7fb", "#d4f1fc", "#f0f9fd"]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Cool Paper",
+        "canonical": "#eef5fa",
+        "tonalRamp": ["#6b8294", "#8aa0b2", "#b3c5d2", "#d5e4ee", "#e4eef6", "#eef5fa", "#f4f8fb", "#fbfdfe"]
+      },
+      "paper-mist": {
+        "role": "neutral",
+        "displayName": "Paper Mist",
+        "canonical": "#f4f8fb",
+        "tonalRamp": ["#6b8294", "#8aa0b2", "#b3c5d2", "#d5e4ee", "#e4eef6", "#eef5fa", "#f4f8fb", "#fbfdfe"]
+      },
+      "paper-deep": {
+        "role": "neutral",
+        "displayName": "Paper Deep",
+        "canonical": "#e4eef6",
+        "tonalRamp": ["#6b8294", "#8aa0b2", "#b3c5d2", "#c9d9e6", "#e4eef6", "#eef5fa", "#f4f8fb", "#fbfdfe"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#0b2848",
+        "tonalRamp": ["#06182c", "#0b2848", "#163a5e", "#2a5278", "#4a7396", "#7a9bb4", "#b3c8d8", "#e4eef6"]
+      },
+      "chrome-link": {
+        "role": "neutral",
+        "displayName": "Chrome Link",
+        "canonical": "#e8f4fb",
+        "tonalRamp": ["#4a7396", "#7a9bb4", "#a8c5d9", "#c9d9e6", "#dceaf3", "#e8f4fb", "#f0f8fc", "#fbfdfe"]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#ffffff",
+        "tonalRamp": ["#6b8294", "#8aa0b2", "#b3c5d2", "#d5e4ee", "#eef5fa", "#f4f8fb", "#fbfdfe", "#ffffff"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero headline only, white on the navy wash." },
+      "headline": { "displayName": "Headline", "purpose": "Section titles in navy on paper or white on navy bands." },
+      "title": { "displayName": "Title", "purpose": "Navbar wordmark Bloombal in EB Garamond." },
+      "body": { "displayName": "Body", "purpose": "Running copy, lists, and supporting lines in Karla." },
+      "label": { "displayName": "Label", "purpose": "Nav links and trial button labels in Karla." }
+    },
+    "shadows": [
+      { "name": "chrome-bar", "value": "0 4px 24px rgba(8, 40, 72, 0.28)", "purpose": "Fixed navy glass navigation." },
+      { "name": "navy-bloom", "value": "0 4px 20px rgba(8, 40, 72, 0.35)", "purpose": "Resting trial button on paper." },
+      { "name": "navy-bloom-hover", "value": "0 8px 28px rgba(8, 40, 72, 0.45)", "purpose": "Hover trial button on paper." },
+      { "name": "ice-bloom", "value": "0 4px 24px rgba(119, 202, 252, 0.35)", "purpose": "Hero ice trial button." },
+      { "name": "glass", "value": "0 8px 32px rgba(8, 40, 72, 0.16)", "purpose": "Frosted tiles and framed media." },
+      { "name": "stat-glass", "value": "0 8px 32px rgba(0, 0, 0, 0.15)", "purpose": "Statistic cards on the navy band." },
+      { "name": "hero-type", "value": "0 2px 20px rgba(8, 40, 72, 0.4)", "purpose": "Hero headline legibility on photography." }
+    ],
+    "motion": [
+      { "name": "ease-standard", "value": "0.2s ease", "purpose": "Button lift, nav background, and control hover." },
+      { "name": "ease-media", "value": "0.3s ease", "purpose": "Logo frames, stat cards, footer links." },
+      { "name": "scroll-cue", "value": "1.5s infinite", "purpose": "Hero mouse wheel and chevron." },
+      { "name": "reduced-motion", "value": "prefers-reduced-motion: reduce", "purpose": "Drop scroll animation, fades, and control transitions." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "576px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "991px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Navy trial control on paper fields.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Trial the App in Pre-release</a>",
+      "css": ".ds-btn-primary { display: inline-block; background: linear-gradient(135deg, #082848 0%, #0e3a66 100%); color: #ffffff; padding: 0.8rem 1.5rem; border: 1px solid rgba(255, 255, 255, 0.25); border-radius: 12px; text-decoration: none; font-family: Karla, system-ui, sans-serif; font-size: 1rem; font-weight: 500; cursor: pointer; box-shadow: 0 4px 20px rgba(8, 40, 72, 0.35); transition: transform 0.2s ease, box-shadow 0.2s ease; } .ds-btn-primary:hover { color: #ffffff; transform: translateY(-2px); box-shadow: 0 8px 28px rgba(8, 40, 72, 0.45); border-color: #77cafc; } .ds-btn-primary:focus-visible { outline: 2px solid #77cafc; outline-offset: 3px; }"
+    },
+    {
+      "name": "On-Dark Button",
+      "kind": "button",
+      "refersTo": "button-on-dark",
+      "description": "Ice trial control on navy wash and dark chrome.",
+      "html": "<a class=\"ds-btn-on-dark\" href=\"#\">Trial the App in Pre-release</a>",
+      "css": ".ds-btn-on-dark { display: inline-block; background: #77cafc; color: #082848; padding: 0.8rem 1.5rem; border: 1px solid rgba(255, 255, 255, 0.35); border-radius: 12px; text-decoration: none; font-family: Karla, system-ui, sans-serif; font-size: 1rem; font-weight: 600; cursor: pointer; box-shadow: 0 4px 24px rgba(119, 202, 252, 0.35); transition: transform 0.2s ease, background 0.2s ease; } .ds-btn-on-dark:hover { color: #082848; background: #90d7f7; transform: translateY(-2px); } .ds-btn-on-dark:focus-visible { outline: 2px solid #77cafc; outline-offset: 3px; }"
+    },
+    {
+      "name": "Footer Button",
+      "kind": "button",
+      "refersTo": "button-footer",
+      "description": "Near-opaque ice trial on the navy footer.",
+      "html": "<a class=\"ds-btn-footer\" href=\"#\">Trial the App in Pre-release</a>",
+      "css": ".ds-btn-footer { display: inline-block; background: rgba(119, 202, 252, 0.9); color: #082848; padding: 0.8rem 1.5rem; border: 1px solid rgba(255, 255, 255, 0.4); border-radius: 12px; text-decoration: none; font-family: Karla, system-ui, sans-serif; font-size: 1rem; font-weight: 500; cursor: pointer; transition: background 0.3s ease, transform 0.2s ease; } .ds-btn-footer:hover { background: #77cafc; color: #082848; transform: translateY(-2px); } .ds-btn-footer:focus-visible { outline: 2px solid #77cafc; outline-offset: 3px; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-bar",
+      "description": "Fixed navy glass bar with mark, Garamond wordmark, and ice-active links.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-brand\" href=\"#\"><span class=\"ds-nav-mark\" aria-hidden=\"true\"></span>Bloombal</a><div class=\"ds-nav-links\"><a class=\"ds-nav-link ds-nav-link-active\" href=\"#\">Home</a><a class=\"ds-nav-link\" href=\"#\">About</a><a class=\"ds-nav-link\" href=\"#\">Services</a><a class=\"ds-nav-link\" href=\"#\">Contact</a></div></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; background: rgba(8, 40, 72, 0.94); backdrop-filter: blur(20px); border-bottom: 1px solid rgba(119, 202, 252, 0.28); box-shadow: 0 4px 24px rgba(8, 40, 72, 0.28); padding: 0.75rem 2rem; } .ds-nav-brand { display: flex; align-items: center; gap: 0.4rem; color: #ffffff; font-family: 'EB Garamond', Georgia, serif; font-weight: 600; font-size: 1.45rem; letter-spacing: -0.02em; text-decoration: none; } .ds-nav-mark { width: 40px; height: 40px; border-radius: 6px; background: #000000; box-shadow: inset 0 0 0 1px rgba(119, 202, 252, 0.35); } .ds-nav-links { display: flex; gap: 0.25rem; } .ds-nav-link { color: #e8f4fb; font-family: Karla, system-ui, sans-serif; font-weight: 500; text-decoration: none; border-radius: 8px; padding: 0.45rem 0.75rem; transition: background 0.2s ease, color 0.2s ease; } .ds-nav-link:hover, .ds-nav-link:focus-visible { background: rgba(119, 202, 252, 0.18); color: #77cafc; } .ds-nav-link:focus-visible { outline: 2px solid #77cafc; outline-offset: 3px; } .ds-nav-link-active { color: #77cafc; font-weight: 700; background: rgba(119, 202, 252, 0.16); }"
+    },
+    {
+      "name": "Statistic Card",
+      "kind": "card",
+      "refersTo": "card-stat",
+      "description": "Frosted navy tile with ice ring, large figure, and ice underline link.",
+      "html": "<article class=\"ds-stat\"><div class=\"ds-stat-ring\"></div><h3 class=\"ds-stat-number\">60%</h3><p class=\"ds-stat-copy\">of educators have integrated AI into their classrooms</p><a class=\"ds-stat-link\" href=\"#\">Read more</a></article>",
+      "css": ".ds-stat { text-align: center; padding: 2rem; background: rgba(255, 255, 255, 0.08); backdrop-filter: blur(16px); border: 1px solid rgba(119, 202, 252, 0.25); border-radius: 16px; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15); color: #ffffff; font-family: Karla, system-ui, sans-serif; transition: transform 0.3s ease, background 0.3s ease, border-color 0.3s ease; } .ds-stat:hover { transform: translateY(-10px); background: rgba(255, 255, 255, 0.12); border-color: rgba(119, 202, 252, 0.45); } .ds-stat-ring { margin: 0 auto 1rem; width: 80px; height: 80px; border-radius: 50%; border: 2px solid rgba(119, 202, 252, 0.6); } .ds-stat-number { font-family: 'EB Garamond', Georgia, serif; font-size: 2.5rem; font-weight: 700; margin: 1rem 0; color: #ffffff; letter-spacing: -0.02em; } .ds-stat-copy { color: rgba(255, 255, 255, 0.9); line-height: 1.4; margin: 0 0 10px; } .ds-stat-link { color: #77cafc; text-decoration: none; border-bottom: 1px solid #77cafc; padding-bottom: 2px; display: inline-block; } .ds-stat-link:hover { color: #ffffff; } .ds-stat-link:focus-visible { outline: 2px solid #77cafc; outline-offset: 3px; }"
+    },
+    {
+      "name": "Heading Rule",
+      "kind": "custom",
+      "refersTo": "headline",
+      "description": "Garamond section title with the navy-to-ice underline.",
+      "html": "<h2 class=\"ds-heading\">Introducing Bloombal</h2>",
+      "css": ".ds-heading { position: relative; display: inline-block; margin: 0 0 3rem; padding-bottom: 20px; color: #082848; font-family: 'EB Garamond', Georgia, serif; font-weight: 600; font-size: 2rem; letter-spacing: -0.02em; line-height: 1.2; } .ds-heading::after { content: ''; position: absolute; left: 50%; bottom: 0; width: 80px; height: 3px; background: linear-gradient(90deg, #082848, #77cafc); transform: translateX(-50%); border-radius: 2px; }"
+    },
+    {
+      "name": "Scroll Cue",
+      "kind": "custom",
+      "refersTo": "button-on-dark",
+      "description": "Hero mouse capsule with ice wheel and chevron.",
+      "html": "<div class=\"ds-scroll\" aria-hidden=\"true\"><div class=\"ds-mouse\"><div class=\"ds-wheel\"></div></div><div class=\"ds-chevron\"></div></div>",
+      "css": ".ds-scroll { display: flex; flex-direction: column; align-items: center; } .ds-mouse { width: 30px; height: 50px; border: 2px solid rgba(255, 255, 255, 0.8); border-radius: 20px; position: relative; } .ds-wheel { width: 4px; height: 8px; background-color: #77cafc; position: absolute; top: 8px; left: 50%; transform: translateX(-50%); border-radius: 2px; animation: ds-scroll 1.5s infinite; } .ds-chevron { width: 10px; height: 10px; border-right: 2px solid #77cafc; border-bottom: 2px solid #77cafc; transform: rotate(45deg); margin-top: 5px; } @keyframes ds-scroll { 0% { opacity: 1; top: 8px; } 100% { opacity: 0; top: 30px; } } @media (prefers-reduced-motion: reduce) { .ds-wheel { animation: none; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Navy ink cut with ice-cyan facets",
+    "overview": "Bloombal reads as an integrity instrument, not a campus SaaS dashboard. The field is cool paper; the chrome is logo navy so the black-ground mark sits flush; ice cyan is the cut — hairlines, focus, trial actions on dark, the heading rule. Display type is EB Garamond; body is Karla. Photography appears only under a navy–steel wash.\n\nThe system is dense enough for institutional claims, but the first viewport stays one headline, one supporting line, one trial control, and a scroll cue. Light sections frost over paper; the statistics band and footer drop into full navy so ice type and glass cards can facet against ink.",
+    "keyCharacteristics": [
+      "Logo navy as chrome and ink field; ice cyan as the only bright cut",
+      "Cool paper ground with a faint ice radial, never mint or warm cream",
+      "Serif display / grotesque body; brand wordmark shares the display face",
+      "Dark translucent chrome (navy glass) for bar and footer",
+      "Ice hairlines and navy-tinted shadows instead of black drop shadows",
+      "Hero photography locked under a navy–steel gradient wash"
+    ],
+    "rules": [
+      { "name": "The Facet Rule", "body": "Ice cyan is a cut, not a field. Do not flood a screen with ice fill. Paper and navy carry area; ice is hairline, focus, active, and the trial control when the ground is already navy.", "section": "colors" },
+      { "name": "The Dark Chrome Rule", "body": "Bars, footers, and statistic bands use logo navy (opaque or 94% glass). Do not place the mark on a light or mint bar.", "section": "colors" },
+      { "name": "The Wash Rule", "body": "Full-bleed photography only appears under a navy-to-steel gradient. Do not show classroom or product photos as raw color fields.", "section": "colors" },
+      { "name": "The Two-Voice Rule", "body": "EB Garamond is reserved for the wordmark and headings (h1–h3). All UI, buttons, nav, and running copy stay in Karla.", "section": "typography" },
+      { "name": "The Ice Rule Under the Title", "body": "Headings carry an 80×3px centered underline: ice-only fade on the hero; navy-to-ice on paper sections. Do not underline with a solid black bar or an accent block on the left.", "section": "typography" },
+      { "name": "The First Viewport Rule", "body": "Hero contains one Garamond headline, one supporting sentence, one trial CTA, and a scroll cue. Partner rows do not occupy the first screen (the header logo row is hidden).", "section": "typography" },
+      { "name": "The Navy Shadow Rule", "body": "Shadows are navy or ice, matching the object’s field. Do not use hard black offsets.", "section": "elevation" },
+      { "name": "The Glass Facet Rule", "body": "Frosted surfaces always combine a translucent fill, an ice hairline (cyan at ~25–40% alpha), and blur (8–20px). A frosted card without the ice edge is incomplete.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do build chrome, footers, and dark bands from logo navy so the black-ground mark sits flush.",
+      "Do use ice cyan for cuts: trial on dark, focus, active nav, hairlines, heading rules, and link accents.",
+      "Do set headings in EB Garamond and everything else in Karla.",
+      "Do frost light bands with ice hairlines and navy-tinted bloom, not black material shadows.",
+      "Do keep the first viewport to one headline, one line, one trial CTA, and a scroll cue.",
+      "Do wash photography in navy–steel before it meets the page."
+    ],
+    "donts": [
+      "Don't skin the product as mint, teal-glass, or warm edu-SaaS. No green “trust” fills.",
+      "Don't put the mark on a white, gray, or ice-flooded bar.",
+      "Don't set body or buttons in the display serif, or headings in Karla.",
+      "Don't use ice as a full-section background.",
+      "Don't introduce a third chromatic family (gold, coral, purple) for status or decoration.",
+      "Don't treat Bootstrap glyph icons or a hidden circular partner row as identity to copy onto new surfaces."
+    ]
+  }
+}
