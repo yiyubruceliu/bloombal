@@ -864,22 +864,6 @@ h1::after, h2::after {
     }
 }
 
-/* Fade animations */
-.fade-in-text {
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-    animation-delay: .4s;
-}
-
-.fade-in-text {
-    opacity: 0;
-}
-
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
 /* Footer styling */
 .footer-content {
     display: flex;
@@ -1075,7 +1059,6 @@ footer .footer-cta {
         scroll-behavior: auto;
     }
 
-    .fade-in-text,
     .wheel,
     .arrow,
     .cta-button,
