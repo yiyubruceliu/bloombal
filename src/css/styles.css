@@ -857,10 +857,22 @@ h1::after, h2::after {
 }
 
 @media (max-width: 768px) {
-    /* Hide header logos on mobile */
     header .logos {
         display: none;
     }
+}
+
+.fade-pending {
+    opacity: 0;
+}
+
+.fade-in-text {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 /* Footer styling */
@@ -1081,11 +1093,14 @@ footer .cta-button:hover {
         scroll-behavior: auto;
     }
 
+    .fade-pending,
+    .fade-in-text,
     .wheel,
     .arrow,
     .cta-button,
     .stat-box,
     .logos img {
+        opacity: 1 !important;
         animation: none !important;
         transition: none !important;
     }
