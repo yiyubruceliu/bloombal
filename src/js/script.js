@@ -56,15 +56,26 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, {
     root: null,
-    rootMargin: '0px 0px -10% 0px',
-    threshold: 0.18
+    rootMargin: '0px 0px -8% 0px',
+    threshold: 0.12
   });
 
-  document.querySelectorAll('section.section, footer').forEach((block) => {
+  document.querySelectorAll('header, section.section, footer').forEach((block) => {
     if (block.id === 'social-proof') {
       return;
     }
-    block.classList.add('fade-pending');
-    fadeObserver.observe(block);
+
+    const elements = block.querySelectorAll(
+      'h1, h2, h3, p, img, video, ul, .cta-button, .stat-box, .footer-logo, .footer-email, .social-links, .footer-legal'
+    );
+
+    elements.forEach((element, index) => {
+      if (element.closest('.scroll-indicator') || element.closest('nav')) {
+        return;
+      }
+      element.style.setProperty('--fade-delay', `${Math.min(index, 5) * 0.07}s`);
+      element.classList.add('fade-pending');
+      fadeObserver.observe(element);
+    });
   });
 });
