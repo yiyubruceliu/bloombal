@@ -75,8 +75,20 @@ module.exports = {
         ],
         minimize: true
     },
+    performance: {
+        hints: 'warning',
+        maxAssetSize: 512 * 1024,
+        maxEntrypointSize: 512 * 1024,
+        assetFilter: (filename) => !/\.(mp4|webm|map)$/i.test(filename)
+    },
     devServer: {
         static: './dist',
-        hot: true
+        hot: true,
+        client: {
+            overlay: {
+                errors: true,
+                warnings: false
+            }
+        }
     }
 }; 
