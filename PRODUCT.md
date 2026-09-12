@@ -38,7 +38,8 @@ Used by universities and applied-science schools alongside an LMS. Partner insti
 
 - Name: Bloombal (not Perspective Mind / PerspectiveMind).
 - Logo asset in `img/` must be the site mark (favicon, nav, footer, Open Graph).
-- Color must come from the logo: deep navy (`#082848` family) and ice cyan (`#77cafc` family).
+- Color field comes from the logo: deep navy (`#082848` family) and ice cyan (`#77cafc` family).
+- Sister-product craft from ABE is allowed on the landing: clay borders, Fredoka/Nunito, cream panels; warm orange (`#ff8a3d`) only as the trial CTA punch — not as a second brand field.
 - Keep the copied landing-page structure, partner proof, and product copy except brand/SEO/name/logo/skin.
 
 ## Evidence on Hand
@@ -46,6 +47,7 @@ Used by universities and applied-science schools alongside an LMS. Partner insti
 - Partner logos and names as on the source landing page.
 - Demo video: Two Factor Knowledge Validation Process.
 - Statistics with outbound source links as already published.
+- Sister-product ABE imagery under `src/img/abe/` (sky plate, coach, education clay icons) for landing atmosphere only — not an ABE clay chrome restyle.
 - Do not invent new customers, testimonials, prices, or tracking IDs.
 
 ## Product Principles
