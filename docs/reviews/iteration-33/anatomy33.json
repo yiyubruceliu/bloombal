@@ -1,0 +1,70 @@
+{
+  "anatomy": {
+    "lms": {
+      "t": 498.4,
+      "b": 566.7,
+      "h": 68.2,
+      "mt": "39.2px",
+      "mb": "26.4px",
+      "pt": "0px",
+      "pb": "0px"
+    },
+    "firstInner": {
+      "t": 212.9,
+      "b": 606.6,
+      "h": 393.7,
+      "mt": "0px",
+      "mb": "0px",
+      "pt": "40px",
+      "pb": "13.6px"
+    },
+    "demoBand": {
+      "t": 620.6,
+      "b": 1081.8,
+      "h": 461.2,
+      "mt": "0px",
+      "mb": "0px",
+      "pt": "0px",
+      "pb": "0px"
+    },
+    "demoFrame": {
+      "t": 620.6,
+      "b": 1081.8,
+      "h": 461.2,
+      "mt": "0px",
+      "mb": "0px",
+      "pt": "44px",
+      "pb": "12px"
+    },
+    "after": {
+      "t": 1067.8,
+      "b": 1385.7,
+      "h": 317.9,
+      "mt": "0px",
+      "mb": "0px",
+      "pt": "40px",
+      "pb": "220px"
+    },
+    "lmsToDemo": 54,
+    "lmsToBand": 54,
+    "innerBottomToDemo": 14,
+    "children": [
+      "look-inner",
+      "demo-band will-reveal",
+      "look-inner look-inner--after-demo"
+    ]
+  },
+  "hero": {
+    "deskVis": 172.8,
+    "procDesk": 31,
+    "ledeCta": 22.1,
+    "ctaProc": 22.4
+  },
+  "ladder": {
+    "problem": 45.6,
+    "solution": 40.8,
+    "footer": 39.2,
+    "urgency": 35.84,
+    "partners": 31.36
+  }
+}

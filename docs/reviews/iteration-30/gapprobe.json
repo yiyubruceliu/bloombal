@@ -1,0 +1,174 @@
+{
+  "deep": {
+    "interest": {
+      "text": "With AI tools like ChatGPT widely available, education institutions are ",
+      "fs": 19.52,
+      "fw": "400",
+      "ff": "Gelasio",
+      "color": "rgb(8, 40, 72)",
+      "maxW": "670.924px",
+      "w": 670.9,
+      "measureCss": 34.4,
+      "measureGlyph": 58.2,
+      "lh": "33.184px"
+    },
+    "mech": {
+      "text": "Students prove understanding through written and oral knowledge checks —",
+      "fs": 25.6,
+      "fw": "400",
+      "ff": "Gelasio",
+      "color": "rgb(8, 40, 72)",
+      "maxW": "848.475px",
+      "w": 848.5,
+      "measureCss": 33.1,
+      "measureGlyph": 56.2,
+      "lh": "37.888px"
+    },
+    "lms": {
+      "text": "The platform integrates with your university LMS to extract assignments ",
+      "fs": 23.04,
+      "fw": "400",
+      "ff": "Gelasio",
+      "color": "rgb(8, 40, 72)",
+      "maxW": "735.345px",
+      "w": 735.3,
+      "measureCss": 31.9,
+      "measureGlyph": 54.1,
+      "lh": "34.0992px"
+    },
+    "urgBody": {
+      "text": "Without preventive measures, academic credibility is at serious risk — a",
+      "fs": 18.4,
+      "fw": "400",
+      "ff": "Gelasio",
+      "color": "rgb(8, 40, 72)",
+      "maxW": "700.188px",
+      "w": 700.2,
+      "measureCss": 38.1,
+      "measureGlyph": 64.5,
+      "lh": "30.36px"
+    },
+    "urgH2": {
+      "text": "The Cost of Ignoring This Problem Is Too High",
+      "fs": 35.84,
+      "fw": "400",
+      "ff": "Gideon Roman",
+      "color": "rgb(8, 40, 72)",
+      "maxW": "428.933px",
+      "w": 428.9,
+      "measureCss": 12,
+      "measureGlyph": 20.1,
+      "lh": "40.1408px"
+    },
+    "partnerH2": {
+      "text": "Already in European lecture rooms",
+      "fs": 31.36,
+      "fw": "400",
+      "ff": "Gideon Roman",
+      "color": "rgb(8, 40, 72)",
+      "maxW": "477.676px",
+      "w": 477.7,
+      "measureCss": 15.2,
+      "measureGlyph": 25.5,
+      "lh": "36.064px"
+    },
+    "footerH2": {
+      "text": "Trial Bloombal",
+      "fs": 39.2,
+      "fw": "400",
+      "ff": "Gideon Roman",
+      "color": "rgb(8, 40, 72)",
+      "maxW": "159.936px",
+      "w": 159.9,
+      "measureCss": 4.1,
+      "measureGlyph": 6.8,
+      "lh": "41.16px"
+    },
+    "copyP": {
+      "text": "With AI tools like ChatGPT widely available, education institutions are ",
+      "fs": 19.52,
+      "fw": "400",
+      "ff": "Gelasio",
+      "color": "rgb(8, 40, 72)",
+      "maxW": "670.924px",
+      "w": 670.9,
+      "measureCss": 34.4,
+      "measureGlyph": 58.2,
+      "lh": "33.184px"
+    },
+    "ice": {
+      "textDeco": "none solid rgb(8, 40, 72)",
+      "borderBottom": "3px solid rgb(119, 202, 252)",
+      "afterContent": "none",
+      "afterH": "auto",
+      "afterBg": "rgba(0, 0, 0, 0)",
+      "afterBottom": "auto",
+      "afterTop": "auto",
+      "afterPos": "static",
+      "beforeContent": "none",
+      "valBox": {
+        "t": 273.6,
+        "b": 365,
+        "h": 91.4
+      },
+      "ledeBox": {
+        "t": 342,
+        "b": 379.7
+      },
+      "gapValLede": -23
+    },
+    "afterDemoPad": {
+      "pt": "16px",
+      "pb": "220px"
+    }
+  },
+  "mid": {
+    "demoB": 303.1,
+    "midT": 318,
+    "gap": 15,
+    "afterT": 302,
+    "afterPadTopDoc": "16px",
+    "urgVis": 124.0625
+  },
+  "desire": {
+    "title": {
+      "t": 236.8,
+      "b": 312,
+      "h": 75.3
+    },
+    "mech": {
+      "t": 351.2,
+      "b": 427,
+      "h": 75.8
+    },
+    "lms": {
+      "t": 458.2,
+      "b": 526.4,
+      "h": 68.2
+    },
+    "demo": {
+      "t": 560.1,
+      "b": 1021.3,
+      "h": 461.2
+    },
+    "titleToMech": 39.2,
+    "mechToLms": 31.2,
+    "lmsToDemo": 33.7,
+    "claimH": 289.6,
+    "claimShare": 40.2,
+    "mechMeasure": {
+      "fs": 25.6,
+      "maxW": "848.475px",
+      "w": 848.5,
+      "glyph": 56.2,
+      "cssCh": 33.1
+    },
+    "lmsMeasure": {
+      "fs": 23.04,
+      "maxW": "735.345px",
+      "w": 735.3,
+      "glyph": 54.1,
+      "cssCh": 31.9
+    }
+  }
+}

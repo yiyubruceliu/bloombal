@@ -1,0 +1,92 @@
+{
+  "series": [
+    {
+      "label": "t+0",
+      "className": "demo-band will-reveal",
+      "transform": "matrix(1, 0, 0, 1, 0, 14)",
+      "transition": "all",
+      "opacity": "1",
+      "lmsToDemo": 54,
+      "demoVis": 99.4,
+      "videoVis": 54.4
+    },
+    {
+      "label": "t+450",
+      "className": "demo-band will-reveal",
+      "transform": "matrix(1, 0, 0, 1, 0, 14)",
+      "transition": "all",
+      "opacity": "1",
+      "lmsToDemo": 54,
+      "demoVis": 99.4,
+      "videoVis": 54.4
+    },
+    {
+      "label": "t+1050",
+      "className": "demo-band will-reveal",
+      "transform": "matrix(1, 0, 0, 1, 0, 14)",
+      "transition": "all",
+      "opacity": "1",
+      "lmsToDemo": 54,
+      "demoVis": 99.4,
+      "videoVis": 54.4
+    },
+    {
+      "label": "t+1850",
+      "className": "demo-band will-reveal",
+      "transform": "matrix(1, 0, 0, 1, 0, 14)",
+      "transition": "all",
+      "opacity": "1",
+      "lmsToDemo": 54,
+      "demoVis": 99.4,
+      "videoVis": 54.4
+    },
+    {
+      "label": "forced-is-in+600",
+      "className": "demo-band will-reveal is-in",
+      "transform": "none",
+      "transition": "transform 0.56s cubic-bezier(0.22, 1, 0.36, 1)",
+      "opacity": "1",
+      "lmsToDemo": 40,
+      "demoVis": 113.4,
+      "videoVis": 68.4
+    },
+    {
+      "label": "transform-none",
+      "className": "demo-band is-in",
+      "transform": "none",
+      "transition": "all",
+      "opacity": "1",
+      "lmsToDemo": 40,
+      "demoVis": 113.4,
+      "videoVis": 68.4
+    }
+  ],
+  "scriptHint": {
+    "hits": [
+      {
+        "re": "/will-reveal/g",
+        "count": 1
+      },
+      {
+        "re": "/is-in/g",
+        "count": 1
+      },
+      {
+        "re": "/demo-band/g",
+        "count": 2
+      },
+      {
+        "re": "/IntersectionObserver/g",
+        "count": 2
+      },
+      {
+        "re": "/scroll/g",
+        "count": 3
+      }
+    ],
+    "snippet": [
+      "/**\n * Bloombal Flagship Lookbook — two authored motions only\n * (1) quiet hero presence  (2) demo-band reveal\n */\n(() =",
+      "will-reveal\");\n    const io = new IntersectionObserver(\n      (entries) => {\n        entries.forEach((entry) => {\n          if (ent"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "m": {
+    "claimH": 289.6,
+    "claimShare": 40.2,
+    "titleH": 75.3,
+    "mechH": 75.8,
+    "lmsH": 68.2,
+    "titleToMech": 39.2,
+    "mechToLms": 31.2,
+    "lmsToDemo": 33.8,
+    "lmsFs": "23.04px",
+    "lmsFw": "400",
+    "lmsColor": "rgb(8, 40, 72)",
+    "mechFs": "25.6px",
+    "solFs": "33.6px",
+    "solPadT": "24px",
+    "playText": "View process",
+    "playAria": "View process diagram"
+  },
+  "u": {
+    "bodyBottom": 388.625,
+    "emptyBelowBody": 331.4,
+    "partnersVis": 0,
+    "storyBottom": 744.9,
+    "proofTop": 744.9,
+    "proofBg": "rgb(234, 232, 227)",
+    "storyBg": "rgb(241, 239, 233)"
+  },
+  "mob": {
+    "emptyBelowBody": 415,
+    "partnersVis": 0,
+    "partnersT": 878.9,
+    "proofBgAtBottom": "rgb(241, 239, 233)"
+  }
+}

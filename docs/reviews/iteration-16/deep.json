@@ -1,0 +1,91 @@
+{
+  "afterDemoBlock": {
+    "afterCy": 360.2,
+    "ctaCy": 284.2,
+    "urgVis": 70.859375,
+    "urgT": 649.1,
+    "demoVis": 241.1790771484375,
+    "needExtra": 70.9,
+    "afterH": 241.9
+  },
+  "partnersSection": {
+    "secCy": 374.1,
+    "stripCy": 334.1,
+    "urgH2": 0,
+    "urgBody": 14.140625,
+    "contactH2": 25.859375,
+    "contactCta": 0,
+    "stripVis": 112,
+    "needBottom": 25.9
+  },
+  "textureStory": {
+    "solution": {
+      "bg": "rgb(246, 244, 239)",
+      "borderTop": "1px solid rgba(8, 40, 72, 0.08)"
+    },
+    "story": {
+      "bg": "rgb(246, 244, 239)",
+      "borderTop": "0px none rgb(8, 40, 72)"
+    },
+    "proof": {
+      "bg": "rgb(234, 232, 227)",
+      "borderTop": "0px none rgb(8, 40, 72)"
+    },
+    "copy": {
+      "bg": "rgb(246, 244, 239)",
+      "borderTop": "1px solid rgba(8, 40, 72, 0.08)"
+    },
+    "solutionEqStory": true,
+    "proofNeqSolution": true
+  },
+  "type": {
+    "problem": "45.6px",
+    "solution": "40.8px",
+    "urgency": "35.84px",
+    "footer": "28.16px",
+    "solutionMaxW": "min(710.246px, 100%)",
+    "solutionW": 710.2,
+    "solutionLines": 2,
+    "partnersHasH2": false,
+    "partnersLabel": "Partner institutions",
+    "mechanismMeasure": 33.1
+  },
+  "mobUrg": {
+    "demo": 58.841552734375,
+    "midCta": 57.90625,
+    "ctaBottom": 130.4,
+    "needExtraAbove": 130.4,
+    "urgH2": 55.53125,
+    "partners": 212.671875,
+    "contactH2": 0,
+    "afterPadB": 112,
+    "storyPadT": 104,
+    "proofPad": "104px 0px 136px"
+  },
+  "w1120": {
+    "t": 117.2,
+    "h": 37.6,
+    "vis": 37.625,
+    "optical": -224,
+    "lines": 1,
+    "fontSize": 33.6,
+    "lineHeight": 37.632,
+    "maxWidth": "none",
+    "width": 1048,
+    "scrollMargin": "72px",
+    "padT": 44,
+    "needRaisePx": 224,
+    "demoT": 327.1,
+    "claimBottom": 307.1,
+    "mechVis": 63.34375,
+    "demoVis": 392.859375
+  },
+  "d1280process": {
+    "t": 125.3,
+    "h": 91.4,
+    "lines": 2,
+    "optical": -189,
+    "demoVis": 330.953125,
+    "claimBottom": 369
+  }
+}

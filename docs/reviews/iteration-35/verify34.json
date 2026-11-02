@@ -1,0 +1,211 @@
+{
+  "authored": {
+    "ioThreshold": "0.12",
+    "rootMargin": "0px 0px 12% 0px",
+    "travelCss": "8px",
+    "lmsMbBase": "2.2",
+    "lmsMb1280": "1.65",
+    "solutionScrollMargin": "12.6"
+  },
+  "hero": {
+    "deskVisibleH": 172.8,
+    "procDesk": 31,
+    "ledeCta": 22.1,
+    "ctaProc": 22.4,
+    "claimTopPct": 0,
+    "ctaYPct": 59.9,
+    "procYPct": 69.4,
+    "brandOk": true
+  },
+  "midBlock": {
+    "gapDemoToCta": 39.9,
+    "urgH2Vis": 0,
+    "deltaCx": 0,
+    "afterPadT": "40px",
+    "afterPadB": "220px"
+  },
+  "interestHash": {
+    "optical": -44.9,
+    "bodyVis": 132.7,
+    "grainOp": "0.45",
+    "field": "rgb(248, 246, 241)"
+  },
+  "processLand": {
+    "d1280": {
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "titleLines": 2,
+      "titleToMech": 39.2,
+      "mechToLms": 39.2,
+      "lmsToDemo": 40,
+      "lmsMb": "26.4px",
+      "lmsMt": "39.2px",
+      "firstInnerPb": "13.6px",
+      "solutionScrollMargin": "201.6px",
+      "demoVis": 124.4,
+      "videoVis": 79.4,
+      "bandVis": 124.4,
+      "bandH": 461.2,
+      "ratio": 0.27,
+      "className": "demo-band will-reveal is-in",
+      "transform": "none",
+      "interestPVis": 132.7,
+      "interestH2Vis": 0,
+      "play": {
+        "t": 602.2,
+        "l": 189.8,
+        "oralOverlapArea": 0,
+        "overlapsVideoBox": false
+      },
+      "solutionGrainOp": "0.25",
+      "copyGrainOp": "0.45",
+      "storyGrainOp": "0.4",
+      "proofGrainOp": "0.3",
+      "scrollY": 1036
+    },
+    "w1120": {
+      "optical": -96.6,
+      "claimShare": 41.3,
+      "titleLines": 2,
+      "titleToMech": 39.2,
+      "mechToLms": 39.2,
+      "lmsToDemo": 47.2,
+      "lmsMb": "35.2px",
+      "lmsMt": "39.2px",
+      "firstInnerPb": "12px",
+      "solutionScrollMargin": "201.6px",
+      "demoVis": 149.4,
+      "videoVis": 104.4,
+      "bandVis": 149.4,
+      "bandH": 461.2,
+      "ratio": 0.324,
+      "className": "demo-band will-reveal is-in",
+      "transform": "none",
+      "interestPVis": 132.7,
+      "interestH2Vis": 5.1,
+      "play": {
+        "t": 577.2,
+        "l": 109.8,
+        "oralOverlapArea": 0,
+        "overlapsVideoBox": false
+      },
+      "solutionGrainOp": "0.25",
+      "copyGrainOp": "0.45",
+      "storyGrainOp": "0.4",
+      "proofGrainOp": "0.3",
+      "scrollY": 838
+    }
+  },
+  "revealSeries": {
+    "d1280": [
+      {
+        "t": 0,
+        "className": "demo-band will-reveal",
+        "transform": "matrix(1, 0, 0, 1, 0, 8)"
+      },
+      {
+        "t": 450,
+        "className": "demo-band will-reveal is-in",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0268889)"
+      }
+    ],
+    "w1120": [
+      {
+        "t": 0,
+        "className": "demo-band will-reveal",
+        "transform": "matrix(1, 0, 0, 1, 0, 8)"
+      },
+      {
+        "t": 450,
+        "className": "demo-band will-reveal is-in",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0268991)"
+      }
+    ]
+  },
+  "partners": {
+    "urgPeek": 0,
+    "contactPeek": 0,
+    "proofGrain": "0.3",
+    "partnersH2Fs": "31.36px",
+    "settled": true
+  },
+  "urgency": {
+    "partnersPeek": 0,
+    "storyGrain": "0.4",
+    "bodyGlyph": 71.3,
+    "stickyPast": true
+  },
+  "footer": {
+    "h2Color": "rgb(246, 244, 239)",
+    "h2Fs": "39.2px",
+    "contrast": 13.57,
+    "emailColor": "rgba(246, 244, 239, 0.58)",
+    "copyColor": "rgba(246, 244, 239, 0.42)",
+    "solutionH2Fs": "40.8px"
+  },
+  "glyphs": {
+    "interest": {
+      "glyphCh": 68.9,
+      "cssMaxW": "670.924px",
+      "fw": "400",
+      "fs": "19.52px"
+    },
+    "mech": {
+      "glyphCh": 66.4,
+      "cssMaxW": "848.475px",
+      "fw": "400",
+      "fs": "25.6px"
+    },
+    "lms": {
+      "glyphCh": 66.4,
+      "cssMaxW": "763.628px",
+      "fw": "400",
+      "fs": "23.04px"
+    },
+    "urg": {
+      "glyphCh": 71.3,
+      "cssMaxW": "671.746px",
+      "fw": "400",
+      "fs": "18.88px"
+    }
+  },
+  "ladder": {
+    "problem": 45.6,
+    "solution": 40.8,
+    "footer": 39.2,
+    "urgency": 35.84,
+    "partners": 31.36
+  },
+  "accept": {
+    "item1_lmsMb165": true,
+    "item1_lmsBand": true,
+    "item2_scrollMargin126": true,
+    "item2_demoVis115": true,
+    "item2_isIn": true,
+    "item2_transformNone": true,
+    "item2_optical120": true,
+    "item2_claimShare40": true,
+    "item3_baseMb22": true,
+    "item3_1120Band": true,
+    "claimShare40_1120": true,
+    "title2lines_1120": true,
+    "midBreath": true,
+    "partnersPeek0": true,
+    "prefer120": true
+  },
+  "diagnosis": {
+    "live1280_lmsToDemo": 40,
+    "live1280_demoVis": 124.4,
+    "live1280_optical": -72.4,
+    "live1280_claimShare": 43.6,
+    "live1280_interestPVis": 132.7,
+    "live1280_isIn": true,
+    "live1120_lmsToDemo": 47.2,
+    "live1120_demoVis": 149.4,
+    "live1120_claimShare": 41.3,
+    "demoVisVs115": 9.4,
+    "demoVisVs120": 4.4,
+    "lmsFloorDelta": 0,
+    "lmsCeilDelta1120": 0.8
+  }
+}

@@ -1,0 +1,770 @@
+{
+  "paidCheck": {
+    "mobileRailClearance": {
+      "problem": {
+        "sel": "#problem",
+        "idxR": 44,
+        "textL": 52,
+        "clearance": 8,
+        "overlapX": 0
+      },
+      "solution": {
+        "sel": "#solution",
+        "idxR": 44,
+        "textL": 52,
+        "clearance": 8,
+        "overlapX": 0
+      },
+      "urgency": {
+        "sel": "#urgency",
+        "idxR": 44,
+        "textL": 52,
+        "clearance": 8,
+        "overlapX": 0
+      },
+      "allClear": true
+    },
+    "urgencyOnMidCta": 0,
+    "urgencyClearsMidCta": true,
+    "afterDemoUrgencyVis": 0,
+    "playQuietVsTrial": true,
+    "playBg": "rgb(246, 244, 239)",
+    "midCtaBg": "rgb(8, 40, 72)",
+    "isPastAtUrgency": true,
+    "noActiveAtUrgency": true,
+    "partnersIsolation": {
+      "urgencyH2": 0,
+      "contactH2": 0,
+      "isolated": true
+    },
+    "interestOptical": -44.9,
+    "interestOpticalOk": true,
+    "footerIndicesHiddenAtEnd": true,
+    "midCtaCentered": true,
+    "playOralOverlap": 0,
+    "idleControls": false,
+    "mobilePartnerClearance": 54.1
+  },
+  "deeper": {
+    "interestOptical": -44.9,
+    "interestEmptyBelow": 52,
+    "interestBodyVis": 132.6875,
+    "w1120TitleVis": 75.25,
+    "w1120DemoVis": 160.03125,
+    "w1120OpticalTitle": -85.6,
+    "playFromBottom": 410.8,
+    "playFromLeft": -3.2,
+    "urgencyPadRatio": 0.72,
+    "urgencyEmptyBelow": 334.0625,
+    "urgencyPartnersPeek": 0,
+    "urgencyTitleOptical": -94.9,
+    "index03ClaimPct": 42.5,
+    "index03DemoIn": true,
+    "index03Optical": -61.4,
+    "rightFieldEmpty": 0,
+    "partnersHasH2": true,
+    "midTexture": [
+      {
+        "sel": ".look--copy",
+        "bg": "rgb(248, 246, 241)",
+        "borderTop": "1px solid rgba(8, 40, 72, 0.08)",
+        "padTop": "108px",
+        "padBottom": "52px"
+      },
+      {
+        "sel": ".look--solution",
+        "bg": "rgb(246, 244, 239)",
+        "borderTop": "0px none rgb(8, 40, 72)",
+        "padTop": "40px",
+        "padBottom": "13.6px"
+      },
+      {
+        "sel": ".look--story",
+        "bg": "rgb(241, 239, 233)",
+        "borderTop": "0px none rgb(8, 40, 72)",
+        "padTop": "220px",
+        "padBottom": "316px"
+      },
+      {
+        "sel": ".look--proof",
+        "bg": "rgb(234, 232, 227)",
+        "borderTop": "0px none rgb(8, 40, 72)",
+        "padTop": "344px",
+        "padBottom": "272px"
+      },
+      {
+        "sel": ".look--footer",
+        "bg": "rgb(8, 40, 72)",
+        "borderTop": "0px none rgb(246, 244, 239)",
+        "padTop": "52px",
+        "padBottom": "88px"
+      }
+    ],
+    "urgencyPastProbe": {
+      "probeY": 252,
+      "scrollY": 2369,
+      "solutionBottomDoc": 2373.9,
+      "urgTopVp": 4.9,
+      "urgInProbe": true,
+      "isPast": true,
+      "activeIndex": null,
+      "indicesOpacity": "1"
+    },
+    "typeLadder": {
+      "heroMain": "89px",
+      "heroVal": "85px",
+      "heroLede": "29px",
+      "problem": "45.6px",
+      "solution": "40.8px",
+      "urgency": "35.84px",
+      "partners": "31.36px",
+      "partnersHasH2": true,
+      "footer": "39.2px",
+      "body": "19.52px",
+      "mech": "25.6px",
+      "lms": "23.04px",
+      "cta": "16.32px",
+      "play": "13.6px",
+      "index": "12.8px",
+      "families": {
+        "display": "\"Gideon Roman\", \"Bodoni Moda\", Georgia, serif",
+        "solution": "\"Gideon Roman\", \"Bodoni Moda\", Georgia, serif",
+        "body": "Gelasio, Georgia, serif",
+        "cta": "Inter, system-ui, sans-serif",
+        "play": "Inter, system-ui, sans-serif",
+        "index": "Inter, system-ui, sans-serif"
+      }
+    },
+    "liveLag": {
+      "playExists": true,
+      "playBottom": "422.812px",
+      "playTop": "5.6px",
+      "afterDisplay": "flex",
+      "partnerH": "112px",
+      "hasOverFooterLogicHint": false
+    }
+  },
+  "hero1280": {
+    "ledeCtaGap": 16.3,
+    "ctaProcGap": 15.9,
+    "procDesk": 39.6,
+    "ctaMassRatio": 0.56,
+    "processHref": "#solution",
+    "demoIdPresent": false,
+    "indicesPos": "fixed",
+    "indexRulePos": "fixed",
+    "indexRuleH": 302.4,
+    "videoControlsIdle": false,
+    "playBtnPresent": true,
+    "brand": {
+      "t": 24,
+      "b": 60,
+      "l": 128,
+      "r": 290.1,
+      "w": 162.1,
+      "h": 36,
+      "cx": 209
+    },
+    "mark": {
+      "t": 16,
+      "b": 68,
+      "l": 128,
+      "r": 180,
+      "w": 52,
+      "h": 52,
+      "cx": 154
+    },
+    "main": {
+      "t": 201.6,
+      "b": 273.6,
+      "l": 128,
+      "r": 1152,
+      "w": 1024,
+      "h": 72,
+      "cx": 640
+    },
+    "desk": {
+      "t": 547.2,
+      "b": 720,
+      "l": 0,
+      "r": 1280,
+      "w": 1280,
+      "h": 172.8,
+      "cx": 640
+    },
+    "rightFieldEmptyW": 0,
+    "heroH": 720,
+    "boneOccupancyPct": 100,
+    "headlineFont": "\"Gideon Roman\", \"Bodoni Moda\", Georgia, serif",
+    "ledeFont": "Gelasio, Georgia, serif",
+    "ledeSize": "29px",
+    "ledeMeasureCh": 17.7
+  },
+  "interestLand": {
+    "hash": "#problem",
+    "title": {
+      "t": 213,
+      "b": 417.3,
+      "visiblePx": 204.25,
+      "h": 204.3,
+      "cy": 315.1
+    },
+    "body": {
+      "t": 437.3,
+      "b": 569.9,
+      "visiblePx": 132.6875,
+      "h": 132.7,
+      "cy": 503.6
+    },
+    "bodyFullH": 132.7,
+    "activeIndex": "02",
+    "scrollMargin": "104px",
+    "readingClearance": 52,
+    "opticalCentreDelta": -44.9,
+    "lookH": 517.9,
+    "emptyBelowBody": 52,
+    "padRatio": 0.31,
+    "titleFontSize": "45.6px",
+    "bodyFontSize": "19.52px",
+    "bodyMeasureCh": 31.9,
+    "sectionJobCount": {
+      "h2": 1,
+      "paragraphs": 1
+    }
+  },
+  "afterProcess": {
+    "title": {
+      "t": 252.9,
+      "visiblePx": 91.375,
+      "cx": 535.1,
+      "w": 710.2,
+      "h": 91.4
+    },
+    "mech": {
+      "t": 383.5,
+      "visiblePx": 75.75,
+      "cx": 604.2,
+      "w": 848.5,
+      "h": 75.8
+    },
+    "lms": {
+      "t": 490.4,
+      "visiblePx": 68.21875,
+      "cx": 547.7,
+      "w": 735.3,
+      "h": 68.2
+    },
+    "demo": {
+      "t": 593.8,
+      "visiblePx": 126.15625,
+      "cx": 640,
+      "w": 920,
+      "h": 461.2
+    },
+    "midCta": {
+      "t": 1071,
+      "visiblePx": 0,
+      "cx": 640,
+      "w": 258.2,
+      "h": 57.9
+    },
+    "claimStackH": 305.7,
+    "claimStackVisible": 305.71875,
+    "evidenceInView": true,
+    "activeIndex": "03",
+    "deltaTitleDemoCx": 104.9,
+    "titleWidthPct": 77.2,
+    "titleLines": 2
+  },
+  "desireFold": {
+    "title": {
+      "t": 252.9,
+      "b": 344.3,
+      "visiblePx": 91.375,
+      "h": 91.4
+    },
+    "mech": {
+      "t": 383.5,
+      "b": 459.3,
+      "visiblePx": 75.75,
+      "h": 75.8
+    },
+    "lms": {
+      "t": 490.4,
+      "b": 558.7,
+      "visiblePx": 68.21875,
+      "h": 68.2
+    },
+    "demo": {
+      "t": 593.8,
+      "b": 1055,
+      "visiblePx": 126.15625,
+      "h": 461.2
+    },
+    "play": {
+      "t": 600.4,
+      "b": 631.2,
+      "visiblePx": 30.78125,
+      "h": 30.8
+    },
+    "essayBeforeDemo": 340.9,
+    "demoVisibleAtEntry": true,
+    "playLabel": "View process",
+    "videoControls": false,
+    "poster": "img/plates/process-still.png",
+    "posterSrc": "http://127.0.0.1:8661/videos/two-factor-knowledge-validation-process.mp4"
+  },
+  "demoPlay": {
+    "controlsIdle": false,
+    "playHidden": false,
+    "playBox": {
+      "t": 136.4,
+      "b": 167.2,
+      "l": 189.8,
+      "r": 315.5,
+      "w": 125.7,
+      "h": 30.8,
+      "cy": 151.8,
+      "cx": 252.7
+    },
+    "videoBox": {
+      "t": 174.8,
+      "h": 403.2,
+      "cy": 376.4,
+      "cx": 640,
+      "bottom": 578,
+      "left": 193
+    },
+    "frameBox": {
+      "l": 180,
+      "b": 591,
+      "pad": "44px 12px 12px"
+    },
+    "playCenterOffsetFromVideoCenter": -224.6,
+    "playOverlapOralZoneArea": 0,
+    "playOverlapCenterBand": 0,
+    "playFromBottom": 410.8,
+    "playFromLeft": -3.2,
+    "playBg": "rgb(246, 244, 239)",
+    "playColor": "rgb(8, 40, 72)",
+    "playBorder": "1px solid rgba(8, 40, 72, 0.35)",
+    "playPctOfVideoArea": 1.07,
+    "midCtaBg": "rgb(8, 40, 72)",
+    "midCtaColor": "rgb(246, 244, 239)"
+  },
+  "afterDemo": {
+    "demo": {
+      "t": -247.2,
+      "b": 214,
+      "visiblePx": 214.03125,
+      "cx": 640
+    },
+    "cta": {
+      "t": 230,
+      "b": 287.9,
+      "visiblePx": 57.90625,
+      "cx": 640
+    },
+    "urgencyTitle": {
+      "t": 727.9,
+      "b": 808.2,
+      "visiblePx": 0,
+      "cx": 394.5
+    },
+    "afterH": 293.9,
+    "afterPadTop": 16,
+    "afterPadBottom": 220,
+    "storyPadTop": 220,
+    "gapCtaToUrg": 440,
+    "deltaCtaDemoCx": 0,
+    "isPast": false,
+    "activeIndex": "03",
+    "displayFlex": "flex",
+    "justifyContent": "center"
+  },
+  "urgencyRail": {
+    "padRatio": 0.72,
+    "padTop": 220,
+    "padBottom": 316,
+    "h": 740,
+    "isPast": true,
+    "isOverFooter": false,
+    "activeIndex": null,
+    "indicesOpacity": "1",
+    "readingClearance": 52,
+    "bodyVis": 60.71875,
+    "titleOptical": -94.9,
+    "titleSize": "35.84px",
+    "emptyBelowBody": 334.0625,
+    "partnersPeek": 0
+  },
+  "partners": {
+    "markHeights": [
+      112,
+      112,
+      112
+    ],
+    "markWidths": [
+      117.4,
+      168,
+      112
+    ],
+    "cssHeight": "112px",
+    "occPct": 43.2,
+    "stripW": 920,
+    "gaps": [
+      40,
+      40
+    ],
+    "isPast": true,
+    "isOverFooter": false,
+    "indicesOpacity": "1",
+    "gutterOverlapX": 0,
+    "stripLeftClearance": 305.3,
+    "urgencyVis": 0,
+    "urgencyH2Vis": 0,
+    "partnersVis": 720,
+    "contactVis": 0,
+    "contactH2Vis": 0,
+    "proofPad": "344px 0px 272px",
+    "partnersH": 836.1
+  },
+  "footerStart": {
+    "isOverFooter": true,
+    "isPast": true,
+    "indicesOpacity": "0",
+    "indexRuleOpacity": "0",
+    "footerTopViewport": 267.1,
+    "threshold": 396,
+    "h2Vis": 82.3125,
+    "ctaVis": 57.90625,
+    "footerOrder": [
+      {
+        "tag": "H2",
+        "cls": "",
+        "t": 319.1
+      },
+      {
+        "tag": "A",
+        "cls": "cta-trial",
+        "t": 421.4
+      },
+      {
+        "tag": "A",
+        "cls": "footer-email",
+        "t": 499.3
+      },
+      {
+        "tag": "DIV",
+        "cls": "social-links",
+        "t": 538.3
+      },
+      {
+        "tag": "P",
+        "cls": "copyright",
+        "t": 589.4
+      }
+    ]
+  },
+  "footerEnd": {
+    "isOverFooter": true,
+    "indicesOpacity": "0",
+    "pointerEvents": "none",
+    "indexRuleOpacity": "0"
+  },
+  "midCtaPath": {
+    "ctaCy": 361,
+    "demoBottomVisible": 316.03125,
+    "gapDemoToCta": 16,
+    "urgencyVisiblePx": 0,
+    "ctaCx": 640,
+    "demoCx": 640,
+    "deltaCtaDemoCx": 0
+  },
+  "typeLadder": {
+    "heroMain": "89px",
+    "heroVal": "85px",
+    "heroLede": "29px",
+    "problem": "45.6px",
+    "solution": "40.8px",
+    "urgency": "35.84px",
+    "partners": "31.36px",
+    "partnersHasH2": true,
+    "footer": "39.2px",
+    "body": "19.52px",
+    "mech": "25.6px",
+    "lms": "23.04px",
+    "cta": "16.32px",
+    "play": "13.6px",
+    "index": "12.8px",
+    "families": {
+      "display": "\"Gideon Roman\", \"Bodoni Moda\", Georgia, serif",
+      "solution": "\"Gideon Roman\", \"Bodoni Moda\", Georgia, serif",
+      "body": "Gelasio, Georgia, serif",
+      "cta": "Inter, system-ui, sans-serif",
+      "play": "Inter, system-ui, sans-serif",
+      "index": "Inter, system-ui, sans-serif"
+    }
+  },
+  "surfaceGrammar": {
+    "body": {
+      "bg": "rgb(246, 244, 239)",
+      "border": "0px none rgb(8, 40, 72)",
+      "borderTop": "0px none rgb(8, 40, 72)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "hero": {
+      "bg": "rgb(246, 244, 239)",
+      "border": "0px none rgb(8, 40, 72)",
+      "borderTop": "0px none rgb(8, 40, 72)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "copy": {
+      "bg": "rgb(248, 246, 241)",
+      "border": "",
+      "borderTop": "1px solid rgba(8, 40, 72, 0.08)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "solution": {
+      "bg": "rgb(246, 244, 239)",
+      "border": "0px none rgb(8, 40, 72)",
+      "borderTop": "0px none rgb(8, 40, 72)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "story": {
+      "bg": "rgb(241, 239, 233)",
+      "border": "0px none rgb(8, 40, 72)",
+      "borderTop": "0px none rgb(8, 40, 72)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "proof": {
+      "bg": "rgb(234, 232, 227)",
+      "border": "0px none rgb(8, 40, 72)",
+      "borderTop": "0px none rgb(8, 40, 72)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "footer": {
+      "bg": "rgb(8, 40, 72)",
+      "border": "0px none rgb(246, 244, 239)",
+      "borderTop": "0px none rgb(246, 244, 239)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "demoFrame": {
+      "bg": "rgb(234, 232, 227)",
+      "border": "1px solid rgba(8, 40, 72, 0.12)",
+      "borderTop": "1px solid rgba(8, 40, 72, 0.12)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "cta": {
+      "bg": "rgb(8, 40, 72)",
+      "border": "0px none rgb(246, 244, 239)",
+      "borderTop": "0px none rgb(246, 244, 239)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "play": {
+      "bg": "rgb(246, 244, 239)",
+      "border": "1px solid rgba(8, 40, 72, 0.35)",
+      "borderTop": "1px solid rgba(8, 40, 72, 0.35)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "partnerImg": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(8, 40, 72)",
+      "borderTop": "0px none rgb(8, 40, 72)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "indexRule": {
+      "bg": "rgb(183, 181, 174)",
+      "border": "0px none rgb(8, 40, 72)",
+      "borderTop": "0px none rgb(8, 40, 72)",
+      "radius": "0px",
+      "shadow": "none"
+    }
+  },
+  "animation": {
+    "heroPresent": true,
+    "heroWill": true,
+    "demoIn": true,
+    "demoWill": true,
+    "heroTransform": "none",
+    "demoTransform": "none",
+    "heroTransition": "transform 0.52s cubic-bezier(0.22, 1, 0.36, 1)",
+    "demoTransition": "transform 0.56s cubic-bezier(0.22, 1, 0.36, 1)",
+    "motionIdeaCount": 2
+  },
+  "mobileHero": {
+    "brandVisible": true,
+    "titleVisible": true,
+    "ctaVisible": true,
+    "brandTop": 88,
+    "brandOp": "1",
+    "processClear": 148.8,
+    "deskInFirstViewport": true,
+    "deskVisiblePx": 219.4375,
+    "claimAboveDesk": true,
+    "heroStackOrder": {
+      "brandT": 88,
+      "titleT": 196,
+      "ctaT": 381,
+      "deskT": 624.6
+    }
+  },
+  "mobilePartners": {
+    "markH": [
+      56,
+      56,
+      56
+    ],
+    "cssH": "56px",
+    "rows": 1,
+    "gutterOverlapX": 0,
+    "stripLeft": 52,
+    "idxRight": 44,
+    "clearance": 54.1,
+    "isPast": true,
+    "indicesOpacity": "1",
+    "lookInnerPadLeft": "0px"
+  },
+  "mobileInterest": {
+    "titleVis": 99.421875,
+    "bodyVis": 265.375,
+    "bodyH": 265.4,
+    "opticalCentreDelta": -187.3,
+    "emptyBelow": 274.203125
+  },
+  "mobileGutters": {
+    "problem": {
+      "sel": "#problem",
+      "idxR": 44,
+      "textL": 52,
+      "clearance": 8,
+      "overlapX": 0
+    },
+    "solution": {
+      "sel": "#solution",
+      "idxR": 44,
+      "textL": 52,
+      "clearance": 8,
+      "overlapX": 0
+    },
+    "urgency": {
+      "sel": "#urgency",
+      "idxR": 44,
+      "textL": 52,
+      "clearance": 8,
+      "overlapX": 0
+    }
+  },
+  "mobileAfterDemo": {
+    "urgencyVis": 55.53125,
+    "ctaCx": 211,
+    "demoCx": 195,
+    "deltaCx": -16,
+    "viewportW": 390
+  },
+  "w1120Desire": {
+    "titleVis": 75.25,
+    "titleT": 236.8,
+    "mechVis": 75.75,
+    "lmsVis": 68.21875,
+    "demoVis": 160.03125,
+    "claimH": 289.6,
+    "brandOp": "1",
+    "brandVisible": true,
+    "opticalTitle": -85.6
+  },
+  "index03Land": {
+    "title": {
+      "t": 252.9,
+      "visiblePx": 91.375
+    },
+    "mech": {
+      "t": 383.5,
+      "visiblePx": 75.75
+    },
+    "lms": {
+      "t": 490.4,
+      "visiblePx": 68.21875
+    },
+    "demo": {
+      "t": 593.8,
+      "visiblePx": 126.15625
+    },
+    "claimOccupiesViewportPct": 42.5,
+    "demoInFirstViewport": true,
+    "opticalCentreTitle": -61.4
+  },
+  "desireEvidence": {
+    "poster": "img/plates/process-still.png",
+    "src": "videos/two-factor-knowledge-validation-process.mp4",
+    "mechanismText": "Students prove understanding through written and oral knowledge checks — Factor 1 and Factor 2.",
+    "lmsText": "The platform integrates with your university LMS to extract assignments and run those checks.",
+    "solutionTitle": "Unlock integrity with Two-Factor Knowledge Validation"
+  },
+  "reducedMotion": {
+    "playHidden": false,
+    "controls": false,
+    "demoWill": false,
+    "demoIn": false,
+    "demoOp": "1",
+    "heroTransform": "none"
+  },
+  "urgencyPastProbe": {
+    "probeY": 252,
+    "scrollY": 2369,
+    "solutionBottomDoc": 2373.9,
+    "urgTopVp": 4.9,
+    "urgInProbe": true,
+    "isPast": true,
+    "activeIndex": null,
+    "indicesOpacity": "1"
+  },
+  "midTexture": [
+    {
+      "sel": ".look--copy",
+      "bg": "rgb(248, 246, 241)",
+      "borderTop": "1px solid rgba(8, 40, 72, 0.08)",
+      "padTop": "108px",
+      "padBottom": "52px"
+    },
+    {
+      "sel": ".look--solution",
+      "bg": "rgb(246, 244, 239)",
+      "borderTop": "0px none rgb(8, 40, 72)",
+      "padTop": "40px",
+      "padBottom": "13.6px"
+    },
+    {
+      "sel": ".look--story",
+      "bg": "rgb(241, 239, 233)",
+      "borderTop": "0px none rgb(8, 40, 72)",
+      "padTop": "220px",
+      "padBottom": "316px"
+    },
+    {
+      "sel": ".look--proof",
+      "bg": "rgb(234, 232, 227)",
+      "borderTop": "0px none rgb(8, 40, 72)",
+      "padTop": "344px",
+      "padBottom": "272px"
+    },
+    {
+      "sel": ".look--footer",
+      "bg": "rgb(8, 40, 72)",
+      "borderTop": "0px none rgb(246, 244, 239)",
+      "padTop": "52px",
+      "padBottom": "88px"
+    }
+  ]
+}

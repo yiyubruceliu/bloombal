@@ -1,0 +1,289 @@
+{
+  "desktop": {
+    "brand": {
+      "sel": ".brand",
+      "x": 128,
+      "y": 24,
+      "w": 162.1,
+      "h": 36,
+      "bottom": 60,
+      "top": 24,
+      "fontSize": "18px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "area": 5835
+    },
+    "mark": {
+      "sel": ".brand-mark",
+      "x": 128,
+      "y": 16,
+      "w": 52,
+      "h": 52,
+      "bottom": 68,
+      "top": 16,
+      "fontSize": "18px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "area": 2704
+    },
+    "main": {
+      "sel": ".headline-main",
+      "x": 128,
+      "y": 201.6,
+      "w": 1024,
+      "h": 72,
+      "bottom": 273.6,
+      "top": 201.6,
+      "fontSize": "89px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "area": 73728
+    },
+    "validation": {
+      "sel": ".headline-validation",
+      "x": 128,
+      "y": 273.6,
+      "w": 396,
+      "h": 72,
+      "bottom": 345.6,
+      "top": 273.6,
+      "fontSize": "85px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "area": 28514
+    },
+    "valText": {
+      "fontSize": "85px",
+      "color": "rgb(8, 40, 72)",
+      "borderBottom": "3px solid rgb(119, 202, 252)",
+      "w": 386.3,
+      "h": 91.4,
+      "area": 35304
+    },
+    "lede": {
+      "sel": ".hero-lede",
+      "x": 128,
+      "y": 360,
+      "w": 512,
+      "h": 32.2,
+      "bottom": 392.2,
+      "top": 360,
+      "fontSize": "18.4px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "area": 16480
+    },
+    "cta": {
+      "sel": ".look--hero .cta-trial",
+      "x": 128,
+      "y": 417.6,
+      "w": 256,
+      "h": 57.1,
+      "bottom": 474.7,
+      "top": 417.6,
+      "fontSize": "15.68px",
+      "color": "rgb(246, 244, 239)",
+      "bg": "rgb(8, 40, 72)",
+      "area": 14616
+    },
+    "process": {
+      "sel": ".process-link",
+      "x": 128,
+      "y": 478.8,
+      "w": 256,
+      "h": 36,
+      "bottom": 514.8,
+      "top": 478.8,
+      "fontSize": "16.8px",
+      "color": "rgb(90, 100, 128)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "area": 9216
+    },
+    "deskTop": 532.8,
+    "deskH": 187.2,
+    "ruleBottom": 532.8,
+    "ruleH": 532.8,
+    "demo": {
+      "sel": ".demo-video",
+      "x": 103,
+      "y": 1539.4,
+      "w": 1074,
+      "h": 403.2,
+      "bottom": 1942.6,
+      "top": 1539.4,
+      "fontSize": "18px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgb(234, 232, 227)",
+      "area": 433023
+    },
+    "frame": {
+      "sel": ".demo-frame",
+      "x": 90,
+      "y": 1526.4,
+      "w": 1100,
+      "h": 465.2,
+      "bottom": 1991.5,
+      "top": 1526.4,
+      "fontSize": "18px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgb(234, 232, 227)",
+      "area": 511672
+    },
+    "poster": "img/plates/process-still.png",
+    "src": "videos/two-factor-knowledge-validation-process.mp4",
+    "h2s": [
+      {
+        "id": "problem",
+        "fontSize": "45.6px",
+        "text": "Are your students performing misconduct with ChatGPT"
+      },
+      {
+        "id": "solution",
+        "fontSize": "40.8px",
+        "text": "Unlock integrity with Two-Factor Knowledge Validatio"
+      },
+      {
+        "id": "urgency",
+        "fontSize": "35.84px",
+        "text": "The Cost of Ignoring This Problem Is Too High"
+      },
+      {
+        "id": "partners",
+        "fontSize": "32px",
+        "text": "Working with universities on academic integrity"
+      },
+      {
+        "id": "context",
+        "fontSize": "28.16px",
+        "text": "About Bloombal"
+      },
+      {
+        "id": "contact",
+        "fontSize": "28.16px",
+        "text": "Trial Bloombal"
+      }
+    ],
+    "ctas": [
+      {
+        "parent": "home",
+        "w": 256,
+        "h": 57.1,
+        "area": 14616,
+        "fontSize": "15.68px",
+        "bg": "rgb(8, 40, 72)"
+      },
+      {
+        "parent": "solution",
+        "w": 258.2,
+        "h": 57.9,
+        "area": 14949,
+        "fontSize": "15.2px",
+        "bg": "rgb(8, 40, 72)"
+      },
+      {
+        "parent": "contact",
+        "w": 258.2,
+        "h": 57.9,
+        "area": 14949,
+        "fontSize": "15.2px",
+        "bg": "rgb(8, 40, 72)"
+      }
+    ],
+    "partners": [
+      {
+        "text": "NHL Stenden",
+        "imgW": 41.9,
+        "imgH": 40,
+        "blend": "multiply"
+      },
+      {
+        "text": "MODUL Vienna",
+        "imgW": 60,
+        "imgH": 40,
+        "blend": "multiply"
+      },
+      {
+        "text": "FH Wien",
+        "imgW": 40,
+        "imgH": 40,
+        "blend": "multiply"
+      }
+    ],
+    "aboutBg": "rgb(8, 40, 72)",
+    "footerBg": "rgb(8, 40, 72)",
+    "aboutH": 214.125,
+    "footerH": 476.640625,
+    "bodyBg": "rgb(246, 244, 239)",
+    "urgencyEm": "italic",
+    "lookInnerPad": "112px 0px",
+    "solutionTitlePad": "72px 0px 20px",
+    "afterDemoPad": "32px 0px 72px",
+    "caption": "Real-time knowledge validation through your LMS",
+    "mechanism": "The platform integrates with your university LMS, extracts assignments, and runs real-time knowledge validation so students demonstrate true understanding of their work.",
+    "privacy": [
+      "#",
+      "#"
+    ],
+    "inkStackGap": 0,
+    "heroRightEmpty": 0.591,
+    "nowrapOverflow": {
+      "mainScroll": 1024,
+      "mainClient": 1024,
+      "overflow": false
+    },
+    "validationContrast": 13.57,
+    "ctaContrast": 13.57,
+    "ctaVsValArea": 0.41,
+    "demoPaint": {
+      "w": 1074,
+      "h": 403.2,
+      "maxHeight": "403.2px",
+      "readyState": 0,
+      "poster": "img/plates/process-still.png"
+    }
+  },
+  "mobile": {
+    "h2s": [
+      {
+        "id": "problem",
+        "fontSize": "29.6px",
+        "text": "Are your students performing misconduct "
+      },
+      {
+        "id": "solution",
+        "fontSize": "26.4px",
+        "text": "Unlock integrity with Two-Factor Knowled"
+      },
+      {
+        "id": "urgency",
+        "fontSize": "24.8px",
+        "text": "The Cost of Ignoring This Problem Is Too"
+      },
+      {
+        "id": "partners",
+        "fontSize": "22.4px",
+        "text": "Working with universities on academic in"
+      },
+      {
+        "id": "context",
+        "fontSize": "20px",
+        "text": "About Bloombal"
+      },
+      {
+        "id": "contact",
+        "fontSize": "20px",
+        "text": "Trial Bloombal"
+      }
+    ],
+    "cta": {
+      "w": 224.2,
+      "h": 52.1,
+      "fontSize": "13.6px",
+      "bottom": 448.3
+    },
+    "processBottom": 494.4,
+    "deskTop": 624.6,
+    "deskOverlap": -130.2,
+    "heroH": 844
+  }
+}

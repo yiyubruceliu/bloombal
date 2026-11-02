@@ -1,0 +1,53 @@
+{
+  "heroY": {
+    "ledeY": "47.5%",
+    "ctaY": "55.8%",
+    "procY": "67.2%",
+    "deskY": "76%",
+    "deskH": "24%"
+  },
+  "footMeta": {
+    "emailFs": "12.48px",
+    "emailColor": "rgba(246, 244, 239, 0.58)",
+    "socialFs": "12.48px",
+    "socialColor": "rgba(246, 244, 239, 0.58)",
+    "copyFs": "11.2px",
+    "copyColor": "rgba(246, 244, 239, 0.42)",
+    "ctaMb": "44px",
+    "gapCtaEmail": 44,
+    "iceInCss": false
+  },
+  "iceHoverSnippet": "footer-email:hover {\r\n    color: rgba(246, 244, 239, 0.88);\r\n}\r\n\r\n.copyright {\r\n    font-family: \"Inter\", system-ui, sans-serif !important",
+  "grain": {
+    "content": "\"\"",
+    "opacity": "0.45",
+    "bgImage": "radial-gradient(80% 55% at 12% 18%, rgba(8, 40, 72, 0.035), rgba(0, 0, 0, 0) 62%), url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fra",
+    "position": "absolute"
+  },
+  "desireAction": {
+    "allCtas": [
+      {
+        "text": "Trial the App in Pre-release",
+        "parent": "look look--hero",
+        "t": -214.3,
+        "h": 59.7,
+        "fs": "16.32px"
+      },
+      {
+        "text": "Trial the App in Pre-release",
+        "parent": "look look--solution",
+        "t": 1504,
+        "h": 57.9,
+        "fs": "15.2px"
+      },
+      {
+        "text": "Trial the App in Pre-release",
+        "parent": "look look--footer",
+        "t": 3512.4,
+        "h": 57.9,
+        "fs": "15.2px"
+      }
+    ],
+    "stickyOp": "1"
+  }
+}

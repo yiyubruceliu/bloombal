@@ -1,0 +1,450 @@
+[
+  {
+    "note": "baseline",
+    "attention": {
+      "ledeCta": 22.1,
+      "ctaProc": 22.4,
+      "procDesk": 31,
+      "deskVis": 172.8,
+      "procFw": "500",
+      "wordFs": "26px",
+      "markW": 58
+    },
+    "desire": {
+      "lmsToDemo": 40,
+      "demoVis": 124.4,
+      "isIn": true,
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "interestPVis": 9.9,
+      "videoShare": 75.4,
+      "chromeAbove": 30.6,
+      "bandOp": "1",
+      "bandTransform": "matrix(1, 0, 0, 1, 0, 0.0065188)"
+    },
+    "action": {
+      "hasFooterBefore": false,
+      "footerBeforeOp": "1",
+      "footerBeforeBg": "none",
+      "footerBg": "rgb(8, 40, 72)",
+      "contrast": 13.57,
+      "h2Cta": 32,
+      "ctaEmail": 49.6,
+      "emailSocial": 16.8,
+      "socialCopy": 29.6,
+      "emailA": 0.58,
+      "copyA": 0.42,
+      "imgs": [
+        {
+          "alt": "NHL Stenden",
+          "filter": "grayscale(1) contrast(1.05)",
+          "mix": "multiply",
+          "op": "1",
+          "h": 112
+        },
+        {
+          "alt": "MODUL Vienna",
+          "filter": "grayscale(1) contrast(1.05)",
+          "mix": "multiply",
+          "op": "1",
+          "h": 112
+        },
+        {
+          "alt": "FH Wien",
+          "filter": "grayscale(1) contrast(1.05)",
+          "mix": "multiply",
+          "op": "1",
+          "h": 112
+        }
+      ]
+    },
+    "dualSeamOk": true,
+    "dualGateOk": true,
+    "actionLadderOk": true,
+    "holdPresenceProcess": true
+  },
+  {
+    "note": "footer-grain-018",
+    "attention": {
+      "ledeCta": 22.1,
+      "ctaProc": 22.4,
+      "procDesk": 31,
+      "deskVis": 172.8,
+      "procFw": "500",
+      "wordFs": "26px",
+      "markW": 58
+    },
+    "desire": {
+      "lmsToDemo": 40,
+      "demoVis": 124.3,
+      "isIn": true,
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "interestPVis": 9.9,
+      "videoShare": 75.4,
+      "chromeAbove": 30.6,
+      "bandOp": "0.999998",
+      "bandTransform": "matrix(1, 0, 0, 1, 0, 0.0111165)"
+    },
+    "action": {
+      "hasFooterBefore": true,
+      "footerBeforeOp": "0.18",
+      "footerBeforeBg": "radial-gradient(70% 50% at 18% 12%, rgba(246, 244, 239, 0.043), rgba(0, 0, 0, 0) 58%), url(\"data:image/svg+xml,%3Csvg xm",
+      "footerBg": "rgb(8, 40, 72)",
+      "contrast": 13.57,
+      "h2Cta": 32,
+      "ctaEmail": 49.6,
+      "emailSocial": 16.8,
+      "socialCopy": 29.6,
+      "emailA": 0.58,
+      "copyA": 0.42,
+      "imgs": [
+        {
+          "alt": "NHL Stenden",
+          "filter": "grayscale(1) contrast(1.05)",
+          "mix": "multiply",
+          "op": "1",
+          "h": 112
+        },
+        {
+          "alt": "MODUL Vienna",
+          "filter": "grayscale(1) contrast(1.05)",
+          "mix": "multiply",
+          "op": "1",
+          "h": 112
+        },
+        {
+          "alt": "FH Wien",
+          "filter": "grayscale(1) contrast(1.05)",
+          "mix": "multiply",
+          "op": "1",
+          "h": 112
+        }
+      ]
+    },
+    "dualSeamOk": true,
+    "dualGateOk": true,
+    "actionLadderOk": true,
+    "holdPresenceProcess": false
+  },
+  {
+    "note": "footer-grain-022",
+    "attention": {
+      "ledeCta": 22.1,
+      "ctaProc": 22.4,
+      "procDesk": 31,
+      "deskVis": 172.8,
+      "procFw": "500",
+      "wordFs": "26px",
+      "markW": 58
+    },
+    "desire": {
+      "lmsToDemo": 40,
+      "demoVis": 124.4,
+      "isIn": true,
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "interestPVis": 9.9,
+      "videoShare": 75.4,
+      "chromeAbove": 30.6,
+      "bandOp": "1",
+      "bandTransform": "matrix(1, 0, 0, 1, 0, 0.00649939)"
+    },
+    "action": {
+      "hasFooterBefore": true,
+      "footerBeforeOp": "0.22",
+      "footerBeforeBg": "radial-gradient(70% 50% at 18% 12%, rgba(246, 244, 239, 0.05), rgba(0, 0, 0, 0) 58%), url(\"data:image/svg+xml,%3Csvg xml",
+      "footerBg": "rgb(8, 40, 72)",
+      "contrast": 13.57,
+      "h2Cta": 32,
+      "ctaEmail": 49.6,
+      "emailSocial": 16.8,
+      "socialCopy": 29.6,
+      "emailA": 0.58,
+      "copyA": 0.42,
+      "imgs": [
+        {
+          "alt": "NHL Stenden",
+          "filter": "grayscale(1) contrast(1.05)",
+          "mix": "multiply",
+          "op": "1",
+          "h": 112
+        },
+        {
+          "alt": "MODUL Vienna",
+          "filter": "grayscale(1) contrast(1.05)",
+          "mix": "multiply",
+          "op": "1",
+          "h": 112
+        },
+        {
+          "alt": "FH Wien",
+          "filter": "grayscale(1) contrast(1.05)",
+          "mix": "multiply",
+          "op": "1",
+          "h": 112
+        }
+      ]
+    },
+    "dualSeamOk": true,
+    "dualGateOk": true,
+    "actionLadderOk": true,
+    "holdPresenceProcess": true
+  },
+  {
+    "note": "footer-grain-025-match",
+    "attention": {
+      "ledeCta": 22.1,
+      "ctaProc": 22.4,
+      "procDesk": 31,
+      "deskVis": 172.8,
+      "procFw": "500",
+      "wordFs": "26px",
+      "markW": 58
+    },
+    "desire": {
+      "lmsToDemo": 40,
+      "demoVis": 124.4,
+      "isIn": true,
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "interestPVis": 9.9,
+      "videoShare": 75.4,
+      "chromeAbove": 30.6,
+      "bandOp": "1",
+      "bandTransform": "matrix(1, 0, 0, 1, 0, 0.00651428)"
+    },
+    "action": {
+      "hasFooterBefore": true,
+      "footerBeforeOp": "0.25",
+      "footerBeforeBg": "radial-gradient(70% 50% at 18% 12%, rgba(246, 244, 239, 0.04), rgba(0, 0, 0, 0) 58%), url(\"data:image/svg+xml,%3Csvg xml",
+      "footerBg": "rgb(8, 40, 72)",
+      "contrast": 13.57,
+      "h2Cta": 32,
+      "ctaEmail": 49.6,
+      "emailSocial": 16.8,
+      "socialCopy": 29.6,
+      "emailA": 0.58,
+      "copyA": 0.42,
+      "imgs": [
+        {
+          "alt": "NHL Stenden",
+          "filter": "grayscale(1) contrast(1.05)",
+          "mix": "multiply",
+          "op": "1",
+          "h": 112
+        },
+        {
+          "alt": "MODUL Vienna",
+          "filter": "grayscale(1) contrast(1.05)",
+          "mix": "multiply",
+          "op": "1",
+          "h": 112
+        },
+        {
+          "alt": "FH Wien",
+          "filter": "grayscale(1) contrast(1.05)",
+          "mix": "multiply",
+          "op": "1",
+          "h": 112
+        }
+      ]
+    },
+    "dualSeamOk": true,
+    "dualGateOk": true,
+    "actionLadderOk": true,
+    "holdPresenceProcess": true
+  },
+  {
+    "note": "footer-grain-014-quiet",
+    "attention": {
+      "ledeCta": 22.1,
+      "ctaProc": 22.4,
+      "procDesk": 31,
+      "deskVis": 172.8,
+      "procFw": "500",
+      "wordFs": "26px",
+      "markW": 58
+    },
+    "desire": {
+      "lmsToDemo": 40,
+      "demoVis": 124.4,
+      "isIn": true,
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "interestPVis": 9.9,
+      "videoShare": 75.4,
+      "chromeAbove": 30.6,
+      "bandOp": "1",
+      "bandTransform": "matrix(1, 0, 0, 1, 0, 0.00650887)"
+    },
+    "action": {
+      "hasFooterBefore": true,
+      "footerBeforeOp": "0.14",
+      "footerBeforeBg": "radial-gradient(65% 45% at 22% 8%, rgba(246, 244, 239, 0.035), rgba(0, 0, 0, 0) 55%), url(\"data:image/svg+xml,%3Csvg xml",
+      "footerBg": "rgb(8, 40, 72)",
+      "contrast": 13.57,
+      "h2Cta": 32,
+      "ctaEmail": 49.6,
+      "emailSocial": 16.8,
+      "socialCopy": 29.6,
+      "emailA": 0.58,
+      "copyA": 0.42,
+      "imgs": [
+        {
+          "alt": "NHL Stenden",
+          "filter": "grayscale(1) contrast(1.05)",
+          "mix": "multiply",
+          "op": "1",
+          "h": 112
+        },
+        {
+          "alt": "MODUL Vienna",
+          "filter": "grayscale(1) contrast(1.05)",
+          "mix": "multiply",
+          "op": "1",
+          "h": 112
+        },
+        {
+          "alt": "FH Wien",
+          "filter": "grayscale(1) contrast(1.05)",
+          "mix": "multiply",
+          "op": "1",
+          "h": 112
+        }
+      ]
+    },
+    "dualSeamOk": true,
+    "dualGateOk": true,
+    "actionLadderOk": true,
+    "holdPresenceProcess": true
+  },
+  {
+    "note": "partner-strip-quieter",
+    "attention": {
+      "ledeCta": 22.1,
+      "ctaProc": 22.4,
+      "procDesk": 31,
+      "deskVis": 172.8,
+      "procFw": "500",
+      "wordFs": "26px",
+      "markW": 58
+    },
+    "desire": {
+      "lmsToDemo": 40,
+      "demoVis": 124.3,
+      "isIn": true,
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "interestPVis": 9.9,
+      "videoShare": 75.4,
+      "chromeAbove": 30.6,
+      "bandOp": "0.999998",
+      "bandTransform": "matrix(1, 0, 0, 1, 0, 0.0111371)"
+    },
+    "action": {
+      "hasFooterBefore": false,
+      "footerBeforeOp": "1",
+      "footerBeforeBg": "none",
+      "footerBg": "rgb(8, 40, 72)",
+      "contrast": 13.57,
+      "h2Cta": 32,
+      "ctaEmail": 49.6,
+      "emailSocial": 16.8,
+      "socialCopy": 29.6,
+      "emailA": 0.58,
+      "copyA": 0.42,
+      "imgs": [
+        {
+          "alt": "NHL Stenden",
+          "filter": "grayscale(1) contrast(1.08) brightness(0.92)",
+          "mix": "multiply",
+          "op": "0.88",
+          "h": 100
+        },
+        {
+          "alt": "MODUL Vienna",
+          "filter": "grayscale(1) contrast(1.08) brightness(0.92)",
+          "mix": "multiply",
+          "op": "0.88",
+          "h": 100
+        },
+        {
+          "alt": "FH Wien",
+          "filter": "grayscale(1) contrast(1.08) brightness(0.92)",
+          "mix": "multiply",
+          "op": "0.88",
+          "h": 100
+        }
+      ]
+    },
+    "dualSeamOk": true,
+    "dualGateOk": true,
+    "actionLadderOk": true,
+    "holdPresenceProcess": false
+  },
+  {
+    "note": "partner-mix-darken",
+    "attention": {
+      "ledeCta": 22.1,
+      "ctaProc": 22.4,
+      "procDesk": 31,
+      "deskVis": 172.8,
+      "procFw": "500",
+      "wordFs": "26px",
+      "markW": 58
+    },
+    "desire": {
+      "lmsToDemo": 40,
+      "demoVis": 124.3,
+      "isIn": true,
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "interestPVis": 9.9,
+      "videoShare": 75.4,
+      "chromeAbove": 30.6,
+      "bandOp": "0.999998",
+      "bandTransform": "matrix(1, 0, 0, 1, 0, 0.0111577)"
+    },
+    "action": {
+      "hasFooterBefore": false,
+      "footerBeforeOp": "1",
+      "footerBeforeBg": "none",
+      "footerBg": "rgb(8, 40, 72)",
+      "contrast": 13.57,
+      "h2Cta": 32,
+      "ctaEmail": 49.6,
+      "emailSocial": 16.8,
+      "socialCopy": 29.6,
+      "emailA": 0.58,
+      "copyA": 0.42,
+      "imgs": [
+        {
+          "alt": "NHL Stenden",
+          "filter": "grayscale(1) contrast(1.12)",
+          "mix": "darken",
+          "op": "0.9",
+          "h": 112
+        },
+        {
+          "alt": "MODUL Vienna",
+          "filter": "grayscale(1) contrast(1.12)",
+          "mix": "darken",
+          "op": "0.9",
+          "h": 112
+        },
+        {
+          "alt": "FH Wien",
+          "filter": "grayscale(1) contrast(1.12)",
+          "mix": "darken",
+          "op": "0.9",
+          "h": 112
+        }
+      ]
+    },
+    "dualSeamOk": true,
+    "dualGateOk": true,
+    "actionLadderOk": true,
+    "holdPresenceProcess": false
+  }
+]

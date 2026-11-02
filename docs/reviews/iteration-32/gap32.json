@@ -1,0 +1,118 @@
+{
+  "midBlock": {
+    "gapDemoToCta": 39.9,
+    "urgH2Vis": 0,
+    "urgSectionVis": 200.7,
+    "deltaCx": 0,
+    "afterPadT": "40px"
+  },
+  "interestHash": {
+    "optical": -44.9,
+    "emptyBelow": 150.1,
+    "bodyVis": 132.6875,
+    "activeIndex": "02"
+  },
+  "processLand": {
+    "d1280": {
+      "optical": -61.4,
+      "claimShare": 42.5,
+      "titleToMech": 39.2,
+      "mechToLms": 31.2,
+      "lmsToDemo": 67.6,
+      "lmsMb": "40px",
+      "lmsMt": "31.2px",
+      "demoVis": 93.8,
+      "videoVis": 48.8,
+      "lmsVis": 68.2,
+      "interestPVis": 132.7,
+      "interestH2Vis": 8.3,
+      "play": {
+        "t": 632.8,
+        "l": 189.8,
+        "overlapsVideoBox": false,
+        "oralOverlapArea": 0,
+        "playFromVideoTop": -38.4,
+        "bg": "rgb(246, 244, 239)",
+        "border": "1px solid rgba(8, 40, 72, 0.35)"
+      },
+      "solutionGrain": {
+        "content": "none",
+        "opacity": "1"
+      },
+      "solutionBg": "rgb(246, 244, 239)",
+      "copyGrainOp": "0.45",
+      "storyGrainOp": "0.4",
+      "proofGrainOp": "0.3"
+    },
+    "w1120": {
+      "optical": -85.6,
+      "claimShare": 40.2,
+      "titleToMech": 39.2,
+      "mechToLms": 31.2,
+      "lmsToDemo": 52,
+      "lmsMb": "40px",
+      "lmsMt": "31.2px",
+      "demoVis": 141.6,
+      "videoVis": 96.6,
+      "lmsVis": 68.2,
+      "interestPVis": 132.7,
+      "interestH2Vis": 16.1,
+      "play": {
+        "t": 585,
+        "l": 109.8,
+        "overlapsVideoBox": false,
+        "oralOverlapArea": 0,
+        "playFromVideoTop": -38.4,
+        "bg": "rgb(246, 244, 239)",
+        "border": "1px solid rgba(8, 40, 72, 0.35)"
+      },
+      "solutionGrain": {
+        "content": "none",
+        "opacity": "1"
+      },
+      "solutionBg": "rgb(246, 244, 239)",
+      "copyGrainOp": "0.45",
+      "storyGrainOp": "0.4",
+      "proofGrainOp": "0.3"
+    }
+  },
+  "footerLadder": {
+    "email": {
+      "color": "rgba(246, 244, 239, 0.58)",
+      "opacity": "1",
+      "fs": "12.48px"
+    },
+    "copy": {
+      "color": "rgba(246, 244, 239, 0.42)",
+      "opacity": "1",
+      "fs": "11.2px"
+    },
+    "social": {
+      "color": "rgba(246, 244, 239, 0.58)",
+      "opacity": "1",
+      "fs": "12.48px"
+    }
+  },
+  "sticky": {
+    "isPast": true,
+    "navClasses": "look-indices is-past",
+    "htmlClasses": "",
+    "bodyClasses": "",
+    "active": null,
+    "indicesOp": "1"
+  },
+  "rail": {
+    "idxR": 128,
+    "textL": 180,
+    "clearance": 52,
+    "overlapX": 0
+  },
+  "diagnosis": {
+    "lmsToDemoOvershoot1280": 19.599999999999994,
+    "lmsToDemoOvershoot1120": 4,
+    "demoVisDropVsPrior126": 32.3,
+    "mechToLmsShortVsTitle": 8,
+    "solutionHasGrain": false,
+    "interestBleed": 132.7
+  }
+}

@@ -1,0 +1,629 @@
+{
+  "paidCheck": {
+    "footerIndicesHiddenAtEnd": true,
+    "footerHideAtStart": true,
+    "playNotCentered": true,
+    "playOralOverlap": 2313.9,
+    "urgencyOnMidCta": 80.28125,
+    "midCtaCentered": true,
+    "partnerDesktopH": [
+      112,
+      112,
+      112
+    ],
+    "partnerOcc": 43.2,
+    "partnersIsolation": {
+      "urgencyH2": 80.28125,
+      "contactH2": 31.53125
+    },
+    "mobilePartnerH": [
+      56,
+      56,
+      56
+    ],
+    "mobileGutterClearance": 54.1,
+    "mobileGutterOverlap": 0,
+    "idleControls": false
+  },
+  "deeper": {
+    "interestOptical": -156.9,
+    "interestEmptyBelow": 72,
+    "w1120TitleVis": 37.625,
+    "w1120DemoVis": 408.859375,
+    "playStillInkPlaque": true,
+    "playFromBottom": 5.6,
+    "playFromLeft": 5.6,
+    "urgencyPadRatio": 0.31,
+    "urgencyEmptyBelow": 264.859375,
+    "urgencyPartnersPeek": 209,
+    "index03ClaimPct": 33.8,
+    "index03DemoIn": true,
+    "rightFieldEmpty": 0,
+    "typeLadder": {
+      "heroMain": "89px",
+      "heroVal": "85px",
+      "heroLede": "29px",
+      "problem": "45.6px",
+      "solution": "40.8px",
+      "urgency": "35.84px",
+      "partners": null,
+      "partnersHasH2": false,
+      "footer": "28.16px",
+      "body": "18.4px",
+      "mech": "19.2px",
+      "lms": "16.8px",
+      "cta": "16.32px",
+      "play": "13.6px",
+      "index": "12.8px",
+      "families": {
+        "display": "\"Gideon Roman\", \"Bodoni Moda\", Georgia, serif",
+        "solution": "\"Gideon Roman\", \"Bodoni Moda\", Georgia, serif",
+        "body": "Gelasio, Georgia, serif",
+        "cta": "Inter, system-ui, sans-serif",
+        "play": "Inter, system-ui, sans-serif",
+        "index": "Inter, system-ui, sans-serif"
+      }
+    },
+    "liveLag": {
+      "playExists": false,
+      "playBottom": null,
+      "playTop": null,
+      "afterDisplay": null,
+      "partnerH": null,
+      "hasOverFooterLogicHint": false
+    }
+  },
+  "hero1280": {
+    "ledeCtaGap": 27.1,
+    "ctaProcGap": 26.7,
+    "procDesk": 18,
+    "ctaMassRatio": 0.56,
+    "processHref": "#solution",
+    "demoIdPresent": false,
+    "indicesPos": "fixed",
+    "indexRulePos": "fixed",
+    "indexRuleH": 302.4,
+    "videoControlsIdle": false,
+    "playBtnPresent": true,
+    "brand": {
+      "t": 24,
+      "b": 60,
+      "l": 128,
+      "r": 290.1,
+      "w": 162.1,
+      "h": 36,
+      "cx": 209
+    },
+    "mark": {
+      "t": 16,
+      "b": 68,
+      "l": 128,
+      "r": 180,
+      "w": 52,
+      "h": 52,
+      "cx": 154
+    },
+    "main": {
+      "t": 201.6,
+      "b": 273.6,
+      "l": 128,
+      "r": 1152,
+      "w": 1024,
+      "h": 72,
+      "cx": 640
+    },
+    "desk": {
+      "t": 547.2,
+      "b": 720,
+      "l": 0,
+      "r": 1280,
+      "w": 1280,
+      "h": 172.8,
+      "cx": 640
+    },
+    "rightFieldEmptyW": 0,
+    "heroH": 720,
+    "boneOccupancyPct": 100,
+    "headlineFont": "\"Gideon Roman\", \"Bodoni Moda\", Georgia, serif",
+    "ledeFont": "Gelasio, Georgia, serif",
+    "ledeSize": "29px",
+    "ledeMeasureCh": 17.7
+  },
+  "interestLand": {
+    "hash": "#problem",
+    "title": {
+      "t": 101,
+      "b": 305.3,
+      "visiblePx": 204.25,
+      "h": 204.3,
+      "cy": 203.1
+    },
+    "body": {
+      "t": 325.3,
+      "b": 416.3,
+      "visiblePx": 91.078125,
+      "h": 91.1,
+      "cy": 370.8
+    },
+    "bodyFullH": 91.1,
+    "activeIndex": "02",
+    "scrollMargin": "28px",
+    "readingClearance": 52,
+    "opticalCentreDelta": -156.9,
+    "lookH": 460.3,
+    "emptyBelowBody": 72,
+    "padRatio": 0.31,
+    "titleFontSize": "45.6px",
+    "bodyFontSize": "18.4px",
+    "bodyMeasureCh": 38.1,
+    "sectionJobCount": {
+      "h2": 1,
+      "paragraphs": 1
+    }
+  },
+  "afterProcess": {
+    "title": {
+      "t": 101.3,
+      "visiblePx": 91.375,
+      "cx": 535.1,
+      "w": 710.2,
+      "h": 91.4
+    },
+    "mech": {
+      "t": 212.7,
+      "visiblePx": 63.34375,
+      "cx": 498.2,
+      "w": 636.3,
+      "h": 63.3
+    },
+    "lms": {
+      "t": 289.6,
+      "visiblePx": 55.40625,
+      "cx": 447.9,
+      "w": 535.9,
+      "h": 55.4
+    },
+    "demo": {
+      "t": 365,
+      "visiblePx": 354.953125,
+      "cx": 640,
+      "w": 920,
+      "h": 429.2
+    },
+    "midCta": {
+      "t": 810.2,
+      "visiblePx": 0,
+      "cx": 640,
+      "w": 258.2,
+      "h": 57.9
+    },
+    "claimStackH": 243.7,
+    "claimStackVisible": 243.71875,
+    "evidenceInView": true,
+    "activeIndex": "03",
+    "deltaTitleDemoCx": 104.9,
+    "titleWidthPct": 77.2,
+    "titleLines": 2
+  },
+  "desireFold": {
+    "title": {
+      "t": 101.3,
+      "b": 192.7,
+      "visiblePx": 91.375,
+      "h": 91.4
+    },
+    "mech": {
+      "t": 212.7,
+      "b": 276,
+      "visiblePx": 63.34375,
+      "h": 63.3
+    },
+    "lms": {
+      "t": 289.6,
+      "b": 345,
+      "visiblePx": 55.40625,
+      "h": 55.4
+    },
+    "demo": {
+      "t": 365,
+      "b": 794.2,
+      "visiblePx": 354.953125,
+      "h": 429.2
+    },
+    "play": {
+      "t": 738.9,
+      "b": 775.6,
+      "visiblePx": 0,
+      "h": 36.8
+    },
+    "essayBeforeDemo": 263.7,
+    "demoVisibleAtEntry": true,
+    "playLabel": "Play",
+    "videoControls": false,
+    "poster": "img/plates/process-still.png",
+    "posterSrc": "http://127.0.0.1:8124/videos/two-factor-knowledge-validation-process.mp4"
+  },
+  "demoPlay": {
+    "controlsIdle": false,
+    "playHidden": false,
+    "playBox": {
+      "t": 519.9,
+      "b": 556.6,
+      "l": 198.6,
+      "r": 265.9,
+      "w": 67.3,
+      "h": 36.8,
+      "cy": 538.3,
+      "cx": 232.3
+    },
+    "videoBox": {
+      "t": 159,
+      "h": 403.2,
+      "cy": 360.6,
+      "cx": 640,
+      "bottom": 562.2,
+      "left": 193
+    },
+    "frameBox": {
+      "l": 180,
+      "b": 575.2,
+      "pad": "12px"
+    },
+    "playCenterOffsetFromVideoCenter": 177.6,
+    "playOverlapOralZoneArea": 2313.9,
+    "playOverlapCenterBand": 0,
+    "playFromBottom": 5.6,
+    "playFromLeft": 5.6,
+    "playBg": "rgb(8, 40, 72)",
+    "playColor": "rgb(246, 244, 239)",
+    "playBorder": "0px none rgb(246, 244, 239)",
+    "playPctOfVideoArea": 0.69,
+    "midCtaBg": "rgb(8, 40, 72)",
+    "midCtaColor": "rgb(246, 244, 239)"
+  },
+  "afterDemo": {
+    "demo": {
+      "t": -114,
+      "b": 315.2,
+      "visiblePx": 315.234375,
+      "cx": 640
+    },
+    "cta": {
+      "t": 331.2,
+      "b": 389.1,
+      "visiblePx": 57.90625,
+      "cx": 640
+    },
+    "urgencyTitle": {
+      "t": 442.1,
+      "b": 522.4,
+      "visiblePx": 80.28125,
+      "cx": 394.5
+    },
+    "afterH": 89.9,
+    "afterPadTop": 16,
+    "afterPadBottom": 16,
+    "storyPadTop": 36,
+    "gapCtaToUrg": 53,
+    "deltaCtaDemoCx": 0,
+    "isPast": false,
+    "activeIndex": "03",
+    "displayFlex": "flex",
+    "justifyContent": "center"
+  },
+  "urgencyRail": {
+    "padRatio": 0.31,
+    "padTop": 36,
+    "padBottom": 36,
+    "h": 234,
+    "isPast": false,
+    "isOverFooter": false,
+    "activeIndex": "03",
+    "indicesOpacity": "1",
+    "readingClearance": 52,
+    "bodyVis": 60.71875,
+    "titleOptical": -25.7,
+    "titleSize": "35.84px",
+    "emptyBelowBody": 264.859375,
+    "partnersPeek": 209
+  },
+  "partners": {
+    "markHeights": [
+      112,
+      112,
+      112
+    ],
+    "markWidths": [
+      117.4,
+      168,
+      112
+    ],
+    "cssHeight": "112px",
+    "occPct": 43.2,
+    "stripW": 920,
+    "gaps": [
+      40,
+      40
+    ],
+    "isPast": true,
+    "isOverFooter": false,
+    "indicesOpacity": "1",
+    "gutterOverlapX": 0,
+    "stripLeftClearance": 305.3,
+    "urgencyVis": 234,
+    "urgencyH2Vis": 80.28125,
+    "partnersVis": 209,
+    "contactVis": 240.859375,
+    "contactH2Vis": 31.53125,
+    "proofPad": "44px 0px 52px",
+    "partnersH": 209
+  },
+  "footerStart": {
+    "isOverFooter": true,
+    "isPast": true,
+    "indicesOpacity": "0",
+    "indexRuleOpacity": "0",
+    "footerTopViewport": 314.1,
+    "threshold": 396,
+    "h2Vis": 31.53125,
+    "ctaVis": 57.90625,
+    "footerOrder": [
+      {
+        "tag": "H2",
+        "cls": "",
+        "t": 386.1
+      },
+      {
+        "tag": "A",
+        "cls": "cta-trial",
+        "t": 437.7
+      },
+      {
+        "tag": "A",
+        "cls": "footer-email",
+        "t": 515.6
+      },
+      {
+        "tag": "DIV",
+        "cls": "social-links",
+        "t": 554.6
+      },
+      {
+        "tag": "P",
+        "cls": "copyright",
+        "t": 605.7
+      }
+    ]
+  },
+  "footerEnd": {
+    "isOverFooter": true,
+    "indicesOpacity": "0",
+    "pointerEvents": "none",
+    "indexRuleOpacity": "0"
+  },
+  "midCtaPath": {
+    "ctaCy": 360.2,
+    "demoBottomVisible": 315.234375,
+    "gapDemoToCta": 16,
+    "urgencyVisiblePx": 80.28125,
+    "ctaCx": 640,
+    "demoCx": 640,
+    "deltaCtaDemoCx": 0
+  },
+  "typeLadder": {
+    "heroMain": "89px",
+    "heroVal": "85px",
+    "heroLede": "29px",
+    "problem": "45.6px",
+    "solution": "40.8px",
+    "urgency": "35.84px",
+    "partners": null,
+    "partnersHasH2": false,
+    "footer": "28.16px",
+    "body": "18.4px",
+    "mech": "19.2px",
+    "lms": "16.8px",
+    "cta": "16.32px",
+    "play": "13.6px",
+    "index": "12.8px",
+    "families": {
+      "display": "\"Gideon Roman\", \"Bodoni Moda\", Georgia, serif",
+      "solution": "\"Gideon Roman\", \"Bodoni Moda\", Georgia, serif",
+      "body": "Gelasio, Georgia, serif",
+      "cta": "Inter, system-ui, sans-serif",
+      "play": "Inter, system-ui, sans-serif",
+      "index": "Inter, system-ui, sans-serif"
+    }
+  },
+  "surfaceGrammar": {
+    "body": {
+      "bg": "rgb(246, 244, 239)",
+      "border": "0px none rgb(8, 40, 72)",
+      "borderTop": "0px none rgb(8, 40, 72)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "hero": {
+      "bg": "rgb(246, 244, 239)",
+      "border": "0px none rgb(8, 40, 72)",
+      "borderTop": "0px none rgb(8, 40, 72)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "copy": {
+      "bg": "rgb(246, 244, 239)",
+      "border": "",
+      "borderTop": "1px solid rgba(8, 40, 72, 0.08)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "solution": {
+      "bg": "rgb(246, 244, 239)",
+      "border": "",
+      "borderTop": "1px solid rgba(8, 40, 72, 0.08)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "story": {
+      "bg": "rgb(246, 244, 239)",
+      "border": "",
+      "borderTop": "1px solid rgba(8, 40, 72, 0.08)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "proof": {
+      "bg": "rgb(246, 244, 239)",
+      "border": "",
+      "borderTop": "1px solid rgba(8, 40, 72, 0.08)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "footer": {
+      "bg": "rgb(8, 40, 72)",
+      "border": "0px none rgb(246, 244, 239)",
+      "borderTop": "0px none rgb(246, 244, 239)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "demoFrame": {
+      "bg": "rgb(234, 232, 227)",
+      "border": "1px solid rgba(8, 40, 72, 0.12)",
+      "borderTop": "1px solid rgba(8, 40, 72, 0.12)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "cta": {
+      "bg": "rgb(8, 40, 72)",
+      "border": "0px none rgb(246, 244, 239)",
+      "borderTop": "0px none rgb(246, 244, 239)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "play": {
+      "bg": "rgb(8, 40, 72)",
+      "border": "0px none rgb(246, 244, 239)",
+      "borderTop": "0px none rgb(246, 244, 239)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "partnerImg": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "border": "0px none rgb(8, 40, 72)",
+      "borderTop": "0px none rgb(8, 40, 72)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    "indexRule": {
+      "bg": "rgb(183, 181, 174)",
+      "border": "0px none rgb(8, 40, 72)",
+      "borderTop": "0px none rgb(8, 40, 72)",
+      "radius": "0px",
+      "shadow": "none"
+    }
+  },
+  "animation": {
+    "heroPresent": true,
+    "heroWill": true,
+    "demoIn": true,
+    "demoWill": true,
+    "heroTransform": "none",
+    "demoTransform": "none",
+    "heroTransition": "transform 0.52s cubic-bezier(0.22, 1, 0.36, 1)",
+    "demoTransition": "transform 0.56s cubic-bezier(0.22, 1, 0.36, 1)",
+    "motionIdeaCount": 2
+  },
+  "mobileHero": {
+    "brandVisible": true,
+    "titleVisible": true,
+    "ctaVisible": true,
+    "brandTop": 88,
+    "brandOp": "1",
+    "processClear": 148.8,
+    "deskInFirstViewport": true,
+    "deskVisiblePx": 219.4375,
+    "claimAboveDesk": true,
+    "heroStackOrder": {
+      "brandT": 88,
+      "titleT": 196,
+      "ctaT": 381,
+      "deskT": 624.6
+    }
+  },
+  "mobilePartners": {
+    "markH": [
+      56,
+      56,
+      56
+    ],
+    "cssH": "56px",
+    "rows": 1,
+    "gutterOverlapX": 0,
+    "stripLeft": 52,
+    "idxRight": 44,
+    "clearance": 54.1,
+    "isPast": true,
+    "indicesOpacity": "1",
+    "lookInnerPadLeft": "0px"
+  },
+  "mobileInterest": {
+    "titleVis": 99.421875,
+    "bodyVis": 212.515625,
+    "bodyH": 212.5,
+    "opticalCentreDelta": -271.3,
+    "emptyBelow": 411.0625
+  },
+  "mobileAfterDemo": {
+    "urgencyVis": 55.53125,
+    "ctaCx": 195,
+    "demoCx": 195,
+    "deltaCx": 0,
+    "viewportW": 390
+  },
+  "w1120Desire": {
+    "titleVis": 37.625,
+    "titleT": 101.2,
+    "mechVis": 63.34375,
+    "lmsVis": 55.40625,
+    "demoVis": 408.859375,
+    "claimH": 190,
+    "brandOp": "1",
+    "brandVisible": true,
+    "opticalTitle": -240
+  },
+  "index03Land": {
+    "title": {
+      "t": 101.3,
+      "visiblePx": 91.375
+    },
+    "mech": {
+      "t": 212.7,
+      "visiblePx": 63.34375
+    },
+    "lms": {
+      "t": 289.6,
+      "visiblePx": 55.40625
+    },
+    "demo": {
+      "t": 365,
+      "visiblePx": 354.953125
+    },
+    "claimOccupiesViewportPct": 33.8,
+    "demoInFirstViewport": true,
+    "opticalCentreTitle": -213
+  },
+  "desireEvidence": {
+    "poster": "img/plates/process-still.png",
+    "src": "videos/two-factor-knowledge-validation-process.mp4",
+    "mechanismText": "Students prove understanding through written and oral knowledge checks — Factor 1 and Factor 2.",
+    "lmsText": "The platform integrates with your university LMS to extract assignments and run those checks.",
+    "solutionTitle": "Unlock integrity with Two-Factor Knowledge Validation"
+  },
+  "reducedMotion": {
+    "playHidden": false,
+    "controls": false,
+    "demoWill": false,
+    "demoIn": false,
+    "demoOp": "1",
+    "heroTransform": "none"
+  }
+}

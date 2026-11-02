@@ -1,0 +1,69 @@
+{
+  "mid": {
+    "cta": {
+      "t": 331.2,
+      "b": 389.1,
+      "h": 57.9
+    },
+    "urgH2": {
+      "t": 805.1,
+      "b": 885.4,
+      "h": 80.3,
+      "vis": 0
+    },
+    "partnersVis": 0,
+    "gapCtaUrg": 416,
+    "needExtraToClear": 0,
+    "afterPadB": 208,
+    "storyPadT": 208,
+    "storyPadB": 112,
+    "proofPadT": 152,
+    "proofPadB": 272
+  },
+  "part": {
+    "stripCy": 360.3,
+    "urgH2": 0,
+    "urgH2Bottom": -144.6,
+    "contactH2": 0,
+    "contactH2Top": 760.3,
+    "contactCta": 0,
+    "needTopExtra": 0,
+    "needBottomExtra": 0,
+    "storyH": 481,
+    "proofH": 640.2
+  },
+  "mob": {
+    "demo": 0,
+    "midCta": 26.359375,
+    "urgH2": 55.53125,
+    "urgBody": 121.4375,
+    "partners": 180.671875,
+    "contactH2": 0,
+    "contactCta": 0,
+    "h2Clearance": 8,
+    "storyPadT": 168,
+    "afterPadB": 184,
+    "proofPad": "104px 0px 160px"
+  },
+  "w1120": {
+    "title": {
+      "t": 116.2,
+      "vis": 75.25,
+      "h": 75.3,
+      "lines": 2
+    },
+    "mechVis": 63.34375,
+    "lmsVis": 55.40625,
+    "demoVis": 356.234375,
+    "scrollMargin": "72px",
+    "solutionPadT": 44
+  },
+  "playContrast": {
+    "playBg": "rgb(246, 244, 239)",
+    "playColor": "rgb(8, 40, 72)",
+    "playBorder": "1px solid rgba(8, 40, 72, 0.35)",
+    "frameBg": "rgb(234, 232, 227)",
+    "frameBorder": "1px solid rgba(8, 40, 72, 0.12)",
+    "sameAsBoneField": true
+  }
+}

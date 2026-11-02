@@ -1,0 +1,376 @@
+{
+  "baseline": {
+    "label": "land",
+    "interestPVis": 9.9,
+    "interestH2Vis": 0,
+    "interestFieldVis": 201.9,
+    "deadBelowP": 192,
+    "optical": -72.4,
+    "claimShare": 43.6,
+    "demoVis": 124.4,
+    "videoVis": 79.4,
+    "lmsToDemo": 40,
+    "titleToMech": 39.2,
+    "mechToLms": 39.2,
+    "isIn": true,
+    "copyField": "rgb(248, 246, 241)",
+    "solutionField": "rgb(246, 244, 239)",
+    "copyGrain": "0.45",
+    "solutionGrain": "0.25",
+    "chromeAboveVideo": 45,
+    "chromeBelowVideo": 13,
+    "mattePct": 12.6,
+    "frameH": 461.2,
+    "videoH": 403.2
+  },
+  "interestHash": {
+    "optical": -44.9,
+    "padB": "192px"
+  },
+  "fieldBridge": [
+    {
+      "bg": "rgb(248, 246, 241)",
+      "interestFieldVis": 201.9,
+      "interestPVis": 9.9,
+      "optical": -72.4,
+      "demoVis": 124.4,
+      "lmsToDemo": 40
+    },
+    {
+      "bg": "rgb(246, 244, 239)",
+      "interestFieldVis": 201.9,
+      "interestPVis": 9.9,
+      "optical": -72.4,
+      "demoVis": 124.4,
+      "lmsToDemo": 40
+    },
+    {
+      "bg": "rgb(247, 245, 240)",
+      "interestFieldVis": 201.9,
+      "interestPVis": 9.9,
+      "optical": -72.4,
+      "demoVis": 124.4,
+      "lmsToDemo": 40
+    },
+    {
+      "bg": "rgb(245, 243, 238)",
+      "interestFieldVis": 201.9,
+      "interestPVis": 9.9,
+      "optical": -72.4,
+      "demoVis": 124.4,
+      "lmsToDemo": 40
+    }
+  ],
+  "clipProbe": [
+    {
+      "label": "none",
+      "interestPVis": 9.9,
+      "interestH2Vis": 0,
+      "interestFieldVis": 201.9,
+      "deadBelowP": 192,
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "demoVis": 124.4,
+      "videoVis": 79.4,
+      "lmsToDemo": 40,
+      "titleToMech": 39.2,
+      "mechToLms": 39.2,
+      "isIn": true,
+      "copyField": "rgb(248, 246, 241)",
+      "solutionField": "rgb(246, 244, 239)",
+      "copyGrain": "0.45",
+      "solutionGrain": "0.25",
+      "chromeAboveVideo": 45,
+      "chromeBelowVideo": 13,
+      "mattePct": 12.6,
+      "frameH": 461.2,
+      "videoH": 403.2
+    },
+    {
+      "label": "clip-solution-top",
+      "interestPVis": 9.9,
+      "interestH2Vis": 0,
+      "interestFieldVis": 201.9,
+      "deadBelowP": 192,
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "demoVis": 124.4,
+      "videoVis": 79.4,
+      "lmsToDemo": 40,
+      "titleToMech": 39.2,
+      "mechToLms": 39.2,
+      "isIn": true,
+      "copyField": "rgb(248, 246, 241)",
+      "solutionField": "rgb(246, 244, 239)",
+      "copyGrain": "0.45",
+      "solutionGrain": "0.25",
+      "chromeAboveVideo": 45,
+      "chromeBelowVideo": 13,
+      "mattePct": 12.6,
+      "frameH": 461.2,
+      "videoH": 403.2
+    },
+    {
+      "label": "raise-sol-padT",
+      "interestPVis": 9.9,
+      "interestH2Vis": 0,
+      "interestFieldVis": 201.9,
+      "deadBelowP": 192,
+      "optical": -48.4,
+      "claimShare": 43.6,
+      "demoVis": 100.4,
+      "videoVis": 55.4,
+      "lmsToDemo": 40,
+      "titleToMech": 39.2,
+      "mechToLms": 39.2,
+      "isIn": true,
+      "copyField": "rgb(248, 246, 241)",
+      "solutionField": "rgb(246, 244, 239)",
+      "copyGrain": "0.45",
+      "solutionGrain": "0.25",
+      "chromeAboveVideo": 45,
+      "chromeBelowVideo": 13,
+      "mattePct": 12.6,
+      "frameH": 461.2,
+      "videoH": 403.2
+    },
+    {
+      "label": "lower-copy-field",
+      "interestPVis": 9.9,
+      "interestH2Vis": 0,
+      "interestFieldVis": 201.9,
+      "deadBelowP": 192,
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "demoVis": 124.4,
+      "videoVis": 79.4,
+      "lmsToDemo": 40,
+      "titleToMech": 39.2,
+      "mechToLms": 39.2,
+      "isIn": true,
+      "copyField": "rgb(246, 244, 239)",
+      "solutionField": "rgb(246, 244, 239)",
+      "copyGrain": "0.45",
+      "solutionGrain": "0.25",
+      "chromeAboveVideo": 45,
+      "chromeBelowVideo": 13,
+      "mattePct": 12.6,
+      "frameH": 461.2,
+      "videoH": 403.2
+    }
+  ],
+  "midSweep": [
+    {
+      "pb": 11,
+      "gapDemoToCta": 39.3,
+      "urgH2Vis": 2.3,
+      "storyVis": 222.3,
+      "emptyStoryPeek": 220,
+      "afterPadB": "176px"
+    },
+    {
+      "pb": 10,
+      "gapDemoToCta": 40,
+      "urgH2Vis": 10.3,
+      "storyVis": 230.3,
+      "emptyStoryPeek": 220,
+      "afterPadB": "160px"
+    },
+    {
+      "pb": 9.5,
+      "gapDemoToCta": 40,
+      "urgH2Vis": 14.3,
+      "storyVis": 234.3,
+      "emptyStoryPeek": 220,
+      "afterPadB": "152px"
+    },
+    {
+      "pb": 9,
+      "gapDemoToCta": 40,
+      "urgH2Vis": 18.3,
+      "storyVis": 238.3,
+      "emptyStoryPeek": 220,
+      "afterPadB": "144px"
+    },
+    {
+      "pb": 8.5,
+      "gapDemoToCta": 40,
+      "urgH2Vis": 22.3,
+      "storyVis": 242.3,
+      "emptyStoryPeek": 220,
+      "afterPadB": "136px"
+    },
+    {
+      "pb": 8,
+      "gapDemoToCta": 40,
+      "urgH2Vis": 26.3,
+      "storyVis": 246.3,
+      "emptyStoryPeek": 220,
+      "afterPadB": "128px"
+    },
+    {
+      "pb": 7.5,
+      "gapDemoToCta": 40,
+      "urgH2Vis": 30.3,
+      "storyVis": 250.3,
+      "emptyStoryPeek": 220,
+      "afterPadB": "120px"
+    }
+  ],
+  "midLive": {
+    "pb": 11,
+    "gapDemoToCta": 39.3,
+    "urgH2Vis": 2.3,
+    "storyVis": 222.3,
+    "emptyStoryPeek": 220,
+    "afterPadB": "176px"
+  },
+  "demoChrome": {
+    "label": "demoChrome",
+    "interestPVis": 9.9,
+    "interestH2Vis": 0,
+    "interestFieldVis": 201.9,
+    "deadBelowP": 192,
+    "optical": -72.4,
+    "claimShare": 43.6,
+    "demoVis": 124.4,
+    "videoVis": 79.4,
+    "lmsToDemo": 40,
+    "titleToMech": 39.2,
+    "mechToLms": 39.2,
+    "isIn": true,
+    "copyField": "rgb(248, 246, 241)",
+    "solutionField": "rgb(246, 244, 239)",
+    "copyGrain": "0.45",
+    "solutionGrain": "0.25",
+    "chromeAboveVideo": 45,
+    "chromeBelowVideo": 13,
+    "mattePct": 12.6,
+    "frameH": 461.2,
+    "videoH": 403.2
+  },
+  "demoDetail": {
+    "framePad": {
+      "t": "44px",
+      "r": "12px",
+      "b": "12px",
+      "l": "12px"
+    },
+    "frameBg": "rgb(234, 232, 227)",
+    "videoMt": "0px",
+    "videoObjectFit": "contain",
+    "chromeAbove": 45,
+    "chromeBelow": 13,
+    "chromeLeft": 13,
+    "chromeRight": 13,
+    "mattePct": 12.6,
+    "playTopInFrame": 6.6,
+    "playInMatteZone": true,
+    "videoVisShareOfDemo": 63.8
+  },
+  "demoAuthored": {
+    "frameRule": ".demo-frame {\r\n    position: relative;\r\n    margin: 0;\r\n    padding: 2.75rem 0.75rem 0.75rem;\r\n    background: var(--bone-deep);\r\n    border: 1px solid rgba(8, 40, 72, 0.12);\r\n}",
+    "playRule": ".demo-play {\r\n    position: absolute;\r\n    left: 0.55rem;\r\n    top: 0.35rem;\r\n    bottom: auto;\r\n    transform: none;\r\n    z-index: 2;\r\n    border: 1px solid rgba(8, 40, 72, 0.35);\r\n    background: var(--bone);\r\n    color: var(--ink);\r\n    font-family: \"Inter\", system-ui, sans-serif;\r\n    font-size:",
+    "bandRule": ".demo-band {\r\n    position: relative;\r\n    z-index: 1;\r\n}"
+  },
+  "matteSweep": [
+    {
+      "label": "matte-null",
+      "chromeAboveVideo": 45,
+      "chromeBelowVideo": 13,
+      "mattePct": 12.6,
+      "demoVis": 124.4,
+      "videoVis": 79.4,
+      "optical": -72.4,
+      "lmsToDemo": 40
+    },
+    {
+      "label": "matte-0",
+      "chromeAboveVideo": 1,
+      "chromeBelowVideo": 13,
+      "mattePct": 3.4,
+      "demoVis": 124.4,
+      "videoVis": 123.4,
+      "optical": -72.4,
+      "lmsToDemo": 40
+    },
+    {
+      "label": "matte-8px",
+      "chromeAboveVideo": 9,
+      "chromeBelowVideo": 13,
+      "mattePct": 5.2,
+      "demoVis": 124.4,
+      "videoVis": 115.4,
+      "optical": -72.4,
+      "lmsToDemo": 40
+    },
+    {
+      "label": "matte-12px",
+      "chromeAboveVideo": 13,
+      "chromeBelowVideo": 13,
+      "mattePct": 6.1,
+      "demoVis": 124.4,
+      "videoVis": 111.4,
+      "optical": -72.4,
+      "lmsToDemo": 40
+    },
+    {
+      "label": "matte-16px",
+      "chromeAboveVideo": 17,
+      "chromeBelowVideo": 13,
+      "mattePct": 6.9,
+      "demoVis": 124.4,
+      "videoVis": 107.4,
+      "optical": -72.4,
+      "lmsToDemo": 40
+    },
+    {
+      "label": "matte-24px",
+      "chromeAboveVideo": 25,
+      "chromeBelowVideo": 13,
+      "mattePct": 8.6,
+      "demoVis": 124.4,
+      "videoVis": 99.4,
+      "optical": -72.4,
+      "lmsToDemo": 40
+    }
+  ],
+  "storyAnatomy": {
+    "storyMinH": "740px",
+    "storyPadT": "0px",
+    "storyPadB": "0px",
+    "storyBg": "rgb(241, 239, 233)",
+    "afterPadB": "176px",
+    "solutionPadB": "0px",
+    "hairline": "0px rgb(8, 40, 72)"
+  },
+  "proof": {
+    "settled": true,
+    "grain": "0.3",
+    "urgPeek": 0
+  },
+  "fieldAnatomy": {
+    "copyTop": -456,
+    "copyBottom": 201.9,
+    "pBottom": 9.9,
+    "solTop": 201.9,
+    "titleTop": 241.9,
+    "fieldStripInVp": 192,
+    "fieldAboveSolInVp": 201.9,
+    "gapPToSol": 192,
+    "copyField": "rgb(248, 246, 241)",
+    "bone": "rgb(246, 244, 239)",
+    "deltaR": 2,
+    "deltaG": 2,
+    "deltaB": 2
+  },
+  "unpaidCandidates": {
+    "interestFieldVis": 201.9,
+    "interestPVis": 9.9,
+    "midStoryVis": 222.3,
+    "midEmptyPeek": 220,
+    "demoMattePct": 12.6,
+    "chromeAbove": 45,
+    "videoVisShare": 63.8
+  }
+}

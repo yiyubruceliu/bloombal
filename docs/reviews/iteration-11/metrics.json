@@ -1,0 +1,458 @@
+{
+  "hero1280": {
+    "lede": {
+      "t": 345.6,
+      "b": 383.3,
+      "l": 128,
+      "r": 640,
+      "w": 512,
+      "h": 37.7,
+      "cx": 384
+    },
+    "cta": {
+      "t": 410.4,
+      "b": 470.1,
+      "l": 128,
+      "r": 395.5,
+      "w": 267.5,
+      "h": 59.7,
+      "cx": 261.7
+    },
+    "proc": {
+      "t": 496.8,
+      "b": 529.2,
+      "l": 128,
+      "r": 384,
+      "w": 256,
+      "h": 32.4,
+      "cx": 256
+    },
+    "desk": {
+      "t": 547.2,
+      "b": 720,
+      "l": 0,
+      "r": 1280,
+      "w": 1280,
+      "h": 172.8,
+      "cx": 640
+    },
+    "val": {
+      "t": 273.6,
+      "b": 345.6,
+      "l": 128,
+      "r": 524,
+      "w": 396,
+      "h": 72,
+      "cx": 326
+    },
+    "brand": {
+      "t": 24,
+      "b": 60,
+      "l": 128,
+      "r": 290.1,
+      "w": 162.1,
+      "h": 36,
+      "cx": 209
+    },
+    "ledeCtaGap": 27.1,
+    "ctaProcGap": 26.7,
+    "procDesk": 18,
+    "ctaDesk": 77.1,
+    "ctaMassRatio": 0.56,
+    "processHref": "#solution",
+    "indicesPos": "absolute",
+    "indicesBox": {
+      "t": 0,
+      "b": 288,
+      "l": 0,
+      "r": 128,
+      "w": 128,
+      "h": 288,
+      "cx": 64
+    },
+    "rightEmptyPct": 77.3
+  },
+  "afterProcess": {
+    "scrollY": 1156,
+    "title": {
+      "t": 97.3,
+      "b": 234.4,
+      "l": 180,
+      "visiblePx": 137.0625,
+      "cx": 401.9
+    },
+    "mech": {
+      "t": 254.4,
+      "b": 317.7,
+      "l": 180,
+      "visiblePx": 63.34375,
+      "cx": 498.2
+    },
+    "demo": {
+      "t": 337.7,
+      "b": 766.9,
+      "l": 180,
+      "visiblePx": 382.265625,
+      "cx": 640
+    },
+    "problem": {
+      "t": -436,
+      "b": 24.3,
+      "l": 0,
+      "visiblePx": 24.328125,
+      "cx": 640
+    },
+    "lms": {
+      "t": 858.4,
+      "b": 913.8,
+      "l": 180,
+      "visiblePx": 0,
+      "cx": 447.9
+    },
+    "midCta": {
+      "t": 784.5,
+      "b": 842.4,
+      "l": 180,
+      "visiblePx": 0,
+      "cx": 309.1
+    },
+    "activeIndex": "03",
+    "demoOp": "1"
+  },
+  "hashDemo": {
+    "scrollY": 1493,
+    "title": {
+      "t": -239.7,
+      "visiblePx": 0,
+      "above": true
+    },
+    "mech": {
+      "t": -82.6,
+      "visiblePx": 0,
+      "above": true
+    },
+    "demo": {
+      "t": 0.7,
+      "visiblePx": 429.1875,
+      "above": false
+    },
+    "demoScrollMargin": "0px",
+    "solutionScrollMargin": "24px"
+  },
+  "desire": {
+    "title": {
+      "t": 97.3,
+      "b": 234.4,
+      "l": 180,
+      "w": 443.9,
+      "h": 137.1,
+      "cx": 401.9
+    },
+    "mech": {
+      "t": 254.4,
+      "b": 317.7,
+      "l": 180,
+      "w": 636.3,
+      "h": 63.3,
+      "cx": 498.2
+    },
+    "demo": {
+      "t": 337.8,
+      "b": 767,
+      "l": 180,
+      "w": 920,
+      "h": 429.2,
+      "cx": 640
+    },
+    "inner": {
+      "t": 25.3,
+      "b": 337.7,
+      "l": 180,
+      "w": 920,
+      "h": 312.4,
+      "cx": 640
+    },
+    "cta": {
+      "t": 784.5,
+      "b": 842.4,
+      "l": 180,
+      "w": 258.2,
+      "h": 57.9,
+      "cx": 309.1
+    },
+    "lms": {
+      "t": 858.4,
+      "b": 913.8,
+      "l": 180,
+      "w": 535.9,
+      "h": 55.4,
+      "cx": 447.9
+    },
+    "deltaTitleDemoLeft": 0,
+    "deltaInnerDemoLeft": 0,
+    "deltaCtaDemoLeft": 0,
+    "afterOrder": "cta-then-lms",
+    "ctaLmsGap": 16,
+    "h2MaxW": "443.904px",
+    "titleLines": 3
+  },
+  "demoReveal": {
+    "op": "1",
+    "hasWill": true,
+    "hasIn": true,
+    "videoControls": true
+  },
+  "posterSample": {
+    "frameBg": "rgb(234, 232, 227)",
+    "videoBg": "rgb(234, 232, 227)",
+    "framePad": "12px"
+  },
+  "urgency": {
+    "h": 258,
+    "pad": 96,
+    "padRatio": 0.37,
+    "activeIndex": "03",
+    "indicesInView": false,
+    "indicesTop": -2103
+  },
+  "partners": {
+    "gaps": [
+      40,
+      40
+    ],
+    "occPct": 27.8,
+    "stripW": 920,
+    "justify": "center",
+    "activeIndex": "03",
+    "indicesInView": false
+  },
+  "footer": {
+    "kids": [
+      {
+        "tag": "H2",
+        "t": 386.4
+      },
+      {
+        "tag": "A.cta-trial",
+        "t": 438
+      },
+      {
+        "tag": "A.footer-email",
+        "t": 515.9
+      },
+      {
+        "tag": "DIV.social-links",
+        "t": 554.9
+      },
+      {
+        "tag": "P.copyright",
+        "t": 606
+      }
+    ],
+    "ctaBg": "rgb(246, 244, 239)",
+    "footBg": "rgb(8, 40, 72)",
+    "activeIndex": "03",
+    "indicesInView": false
+  },
+  "indexPath": [
+    {
+      "sel": "#home",
+      "idx": "01",
+      "indicesVisible": true,
+      "indicesTop": 0
+    },
+    {
+      "sel": "#problem",
+      "idx": "02",
+      "indicesVisible": false,
+      "indicesTop": -720
+    },
+    {
+      "sel": "#solution",
+      "idx": "03",
+      "indicesVisible": false,
+      "indicesTop": -1156
+    },
+    {
+      "sel": "#urgency",
+      "idx": "03",
+      "indicesVisible": false,
+      "indicesTop": -2103
+    },
+    {
+      "sel": "#partners",
+      "idx": "03",
+      "indicesVisible": false,
+      "indicesTop": -2192
+    },
+    {
+      "sel": "#contact",
+      "idx": "03",
+      "indicesVisible": false,
+      "indicesTop": -2192
+    }
+  ],
+  "measureAudit": {
+    "problemCh": 38.1,
+    "mechCh": 33.1,
+    "lmsCh": 31.9,
+    "solutionTitleCh": 10.9,
+    "scrollMargins": {
+      "home": "0px",
+      "problem": "0px",
+      "solution": "24px",
+      "demo": "0px",
+      "urgency": "0px",
+      "partners": "0px",
+      "contact": "0px"
+    },
+    "focusOutlineCta": "none",
+    "iceToken": "#77cafc"
+  },
+  "afterDemoViewport": {
+    "demo": {
+      "t": -159.3,
+      "b": 269.9,
+      "visiblePx": 269.921875
+    },
+    "cta": {
+      "t": 287.5,
+      "b": 345.4,
+      "visiblePx": 57.90625
+    },
+    "lms": {
+      "t": 361.4,
+      "b": 416.8,
+      "visiblePx": 55.40625
+    },
+    "urgencyTitle": {
+      "t": 499.4,
+      "b": 579.7,
+      "visiblePx": 80.28125
+    }
+  },
+  "hero1120": {
+    "brand": {
+      "t": 88,
+      "b": 140,
+      "pos": "relative",
+      "z": "5",
+      "op": "1"
+    },
+    "lede": {
+      "t": 332.4,
+      "b": 357.3,
+      "pos": "relative",
+      "z": "5",
+      "op": "1"
+    },
+    "cta": {
+      "t": 377.3,
+      "b": 433.6,
+      "pos": "relative",
+      "z": "5",
+      "op": "1"
+    },
+    "proc": {
+      "t": 449.6,
+      "b": 472.1,
+      "pos": "relative",
+      "z": "5",
+      "op": "1"
+    },
+    "val": {
+      "t": 252.8,
+      "b": 312.4,
+      "pos": "relative",
+      "z": "5",
+      "op": "1"
+    },
+    "ledeCtaGap": 20,
+    "plateZ": "0",
+    "boneZ": "0"
+  },
+  "hero390": {
+    "brand": {
+      "t": 88,
+      "b": 140,
+      "op": "1",
+      "z": "5"
+    },
+    "title": {
+      "t": 196,
+      "b": 270.1,
+      "op": "1",
+      "z": "5"
+    },
+    "cta": {
+      "t": 381,
+      "b": 437.3,
+      "op": "1",
+      "z": "5"
+    },
+    "proc": {
+      "t": 453.3,
+      "b": 475.8,
+      "op": "1",
+      "z": "5"
+    },
+    "desk": {
+      "t": 624.6,
+      "b": 844,
+      "op": "1",
+      "z": "1"
+    },
+    "procDeskClear": 148.8,
+    "ctaFont": "15.2px",
+    "procFont": "14.08px"
+  },
+  "partners390": {
+    "imgs": [
+      {
+        "t": 339.8,
+        "l": 27.3,
+        "w": 75.5
+      },
+      {
+        "t": 339.8,
+        "l": 142.7,
+        "w": 108
+      },
+      {
+        "t": 339.8,
+        "l": 290.7,
+        "w": 72
+      }
+    ],
+    "rowCount": 1
+  },
+  "index03Click": {
+    "scrollY": 1156,
+    "title": {
+      "t": 97.3,
+      "visiblePx": 137.0625
+    },
+    "mech": {
+      "t": 254.4,
+      "visiblePx": 63.34375
+    },
+    "demo": {
+      "t": 337.7,
+      "visiblePx": 382.265625
+    },
+    "problemVisiblePx": 24.328125
+  },
+  "index02Click": {
+    "scrollY": 720,
+    "title": {
+      "t": 73,
+      "visiblePx": 204.25
+    },
+    "body": {
+      "t": 297.3,
+      "visiblePx": 91.078125
+    },
+    "problemScrollMargin": "0px",
+    "titleOptical": 73
+  }
+}

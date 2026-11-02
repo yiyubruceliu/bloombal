@@ -1,0 +1,42 @@
+{
+  "interest": {
+    "bodyFs": "19.52px",
+    "bodyMw": "623.001px",
+    "bodyW": 623,
+    "measureChCss": 31.9,
+    "measureChGlyph": 63.9,
+    "innerW": 920,
+    "innerMaxW": "none",
+    "lookInnerRule": "920px"
+  },
+  "desk": {
+    "deskH": 172.8,
+    "deskVis": 172.8,
+    "procDesk": 31,
+    "ledeCta": 30.7,
+    "ctaProc": 13.8,
+    "deskTopCss": "547.188px",
+    "deskHCss": "172.797px"
+  },
+  "foot": {
+    "h2Text": "Trial Bloombal",
+    "h2Fs": "39.2px",
+    "h2Lh": "41.16px",
+    "h2H": 82.3,
+    "h2T": 315.1,
+    "h2Vis": 82.3,
+    "ctaH": 57.9,
+    "ctaT": 417.4,
+    "ctaVis": 57.9,
+    "footerTopVp": 263.1,
+    "padT": "52px"
+  },
+  "claim": {
+    "claimH": 289.6,
+    "share": 40.2,
+    "need40": 288,
+    "short40": -1.6,
+    "optical": -85.6,
+    "lines": 2
+  }
+}

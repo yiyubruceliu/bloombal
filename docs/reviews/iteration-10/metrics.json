@@ -1,0 +1,1445 @@
+{
+  "d1280": {
+    "brandPos": "absolute",
+    "brandZ": "5",
+    "plateZ": "0",
+    "brandOp": "1",
+    "processGap": 33.9,
+    "processDesk": 21.6,
+    "ctaDesk": 87.9,
+    "processOverDesk": false,
+    "ctaOverDesk": false,
+    "ctaArea": 15964,
+    "valArea": 28514,
+    "ctaMassRatio": 0.56,
+    "rightEmpty": 59.1,
+    "indexIntrudes": true,
+    "idx": {
+      "t": 0,
+      "b": 288,
+      "l": 0,
+      "r": 128,
+      "w": 128,
+      "h": 288
+    },
+    "mainBox": {
+      "t": 201.6,
+      "b": 273.6,
+      "l": 128,
+      "r": 1152,
+      "w": 1024,
+      "h": 72
+    },
+    "brand": {
+      "t": 24,
+      "b": 60,
+      "l": 128,
+      "r": 290.1,
+      "w": 162.1,
+      "h": 36
+    },
+    "cta": {
+      "t": 399.6,
+      "b": 459.3,
+      "l": 128,
+      "r": 395.5,
+      "w": 267.5,
+      "h": 59.7
+    },
+    "process": {
+      "t": 493.2,
+      "b": 525.6,
+      "l": 128,
+      "r": 384,
+      "w": 256,
+      "h": 32.4
+    },
+    "desk": {
+      "t": 547.2,
+      "b": 720,
+      "l": 0,
+      "r": 1280,
+      "w": 1280,
+      "h": 172.8
+    },
+    "lede": {
+      "t": 360,
+      "b": 397.7,
+      "l": 128,
+      "r": 640,
+      "w": 512,
+      "h": 37.7
+    },
+    "val": {
+      "t": 273.6,
+      "b": 345.6,
+      "l": 128,
+      "r": 524,
+      "w": 396,
+      "h": 72
+    },
+    "imgs": [
+      {
+        "alt": "NHL Stenden",
+        "w": 75.5,
+        "h": 72,
+        "l": 287.6,
+        "r": 363.1,
+        "t": 2396
+      },
+      {
+        "alt": "MODUL Vienna",
+        "w": 108,
+        "h": 72,
+        "l": 586,
+        "r": 694,
+        "t": 2396
+      },
+      {
+        "alt": "FH Wien",
+        "w": 72,
+        "h": 72,
+        "l": 918.7,
+        "r": 990.7,
+        "t": 2396
+      }
+    ],
+    "emptyRight": 11.9,
+    "gapsBetween": [
+      222.9,
+      224.7
+    ],
+    "stripW": 920,
+    "partnersH": 145,
+    "urgencyH": 258,
+    "urgencyPadRatio": 0.37,
+    "afterH": 178.1,
+    "afterPad": {
+      "t": 17.6,
+      "b": 33.6
+    },
+    "afterOrder": [
+      {
+        "cls": "mechanism-lms",
+        "tag": "P",
+        "top": 1940.5,
+        "h": 55.4
+      },
+      {
+        "cls": "cta-trial",
+        "tag": "A",
+        "top": 2009.5,
+        "h": 57.9
+      }
+    ],
+    "midCta": {
+      "t": 2009.5,
+      "b": 2067.4,
+      "l": 180,
+      "r": 438.2,
+      "w": 258.2,
+      "h": 57.9
+    },
+    "lms": {
+      "t": 1940.5,
+      "b": 1995.9,
+      "l": 180,
+      "r": 715.9,
+      "w": 535.9,
+      "h": 55.4
+    },
+    "lmsToCta": 13.6,
+    "solKids": [
+      {
+        "tag": "DIV",
+        "id": null,
+        "cls": "look-inner",
+        "top": 1181.3,
+        "h": 312.4
+      },
+      {
+        "tag": "DIV",
+        "id": "demo",
+        "cls": "demo-band will-reveal",
+        "top": 1509.7,
+        "h": 429.2
+      },
+      {
+        "tag": "DIV",
+        "id": null,
+        "cls": "look-inner look-inner--after-demo",
+        "top": 1922.9,
+        "h": 178.1
+      }
+    ],
+    "fKids": [
+      {
+        "tag": "H2",
+        "cls": "",
+        "top": 2576
+      },
+      {
+        "tag": "A",
+        "cls": "cta-trial",
+        "top": 2627.5
+      },
+      {
+        "tag": "A",
+        "cls": "footer-email",
+        "top": 2705.5
+      },
+      {
+        "tag": "DIV",
+        "cls": "social-links",
+        "top": 2744.5
+      },
+      {
+        "tag": "P",
+        "cls": "copyright",
+        "top": 2795.5
+      }
+    ],
+    "processHref": "#demo",
+    "willP": "hero-frame will-present is-present",
+    "frameT": "none",
+    "frameH": 720,
+    "viewportH": 720,
+    "heroZ": [
+      {
+        "name": "brand",
+        "t": 24,
+        "b": 60,
+        "pos": "absolute",
+        "z": "5"
+      },
+      {
+        "name": "main",
+        "t": 201.6,
+        "b": 273.6,
+        "pos": "absolute",
+        "z": "5"
+      },
+      {
+        "name": "val",
+        "t": 273.6,
+        "b": 345.6,
+        "pos": "absolute",
+        "z": "5"
+      },
+      {
+        "name": "lede",
+        "t": 360,
+        "b": 397.7,
+        "pos": "absolute",
+        "z": "6"
+      },
+      {
+        "name": "cta",
+        "t": 399.6,
+        "b": 459.3,
+        "pos": "absolute",
+        "z": "6"
+      },
+      {
+        "name": "process",
+        "t": 493.2,
+        "b": 525.6,
+        "pos": "absolute",
+        "z": "6"
+      },
+      {
+        "name": "desk",
+        "t": 547.2,
+        "b": 720,
+        "pos": "absolute",
+        "z": "1"
+      }
+    ],
+    "problemMeasure": {
+      "chApprox": 38.1,
+      "maxW": "700.188px",
+      "w": 700.2
+    },
+    "videoBox": {
+      "t": 1522.7,
+      "b": 1925.9,
+      "l": 103,
+      "r": 1177,
+      "w": 1074,
+      "h": 403.2
+    },
+    "demoOp": "0",
+    "demoClasses": "demo-band will-reveal",
+    "urgToPart": 0,
+    "partToFoot": 0,
+    "problemDocTop": 720,
+    "demoDocTop": 312,
+    "solutionDocTop": 1180,
+    "urgencyDocTop": 2101,
+    "partnersDocTop": 2359,
+    "ctaProcessAlign": {
+      "ctaL": 128,
+      "processL": 128,
+      "delta": 0
+    },
+    "valLedeGap": 14.4,
+    "ledeCtaGap": 1.9,
+    "copyrightColor": "rgba(246, 244, 239, 0.72)",
+    "footerBg": "rgb(8, 40, 72)",
+    "solTitle": {
+      "fs": "40.8px",
+      "maxW": "443.904px",
+      "w": 443.9,
+      "h": 137.1
+    },
+    "lookInnerW": 920,
+    "demoBandW": 1100,
+    "lookInnerL": 180,
+    "demoBandL": 90,
+    "indexAt": {
+      "#urgency": [
+        {
+          "t": "01",
+          "on": false
+        },
+        {
+          "t": "02",
+          "on": false
+        },
+        {
+          "t": "03",
+          "on": true
+        }
+      ],
+      "#partners": [
+        {
+          "t": "01",
+          "on": false
+        },
+        {
+          "t": "02",
+          "on": false
+        },
+        {
+          "t": "03",
+          "on": true
+        }
+      ],
+      "#contact": [
+        {
+          "t": "01",
+          "on": false
+        },
+        {
+          "t": "02",
+          "on": false
+        },
+        {
+          "t": "03",
+          "on": true
+        }
+      ]
+    },
+    "demoRevealAfterScroll": {
+      "op": "1",
+      "cls": "demo-band will-reveal is-in"
+    },
+    "atSolutionEntry": {
+      "titleTop": 113.3,
+      "mechTop": 270.4,
+      "demoTop": 353.7,
+      "demoInView": true,
+      "demoOpacity": "1",
+      "demoCls": "demo-band will-reveal is-in",
+      "demoBelowFoldPx": 0
+    }
+  },
+  "w1120": {
+    "brandPos": "relative",
+    "brandZ": "5",
+    "plateZ": "0",
+    "brandOp": "1",
+    "processGap": 16,
+    "processDesk": 80.7,
+    "ctaDesk": 119.2,
+    "processOverDesk": false,
+    "ctaOverDesk": false,
+    "ctaArea": 14027,
+    "valArea": 62200,
+    "ctaMassRatio": 0.23,
+    "rightEmpty": 1.8,
+    "indexIntrudes": false,
+    "idx": {
+      "t": 88,
+      "b": 181.4,
+      "l": 0,
+      "r": 44,
+      "w": 44,
+      "h": 93.4
+    },
+    "mainBox": {
+      "t": 196,
+      "b": 250.4,
+      "l": 56,
+      "r": 1100,
+      "w": 1044,
+      "h": 54.4
+    },
+    "brand": {
+      "t": 88,
+      "b": 140,
+      "l": 56,
+      "r": 1100,
+      "w": 1044,
+      "h": 52
+    },
+    "cta": {
+      "t": 357.3,
+      "b": 413.6,
+      "l": 56,
+      "r": 305.1,
+      "w": 249.1,
+      "h": 56.3
+    },
+    "process": {
+      "t": 429.6,
+      "b": 452.1,
+      "l": 56,
+      "r": 1100,
+      "w": 1044,
+      "h": 22.5
+    },
+    "desk": {
+      "t": 532.8,
+      "b": 720,
+      "l": 0,
+      "r": 1120,
+      "w": 1120,
+      "h": 187.2
+    },
+    "lede": {
+      "t": 332.4,
+      "b": 357.3,
+      "l": 160.4,
+      "r": 1204.4,
+      "w": 1044,
+      "h": 24.9
+    },
+    "val": {
+      "t": 252.8,
+      "b": 312.4,
+      "l": 56,
+      "r": 1100,
+      "w": 1044,
+      "h": 59.6
+    },
+    "imgs": [
+      {
+        "alt": "NHL Stenden",
+        "w": 75.5,
+        "h": 72,
+        "l": 154.3,
+        "r": 229.7,
+        "t": 2078.8
+      },
+      {
+        "alt": "MODUL Vienna",
+        "w": 108,
+        "h": 72,
+        "l": 506,
+        "r": 614,
+        "t": 2078.8
+      },
+      {
+        "alt": "FH Wien",
+        "w": 72,
+        "h": 72,
+        "l": 892,
+        "r": 964,
+        "t": 2078.8
+      }
+    ],
+    "emptyRight": 12.6,
+    "gapsBetween": [
+      276.3,
+      278
+    ],
+    "stripW": 1080,
+    "partnersH": 145,
+    "urgencyH": 205.5,
+    "urgencyPadRatio": 0.43,
+    "afterH": 174.9,
+    "afterPad": {
+      "t": 16,
+      "b": 32
+    },
+    "afterOrder": [
+      {
+        "cls": "mechanism-lms",
+        "tag": "P",
+        "top": 1677.3,
+        "h": 55.4
+      },
+      {
+        "cls": "cta-trial",
+        "tag": "A",
+        "top": 1746.3,
+        "h": 57.9
+      }
+    ],
+    "midCta": {
+      "t": 1746.3,
+      "b": 1804.2,
+      "l": 20,
+      "r": 278.2,
+      "w": 258.2,
+      "h": 57.9
+    },
+    "lms": {
+      "t": 1677.3,
+      "b": 1732.7,
+      "l": 20,
+      "r": 555.9,
+      "w": 535.9,
+      "h": 55.4
+    },
+    "lmsToCta": 13.6,
+    "solKids": [
+      {
+        "tag": "DIV",
+        "id": null,
+        "cls": "look-inner",
+        "top": 1019.2,
+        "h": 213
+      },
+      {
+        "tag": "DIV",
+        "id": "demo",
+        "cls": "demo-band will-reveal",
+        "top": 1248.1,
+        "h": 429.2
+      },
+      {
+        "tag": "DIV",
+        "id": null,
+        "cls": "look-inner look-inner--after-demo",
+        "top": 1661.3,
+        "h": 174.9
+      }
+    ],
+    "fKids": [
+      {
+        "tag": "H2",
+        "cls": "",
+        "top": 2258.8
+      },
+      {
+        "tag": "A",
+        "cls": "cta-trial",
+        "top": 2306.5
+      },
+      {
+        "tag": "A",
+        "cls": "footer-email",
+        "top": 2384.5
+      },
+      {
+        "tag": "DIV",
+        "cls": "social-links",
+        "top": 2423.5
+      },
+      {
+        "tag": "P",
+        "cls": "copyright",
+        "top": 2474.5
+      }
+    ],
+    "processHref": "#demo",
+    "willP": "hero-frame will-present is-present",
+    "frameT": "none",
+    "frameH": 720,
+    "viewportH": 720,
+    "heroZ": [
+      {
+        "name": "brand",
+        "t": 88,
+        "b": 140,
+        "pos": "relative",
+        "z": "5"
+      },
+      {
+        "name": "main",
+        "t": 196,
+        "b": 250.4,
+        "pos": "relative",
+        "z": "5"
+      },
+      {
+        "name": "val",
+        "t": 252.8,
+        "b": 312.4,
+        "pos": "relative",
+        "z": "5"
+      },
+      {
+        "name": "lede",
+        "t": 332.4,
+        "b": 357.3,
+        "pos": "relative",
+        "z": "5"
+      },
+      {
+        "name": "cta",
+        "t": 357.3,
+        "b": 413.6,
+        "pos": "relative",
+        "z": "5"
+      },
+      {
+        "name": "process",
+        "t": 429.6,
+        "b": 452.1,
+        "pos": "relative",
+        "z": "5"
+      },
+      {
+        "name": "desk",
+        "t": 532.8,
+        "b": 720,
+        "pos": "absolute",
+        "z": "1"
+      }
+    ],
+    "problemMeasure": {
+      "chApprox": 38.1,
+      "maxW": "700.188px",
+      "w": 700.2
+    },
+    "videoBox": {
+      "t": 1261.1,
+      "b": 1664.3,
+      "l": 45,
+      "r": 1075,
+      "w": 1030,
+      "h": 403.2
+    },
+    "demoOp": "0",
+    "demoClasses": "demo-band will-reveal",
+    "urgToPart": 0,
+    "partToFoot": 0,
+    "problemDocTop": 720,
+    "demoDocTop": 213,
+    "solutionDocTop": 1018,
+    "urgencyDocTop": 1836,
+    "partnersDocTop": 2042,
+    "ctaProcessAlign": {
+      "ctaL": 56,
+      "processL": 56,
+      "delta": 0
+    },
+    "valLedeGap": 20,
+    "ledeCtaGap": 0,
+    "copyrightColor": "rgba(246, 244, 239, 0.72)",
+    "footerBg": "rgb(8, 40, 72)",
+    "solTitle": {
+      "fs": "33.6px",
+      "maxW": "none",
+      "w": 1080,
+      "h": 37.6
+    },
+    "lookInnerW": 1080,
+    "demoBandW": 1056,
+    "lookInnerL": 20,
+    "demoBandL": 32,
+    "indexAt": {
+      "#urgency": [
+        {
+          "t": "01",
+          "on": false
+        },
+        {
+          "t": "02",
+          "on": false
+        },
+        {
+          "t": "03",
+          "on": true
+        }
+      ],
+      "#partners": [
+        {
+          "t": "01",
+          "on": false
+        },
+        {
+          "t": "02",
+          "on": false
+        },
+        {
+          "t": "03",
+          "on": true
+        }
+      ],
+      "#contact": [
+        {
+          "t": "01",
+          "on": false
+        },
+        {
+          "t": "02",
+          "on": false
+        },
+        {
+          "t": "03",
+          "on": true
+        }
+      ]
+    },
+    "paintSample": {
+      "ink": "rgb(8, 40, 72)",
+      "pos": "relative",
+      "z": "5",
+      "brandBox": {
+        "x": 157,
+        "y": -1754,
+        "t": -1768.71875,
+        "l": 116.796875,
+        "w": 81.03125
+      }
+    }
+  },
+  "m390": {
+    "brandPos": "relative",
+    "brandZ": "5",
+    "plateZ": "0",
+    "brandOp": "1",
+    "processGap": 16,
+    "processDesk": 168.8,
+    "ctaDesk": 207.3,
+    "processOverDesk": false,
+    "ctaOverDesk": false,
+    "ctaArea": 14027,
+    "valArea": 13674,
+    "ctaMassRatio": 1.03,
+    "rightEmpty": 5.1,
+    "indexIntrudes": false,
+    "idx": {
+      "t": 88,
+      "b": 181.4,
+      "l": 0,
+      "r": 44,
+      "w": 44,
+      "h": 93.4
+    },
+    "mainBox": {
+      "t": 196,
+      "b": 270.1,
+      "l": 56,
+      "r": 370,
+      "w": 314,
+      "h": 74.1
+    },
+    "brand": {
+      "t": 88,
+      "b": 140,
+      "l": 56,
+      "r": 370,
+      "w": 314,
+      "h": 52
+    },
+    "cta": {
+      "t": 361,
+      "b": 417.3,
+      "l": 56,
+      "r": 305.1,
+      "w": 249.1,
+      "h": 56.3
+    },
+    "process": {
+      "t": 433.3,
+      "b": 455.8,
+      "l": 56,
+      "r": 370,
+      "w": 314,
+      "h": 22.5
+    },
+    "desk": {
+      "t": 624.6,
+      "b": 844,
+      "l": 0,
+      "r": 390,
+      "w": 390,
+      "h": 219.4
+    },
+    "lede": {
+      "t": 336,
+      "b": 361,
+      "l": 87.4,
+      "r": 401.4,
+      "w": 314,
+      "h": 24.9
+    },
+    "val": {
+      "t": 272.5,
+      "b": 316,
+      "l": 56,
+      "r": 370,
+      "w": 314,
+      "h": 43.5
+    },
+    "imgs": [
+      {
+        "alt": "NHL Stenden",
+        "w": 75.5,
+        "h": 72,
+        "l": 32.6,
+        "r": 108.1,
+        "t": 2308.4
+      },
+      {
+        "alt": "MODUL Vienna",
+        "w": 100.7,
+        "h": 72,
+        "l": 144.7,
+        "r": 245.3,
+        "t": 2308.4
+      },
+      {
+        "alt": "FH Wien",
+        "w": 72,
+        "h": 72,
+        "l": 283.7,
+        "r": 355.7,
+        "t": 2308.4
+      }
+    ],
+    "emptyRight": 4.1,
+    "gapsBetween": [
+      36.6,
+      38.4
+    ],
+    "stripW": 350,
+    "partnersH": 145,
+    "urgencyH": 286,
+    "urgencyPadRatio": 0.31,
+    "afterH": 202.6,
+    "afterPad": {
+      "t": 16,
+      "b": 32
+    },
+    "afterOrder": [
+      {
+        "cls": "mechanism-lms",
+        "tag": "P",
+        "top": 1798.8,
+        "h": 83.1
+      },
+      {
+        "cls": "cta-trial",
+        "tag": "A",
+        "top": 1895.5,
+        "h": 57.9
+      }
+    ],
+    "midCta": {
+      "t": 1895.5,
+      "b": 1953.4,
+      "l": 20,
+      "r": 278.2,
+      "w": 258.2,
+      "h": 57.9
+    },
+    "lms": {
+      "t": 1798.8,
+      "b": 1881.9,
+      "l": 20,
+      "r": 370,
+      "w": 350,
+      "h": 83.1
+    },
+    "lmsToCta": 13.6,
+    "solKids": [
+      {
+        "tag": "DIV",
+        "id": null,
+        "cls": "look-inner",
+        "top": 1321.9,
+        "h": 266.1
+      },
+      {
+        "tag": "DIV",
+        "id": "demo",
+        "cls": "demo-band will-reveal",
+        "top": 1604.1,
+        "h": 194.8
+      },
+      {
+        "tag": "DIV",
+        "id": null,
+        "cls": "look-inner look-inner--after-demo",
+        "top": 1782.8,
+        "h": 202.6
+      }
+    ],
+    "fKids": [
+      {
+        "tag": "H2",
+        "cls": "",
+        "top": 2488.4
+      },
+      {
+        "tag": "A",
+        "cls": "cta-trial",
+        "top": 2530.8
+      },
+      {
+        "tag": "A",
+        "cls": "footer-email",
+        "top": 2608.7
+      },
+      {
+        "tag": "DIV",
+        "cls": "social-links",
+        "top": 2647.8
+      },
+      {
+        "tag": "P",
+        "cls": "copyright",
+        "top": 2698.8
+      }
+    ],
+    "processHref": "#demo",
+    "willP": "hero-frame will-present is-present",
+    "frameT": "none",
+    "frameH": 844,
+    "viewportH": 844,
+    "heroZ": [
+      {
+        "name": "brand",
+        "t": 88,
+        "b": 140,
+        "pos": "relative",
+        "z": "5"
+      },
+      {
+        "name": "main",
+        "t": 196,
+        "b": 270.1,
+        "pos": "relative",
+        "z": "5"
+      },
+      {
+        "name": "val",
+        "t": 272.5,
+        "b": 316,
+        "pos": "relative",
+        "z": "5"
+      },
+      {
+        "name": "lede",
+        "t": 336,
+        "b": 361,
+        "pos": "relative",
+        "z": "5"
+      },
+      {
+        "name": "cta",
+        "t": 361,
+        "b": 417.3,
+        "pos": "relative",
+        "z": "5"
+      },
+      {
+        "name": "process",
+        "t": 433.3,
+        "b": 455.8,
+        "pos": "relative",
+        "z": "5"
+      },
+      {
+        "name": "desk",
+        "t": 624.6,
+        "b": 844,
+        "pos": "absolute",
+        "z": "1"
+      }
+    ],
+    "problemMeasure": {
+      "chApprox": 19,
+      "maxW": "700.188px",
+      "w": 350
+    },
+    "videoBox": {
+      "t": 1617.1,
+      "b": 1785.8,
+      "l": 45,
+      "r": 345,
+      "w": 300,
+      "h": 168.8
+    },
+    "demoOp": "0",
+    "demoClasses": "demo-band will-reveal",
+    "urgToPart": 0,
+    "partToFoot": 0,
+    "problemDocTop": 844,
+    "demoDocTop": 266,
+    "solutionDocTop": 1321,
+    "urgencyDocTop": 1985,
+    "partnersDocTop": 2271,
+    "ctaProcessAlign": {
+      "ctaL": 56,
+      "processL": 56,
+      "delta": 0
+    },
+    "valLedeGap": 20,
+    "ledeCtaGap": 0,
+    "copyrightColor": "rgba(246, 244, 239, 0.72)",
+    "footerBg": "rgb(8, 40, 72)",
+    "solTitle": {
+      "fs": "26.4px",
+      "maxW": "none",
+      "w": 350,
+      "h": 59.1
+    },
+    "lookInnerW": 350,
+    "demoBandW": 326,
+    "lookInnerL": 20,
+    "demoBandL": 32,
+    "indexAt": {
+      "#urgency": [
+        {
+          "t": "01",
+          "on": false
+        },
+        {
+          "t": "02",
+          "on": false
+        },
+        {
+          "t": "03",
+          "on": true
+        }
+      ],
+      "#partners": [
+        {
+          "t": "01",
+          "on": false
+        },
+        {
+          "t": "02",
+          "on": false
+        },
+        {
+          "t": "03",
+          "on": true
+        }
+      ],
+      "#contact": [
+        {
+          "t": "01",
+          "on": false
+        },
+        {
+          "t": "02",
+          "on": false
+        },
+        {
+          "t": "03",
+          "on": true
+        }
+      ]
+    },
+    "heroClip": {
+      "frameOverflow": "hidden",
+      "frameH": 844,
+      "processClipped": false,
+      "ctaClipped": false,
+      "processOverDesk": false,
+      "ctaOverDesk": false,
+      "processDeskClear": 168.8,
+      "ctaDeskClear": 207.3,
+      "padBottom": "112px",
+      "processFs": "14.08px",
+      "ctaFs": "15.2px",
+      "brandTop": 88,
+      "indicesBox": {
+        "t": 88,
+        "r": 44,
+        "w": 44
+      },
+      "partnerTops": [
+        {
+          "alt": "NHL Stenden",
+          "t": 2308.4,
+          "l": 32.6,
+          "h": 72
+        },
+        {
+          "alt": "MODUL Vienna",
+          "t": 2308.4,
+          "l": 144.7,
+          "h": 72
+        },
+        {
+          "alt": "FH Wien",
+          "t": 2308.4,
+          "l": 283.7,
+          "h": 72
+        }
+      ],
+      "partnerRows": 1,
+      "flexWrap": "nowrap"
+    }
+  },
+  "w1440": {
+    "brandPos": "absolute",
+    "brandZ": "5",
+    "plateZ": "0",
+    "brandOp": "1",
+    "processGap": 33.9,
+    "processDesk": 21.6,
+    "ctaDesk": 87.9,
+    "processOverDesk": false,
+    "ctaOverDesk": false,
+    "ctaArea": 15964,
+    "valArea": 28514,
+    "ctaMassRatio": 0.56,
+    "rightEmpty": 59.1,
+    "indexIntrudes": true,
+    "idx": {
+      "t": 0,
+      "b": 288,
+      "l": 80,
+      "r": 208,
+      "w": 128,
+      "h": 288
+    },
+    "mainBox": {
+      "t": 201.6,
+      "b": 273.6,
+      "l": 208,
+      "r": 1232,
+      "w": 1024,
+      "h": 72
+    },
+    "brand": {
+      "t": 24,
+      "b": 60,
+      "l": 208,
+      "r": 370.1,
+      "w": 162.1,
+      "h": 36
+    },
+    "cta": {
+      "t": 399.6,
+      "b": 459.3,
+      "l": 208,
+      "r": 475.5,
+      "w": 267.5,
+      "h": 59.7
+    },
+    "process": {
+      "t": 493.2,
+      "b": 525.6,
+      "l": 208,
+      "r": 464,
+      "w": 256,
+      "h": 32.4
+    },
+    "desk": {
+      "t": 547.2,
+      "b": 720,
+      "l": 80,
+      "r": 1360,
+      "w": 1280,
+      "h": 172.8
+    },
+    "lede": {
+      "t": 360,
+      "b": 397.7,
+      "l": 208,
+      "r": 720,
+      "w": 512,
+      "h": 37.7
+    },
+    "val": {
+      "t": 273.6,
+      "b": 345.6,
+      "l": 208,
+      "r": 604,
+      "w": 396,
+      "h": 72
+    },
+    "imgs": [
+      {
+        "alt": "NHL Stenden",
+        "w": 75.5,
+        "h": 72,
+        "l": 367.6,
+        "r": 443.1,
+        "t": 2497.2
+      },
+      {
+        "alt": "MODUL Vienna",
+        "w": 108,
+        "h": 72,
+        "l": 666,
+        "r": 774,
+        "t": 2497.2
+      },
+      {
+        "alt": "FH Wien",
+        "w": 72,
+        "h": 72,
+        "l": 998.7,
+        "r": 1070.7,
+        "t": 2497.2
+      }
+    ],
+    "emptyRight": 11.9,
+    "gapsBetween": [
+      222.9,
+      224.7
+    ],
+    "stripW": 920,
+    "partnersH": 145,
+    "urgencyH": 258.3,
+    "urgencyPadRatio": 0.37,
+    "afterH": 178.1,
+    "afterPad": {
+      "t": 17.6,
+      "b": 33.6
+    },
+    "afterOrder": [
+      {
+        "cls": "mechanism-lms",
+        "tag": "P",
+        "top": 2041.3,
+        "h": 55.4
+      },
+      {
+        "cls": "cta-trial",
+        "tag": "A",
+        "top": 2110.3,
+        "h": 57.9
+      }
+    ],
+    "midCta": {
+      "t": 2110.3,
+      "b": 2168.2,
+      "l": 260,
+      "r": 518.2,
+      "w": 258.2,
+      "h": 57.9
+    },
+    "lms": {
+      "t": 2041.3,
+      "b": 2096.7,
+      "l": 260,
+      "r": 795.9,
+      "w": 535.9,
+      "h": 55.4
+    },
+    "lmsToCta": 13.6,
+    "solKids": [
+      {
+        "tag": "DIV",
+        "id": null,
+        "cls": "look-inner",
+        "top": 1181.3,
+        "h": 312.4
+      },
+      {
+        "tag": "DIV",
+        "id": "demo",
+        "cls": "demo-band will-reveal",
+        "top": 1509.7,
+        "h": 530
+      },
+      {
+        "tag": "DIV",
+        "id": null,
+        "cls": "look-inner look-inner--after-demo",
+        "top": 2023.7,
+        "h": 178.1
+      }
+    ],
+    "fKids": [
+      {
+        "tag": "H2",
+        "cls": "",
+        "top": 2677.2
+      },
+      {
+        "tag": "A",
+        "cls": "cta-trial",
+        "top": 2730.3
+      },
+      {
+        "tag": "A",
+        "cls": "footer-email",
+        "top": 2808.2
+      },
+      {
+        "tag": "DIV",
+        "cls": "social-links",
+        "top": 2847.3
+      },
+      {
+        "tag": "P",
+        "cls": "copyright",
+        "top": 2898.3
+      }
+    ],
+    "processHref": "#demo",
+    "willP": "hero-frame will-present is-present",
+    "frameT": "none",
+    "frameH": 720,
+    "viewportH": 900,
+    "heroZ": [
+      {
+        "name": "brand",
+        "t": 24,
+        "b": 60,
+        "pos": "absolute",
+        "z": "5"
+      },
+      {
+        "name": "main",
+        "t": 201.6,
+        "b": 273.6,
+        "pos": "absolute",
+        "z": "5"
+      },
+      {
+        "name": "val",
+        "t": 273.6,
+        "b": 345.6,
+        "pos": "absolute",
+        "z": "5"
+      },
+      {
+        "name": "lede",
+        "t": 360,
+        "b": 397.7,
+        "pos": "absolute",
+        "z": "6"
+      },
+      {
+        "name": "cta",
+        "t": 399.6,
+        "b": 459.3,
+        "pos": "absolute",
+        "z": "6"
+      },
+      {
+        "name": "process",
+        "t": 493.2,
+        "b": 525.6,
+        "pos": "absolute",
+        "z": "6"
+      },
+      {
+        "name": "desk",
+        "t": 547.2,
+        "b": 720,
+        "pos": "absolute",
+        "z": "1"
+      }
+    ],
+    "problemMeasure": {
+      "chApprox": 38.1,
+      "maxW": "700.188px",
+      "w": 700.2
+    },
+    "videoBox": {
+      "t": 1522.7,
+      "b": 2026.7,
+      "l": 183,
+      "r": 1257,
+      "w": 1074,
+      "h": 504
+    },
+    "demoOp": "0",
+    "demoClasses": "demo-band will-reveal",
+    "urgToPart": 0,
+    "partToFoot": 0,
+    "problemDocTop": 720,
+    "demoDocTop": 312,
+    "solutionDocTop": 1180,
+    "urgencyDocTop": 2202,
+    "partnersDocTop": 2460,
+    "ctaProcessAlign": {
+      "ctaL": 208,
+      "processL": 208,
+      "delta": 0
+    },
+    "valLedeGap": 14.4,
+    "ledeCtaGap": 1.9,
+    "copyrightColor": "rgba(246, 244, 239, 0.72)",
+    "footerBg": "rgb(8, 40, 72)",
+    "solTitle": {
+      "fs": "40.8px",
+      "maxW": "443.904px",
+      "w": 443.9,
+      "h": 137.1
+    },
+    "lookInnerW": 920,
+    "demoBandW": 1100,
+    "lookInnerL": 260,
+    "demoBandL": 170,
+    "indexAt": {
+      "#urgency": [
+        {
+          "t": "01",
+          "on": false
+        },
+        {
+          "t": "02",
+          "on": false
+        },
+        {
+          "t": "03",
+          "on": true
+        }
+      ],
+      "#partners": [
+        {
+          "t": "01",
+          "on": false
+        },
+        {
+          "t": "02",
+          "on": false
+        },
+        {
+          "t": "03",
+          "on": true
+        }
+      ],
+      "#contact": [
+        {
+          "t": "01",
+          "on": false
+        },
+        {
+          "t": "02",
+          "on": false
+        },
+        {
+          "t": "03",
+          "on": true
+        }
+      ]
+    }
+  },
+  "live8080": {
+    "hasPartners": false,
+    "hasStats": true,
+    "hasAbout": true,
+    "hasProcessLink": true,
+    "hasMechanismLms": false,
+    "title": "Bloombal | Two-Factor Knowledge Validation",
+    "bodySnippet": "Skip to content\n01\n02\n03\nBloombal\nTwo-Factor Knowledge\nValidation\n\nMaking sure humans win the race\n\nTrial the App in Pre-release\nView the process\n\n02\n\nAre your students performing misconduct with Chat"
+  }
+}

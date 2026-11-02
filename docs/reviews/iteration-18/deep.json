@@ -1,0 +1,91 @@
+{
+  "afterDemoBlock": {
+    "afterCy": 360.2,
+    "ctaCy": 258.2,
+    "urgVis": 0,
+    "urgT": 727.1,
+    "demoVis": 214.8111572265625,
+    "needExtra": 0,
+    "afterH": 293.9
+  },
+  "partnersSection": {
+    "secCy": 374.2,
+    "stripCy": 390.3,
+    "urgH2": 0,
+    "urgBody": 0,
+    "contactH2": 0,
+    "contactCta": 0,
+    "stripVis": 112,
+    "needBottom": 0
+  },
+  "textureStory": {
+    "solution": {
+      "bg": "rgb(246, 244, 239)",
+      "borderTop": "0px none rgb(8, 40, 72)"
+    },
+    "story": {
+      "bg": "rgb(241, 239, 233)",
+      "borderTop": "0px none rgb(8, 40, 72)"
+    },
+    "proof": {
+      "bg": "rgb(234, 232, 227)",
+      "borderTop": "0px none rgb(8, 40, 72)"
+    },
+    "copy": {
+      "bg": "rgb(246, 244, 239)",
+      "borderTop": "1px solid rgba(8, 40, 72, 0.08)"
+    },
+    "solutionEqStory": false,
+    "proofNeqSolution": true
+  },
+  "type": {
+    "problem": "45.6px",
+    "solution": "40.8px",
+    "urgency": "35.84px",
+    "footer": "28.16px",
+    "solutionMaxW": "min(710.246px, 100%)",
+    "solutionW": 710.2,
+    "solutionLines": 2,
+    "partnersHasH2": true,
+    "partnersLabel": "Partner institutions",
+    "mechanismMeasure": 33.1
+  },
+  "mobUrg": {
+    "demo": 0,
+    "midCta": 0,
+    "ctaBottom": -21.6,
+    "needExtraAbove": 0,
+    "urgH2": 55.53125,
+    "partners": 164.671875,
+    "contactH2": 0,
+    "afterPadB": 216,
+    "storyPadT": 200,
+    "proofPad": "104px 0px 160px"
+  },
+  "w1120": {
+    "t": 152.2,
+    "h": 75.3,
+    "vis": 75.25,
+    "optical": -170.2,
+    "lines": 2,
+    "fontSize": 33.6,
+    "lineHeight": 37.632,
+    "maxWidth": "min(511.643px, 100%)",
+    "width": 511.6,
+    "scrollMargin": "120px",
+    "padT": 32,
+    "needRaisePx": 170.2,
+    "demoT": 399.8,
+    "claimBottom": 379.8,
+    "mechVis": 63.34375,
+    "demoVis": 320.234375
+  },
+  "d1280process": {
+    "t": 172.3,
+    "h": 91.4,
+    "lines": 2,
+    "optical": -142,
+    "demoVis": 283.953125,
+    "claimBottom": 416
+  }
+}

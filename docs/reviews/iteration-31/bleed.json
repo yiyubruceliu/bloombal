@@ -1,0 +1,28 @@
+{
+  "d1280": {
+    "titleT": 252.9,
+    "optical": -61.4,
+    "interestH2Vis": 8.3,
+    "interestPVis": 132.7,
+    "mechVis": 75.8,
+    "lmsVis": 68.2,
+    "demoVis": 126.1,
+    "claimShare": 42.5,
+    "lmsToDemo": 35.2,
+    "titleToMech": 39.2,
+    "mechToLms": 31.2
+  },
+  "w1120": {
+    "titleT": 236.8,
+    "optical": -85.6,
+    "interestH2Vis": 16.1,
+    "interestPVis": 132.7,
+    "mechVis": 75.8,
+    "lmsVis": 68.2,
+    "demoVis": 160,
+    "claimShare": 40.2,
+    "lmsToDemo": 33.6,
+    "titleToMech": 39.2,
+    "mechToLms": 31.2
+  }
+}

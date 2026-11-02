@@ -1,0 +1,183 @@
+{
+  "lmsColor": "rgb(90, 100, 128)",
+  "lmsFs": "16.8px",
+  "processColor": "rgb(90, 100, 128)",
+  "processFs": "15.2px",
+  "heroCtaPad": "18.4px 24.8px",
+  "heroCtaFs": "16.8px",
+  "heroCtaBox": {
+    "w": 277,
+    "h": 63.7
+  },
+  "valBox": {
+    "w": 386.3,
+    "h": 91.4
+  },
+  "ctaVsVal": 0.5,
+  "processGap": 11.94,
+  "processClearDesk": 14.41,
+  "ctaClearDesk": 62.34,
+  "partnerRightEmpty": 0.618,
+  "partnerImgs": [
+    {
+      "alt": "NHL Stenden",
+      "right": 255.453125,
+      "w": 75.5,
+      "h": 72
+    },
+    {
+      "alt": "MODUL Vienna",
+      "right": 411.453125,
+      "w": 108,
+      "h": 72
+    },
+    {
+      "alt": "FH Wien",
+      "right": 531.453125,
+      "w": 72,
+      "h": 72
+    }
+  ],
+  "stripW": 920,
+  "demoToAfterGap": -16,
+  "afterStructure": {
+    "lmsH": 55.4,
+    "ctaH": 57.9,
+    "bandH": 201.3,
+    "lmsToCta": 20,
+    "demoToLms": 8,
+    "padTop": "24px",
+    "padBottom": "44px",
+    "children": [
+      "mechanism-lms",
+      "cta-trial"
+    ]
+  },
+  "urgency": {
+    "lookH": 306,
+    "contentH": 161,
+    "padTop": "72px",
+    "padBottom": "72px",
+    "padRatio": 0.47,
+    "wordCount": 17
+  },
+  "problem": {
+    "pW": 700.2,
+    "fs": 18.4,
+    "ch": 38.1,
+    "lookH": 460,
+    "wordCount": 33
+  },
+  "demo": {
+    "frameBg": "rgb(234, 232, 227)",
+    "videoBg": "rgb(234, 232, 227)",
+    "videoH": 403.2,
+    "frameH": 429.2,
+    "objectFit": "contain",
+    "maxH": "403.2px"
+  },
+  "indices": {
+    "count": 3,
+    "indexBottom": 288,
+    "ruleBottom": 532.8,
+    "deskTop": 532.8
+  },
+  "footerH": 406,
+  "mutedToken": "#5a6480",
+  "lmsContrast": 5.35,
+  "processContrast": 5.35,
+  "posterPaint": {
+    "natural": [
+      1920,
+      1080
+    ],
+    "mid": [
+      234,
+      232,
+      227
+    ],
+    "whiteShare": 0,
+    "boneShare": 0.971,
+    "inkShare": 0.023,
+    "corners": [
+      [
+        234,
+        232,
+        227
+      ],
+      [
+        234,
+        232,
+        227
+      ],
+      [
+        234,
+        232,
+        227
+      ],
+      [
+        234,
+        232,
+        227
+      ]
+    ]
+  },
+  "m390partners": {
+    "stripH": 176,
+    "rows": 2,
+    "imgs": [
+      {
+        "alt": "NHL Stenden",
+        "y": 334.8,
+        "x": 20,
+        "w": 75.5,
+        "h": 72
+      },
+      {
+        "alt": "MODUL Vienna",
+        "y": 334.8,
+        "x": 143.5,
+        "w": 108,
+        "h": 72
+      },
+      {
+        "alt": "FH Wien",
+        "y": 438.8,
+        "x": 20,
+        "w": 72,
+        "h": 72
+      }
+    ],
+    "lookH": 273,
+    "afterBand": {
+      "h": 221,
+      "padTop": "20px",
+      "padBottom": "40px"
+    }
+  },
+  "at1279": {
+    "position": "static",
+    "mainFs": "54.4px",
+    "processGap": 16,
+    "ctaClear": 119.2,
+    "processClear": 80.7,
+    "ctaVsVal": 0.95,
+    "deskH": 187.2
+  },
+  "live8080": {
+    "status": 200,
+    "clay": true,
+    "hasPartners": false,
+    "hasProcessStill": false,
+    "hasMechanismLms": false,
+    "hasStatistics": true,
+    "hasAbout": true
+  },
+  "sourceDebt": {
+    "grayscaleFilter": true,
+    "processGapToken": "67%",
+    "ctaY": "56.5%",
+    "ctaH": "7.5%",
+    "muted": "#5a6480"
+  }
+}

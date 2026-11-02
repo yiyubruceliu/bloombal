@@ -1,0 +1,65 @@
+{
+  "cta": {
+    "top": 418,
+    "bottom": 472,
+    "height": 54,
+    "width": 256,
+    "left": 128
+  },
+  "process": {
+    "top": 479,
+    "bottom": 515,
+    "height": 36,
+    "width": 256,
+    "left": 128
+  },
+  "desk": {
+    "top": 533,
+    "bottom": 720,
+    "height": 187,
+    "width": 1280,
+    "left": 0
+  },
+  "validation": {
+    "top": 274,
+    "bottom": 346,
+    "height": 72,
+    "width": 396,
+    "left": 128
+  },
+  "mark": {
+    "top": 16,
+    "bottom": 68,
+    "height": 52,
+    "width": 52,
+    "left": 128
+  },
+  "ice": "rgb(119, 202, 252)",
+  "ctaBg": "rgb(8, 24, 59)",
+  "ctaFs": "14.08px",
+  "h2problem": "38.4px",
+  "h2solution": "38.4px",
+  "h2urgency": "38.4px",
+  "h2partners": "38.4px",
+  "h2quiet": "38.4px",
+  "partnerFilter": "grayscale(1) contrast(1.05)",
+  "partnerLiBorder": "1px solid rgba(8, 40, 72, 0.14)",
+  "videoAutoplay": true,
+  "videoLoop": true,
+  "ctaAboveDesk": true,
+  "processAboveDesk": true,
+  "validationRight": 524,
+  "frameW": 1280,
+  "lookInnerPadTop": "112px",
+  "solutionTitlePad": {
+    "top": "112px",
+    "bottom": "112px"
+  },
+  "indexRuleBottom": {
+    "top": 0,
+    "bottom": 720,
+    "height": 720,
+    "width": 1,
+    "left": 122
+  }
+}

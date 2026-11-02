@@ -1,0 +1,235 @@
+{
+  "authored": {
+    "copyPadBlock": "6.75rem 0 12rem",
+    "afterDemoPadB": "11",
+    "lmsMb1280": "1.65",
+    "solutionScrollMargin": "12.6",
+    "lmsMbBase": "2.2"
+  },
+  "hero": {
+    "deskVisibleH": 172.8,
+    "procDesk": 31,
+    "ledeCta": 22.1,
+    "ctaProc": 22.4,
+    "claimTopPct": 0,
+    "brandOk": true
+  },
+  "midBlock": {
+    "gapDemoToCta": 40,
+    "urgH2Vis": 2.3,
+    "urgPVis": 0,
+    "storyVis": 222.3,
+    "emptyStoryPeek": 220,
+    "gapCtaToStory": 176,
+    "deltaCx": 0,
+    "afterPadT": "40px",
+    "afterPadB": "176px",
+    "storyField": "rgb(241, 239, 233)"
+  },
+  "interestHash": {
+    "optical": -44.9,
+    "bodyVis": 132.7,
+    "grainOp": "0.45",
+    "field": "rgb(248, 246, 241)",
+    "padB": "192px",
+    "padT": "108px"
+  },
+  "processLand": {
+    "d1280": {
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "titleLines": 2,
+      "titleToMech": 39.2,
+      "mechToLms": 39.2,
+      "lmsToDemo": 40,
+      "lmsMb": "26.4px",
+      "firstInnerPb": "13.6px",
+      "solutionScrollMargin": "201.6px",
+      "demoVis": 124.4,
+      "videoVis": 79.4,
+      "bandVis": 124.4,
+      "ratio": 0.27,
+      "className": "demo-band will-reveal is-in",
+      "transform": "none",
+      "interestPVis": 9.9,
+      "interestH2Vis": 0,
+      "interestFieldVis": 201.9,
+      "pBottom": 9.9,
+      "copyBottom": 201.9,
+      "deadBelowP": 192,
+      "copyPadB": "192px",
+      "copyPadT": "108px",
+      "copyField": "rgb(248, 246, 241)",
+      "solutionField": "rgb(246, 244, 239)",
+      "play": {
+        "t": 602.2,
+        "l": 189.8,
+        "oralOverlapArea": 0,
+        "overlapsVideoBox": false
+      },
+      "solutionGrainOp": "0.25",
+      "copyGrainOp": "0.45",
+      "storyGrainOp": "0.4",
+      "proofGrainOp": "0.3",
+      "scrollY": 1176
+    },
+    "w1120": {
+      "optical": -96.6,
+      "claimShare": 41.3,
+      "titleLines": 2,
+      "titleToMech": 39.2,
+      "mechToLms": 39.2,
+      "lmsToDemo": 47.2,
+      "lmsMb": "35.2px",
+      "firstInnerPb": "12px",
+      "solutionScrollMargin": "201.6px",
+      "demoVis": 149.4,
+      "videoVis": 104.4,
+      "bandVis": 149.4,
+      "ratio": 0.324,
+      "className": "demo-band will-reveal is-in",
+      "transform": "none",
+      "interestPVis": 33.8,
+      "interestH2Vis": 0,
+      "interestFieldVis": 201.8,
+      "pBottom": 33.8,
+      "copyBottom": 201.8,
+      "deadBelowP": 168,
+      "copyPadB": "168px",
+      "copyPadT": "80px",
+      "copyField": "rgb(248, 246, 241)",
+      "solutionField": "rgb(246, 244, 239)",
+      "play": {
+        "t": 577.2,
+        "l": 109.8,
+        "oralOverlapArea": 0,
+        "overlapsVideoBox": false
+      },
+      "solutionGrainOp": "0.25",
+      "copyGrainOp": "0.45",
+      "storyGrainOp": "0.4",
+      "proofGrainOp": "0.3",
+      "scrollY": 962
+    }
+  },
+  "revealSeries": {
+    "d1280": [
+      {
+        "t": 0,
+        "className": "demo-band will-reveal",
+        "transform": "matrix(1, 0, 0, 1, 0, 8)"
+      },
+      {
+        "t": 450,
+        "className": "demo-band will-reveal is-in",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0177337)"
+      }
+    ],
+    "w1120": [
+      {
+        "t": 0,
+        "className": "demo-band will-reveal",
+        "transform": "matrix(1, 0, 0, 1, 0, 8)"
+      },
+      {
+        "t": 450,
+        "className": "demo-band will-reveal is-in",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0269061)"
+      }
+    ]
+  },
+  "mobileLand": {
+    "interestPVis": 33.8,
+    "interestH2Vis": 0,
+    "interestFieldVis": 201.8,
+    "copyPadB": "168px",
+    "copyPadT": "80px",
+    "solTitleVis": 88.7
+  },
+  "partners": {
+    "urgPeek": 0,
+    "contactPeek": 0,
+    "proofGrain": "0.3",
+    "settled": true
+  },
+  "urgency": {
+    "partnersPeek": 0,
+    "storyGrain": "0.4",
+    "stickyPast": true
+  },
+  "footer": {
+    "h2Color": "rgb(246, 244, 239)",
+    "h2Fs": "39.2px",
+    "contrast": 13.57,
+    "solutionH2Fs": "40.8px"
+  },
+  "glyphs": {
+    "interest": {
+      "glyphCh": 68.9,
+      "cssMaxW": "670.924px",
+      "fw": "400",
+      "fs": "19.52px"
+    },
+    "mech": {
+      "glyphCh": 66.4,
+      "cssMaxW": "848.475px",
+      "fw": "400",
+      "fs": "25.6px"
+    },
+    "lms": {
+      "glyphCh": 66.4,
+      "cssMaxW": "763.628px",
+      "fw": "400",
+      "fs": "23.04px"
+    },
+    "urg": {
+      "glyphCh": 71.3,
+      "cssMaxW": "671.746px",
+      "fw": "400",
+      "fs": "18.88px"
+    }
+  },
+  "ladder": {
+    "problem": 45.6,
+    "solution": 40.8,
+    "footer": 39.2,
+    "urgency": 35.84,
+    "partners": 31.36
+  },
+  "accept": {
+    "item1_copyPadB12": true,
+    "item1_interestPVis24": true,
+    "item1_interestPVis12": true,
+    "item1_interestH2Vis0": true,
+    "item1_dualGate": true,
+    "item1_interestHashOptical": true,
+    "item2_narrowPadB105": false,
+    "item3_afterPadB11": true,
+    "item3_urgH2Vis0": false,
+    "item3_gapDemoCta36": true,
+    "item3_storyPeekReduced": false,
+    "dualGate1120": true,
+    "prefer120": true,
+    "midBreath": false,
+    "partnersPeek0": true,
+    "footerContrast": true
+  },
+  "diagnosis": {
+    "live1280_lmsToDemo": 40,
+    "live1280_demoVis": 124.4,
+    "live1280_optical": -72.4,
+    "live1280_claimShare": 43.6,
+    "live1280_interestPVis": 9.9,
+    "live1280_interestFieldVis": 201.9,
+    "live1280_deadBelowP": 192,
+    "live1280_isIn": true,
+    "live1120_lmsToDemo": 47.2,
+    "live1120_demoVis": 149.4,
+    "live1120_claimShare": 41.3,
+    "live1120_interestPVis": 33.8,
+    "live1120_interestFieldVis": 201.8,
+    "mid_storyVis": 222.3,
+    "mid_emptyStoryPeek": 220,
+    "mid_afterPadB": "176px"
+  }
+}

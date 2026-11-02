@@ -1,0 +1,58 @@
+{
+  "type": {
+    "problem": "45.6px",
+    "solution": "40.8px",
+    "urgency": "35.84px",
+    "partners": "37.6px",
+    "footer": "28.16px"
+  },
+  "land": {
+    "optical": -106.2,
+    "lines": 2,
+    "claimShareOfVh": 31.6,
+    "titleToDemoShare": 34.4,
+    "demoVis": 256.1375427246094,
+    "claimTopShare": 61.6,
+    "scrollMargin": "184px"
+  },
+  "urgClear": {
+    "partnersVis": 50.859375,
+    "partnersT": 669.1,
+    "need": 50.9,
+    "h2Vis": 0,
+    "urgOptical": -19.7,
+    "storyPadB": 208,
+    "proofPadT": 248
+  },
+  "mob": {
+    "partnersVis": 140.671875,
+    "partnersH2": 0,
+    "midCta": 0,
+    "contactH2": 0,
+    "storyPadB": 136,
+    "proofPadT": 152,
+    "needPartners": 140.7
+  },
+  "interest": {
+    "optical": -44.9,
+    "copyBg": "rgb(248, 246, 241)",
+    "solBg": "rgb(246, 244, 239)"
+  },
+  "d1280land": {
+    "optical": -78,
+    "titleT": 236.3,
+    "demoVis": 219.94705200195312,
+    "claimShare": 33.8
+  },
+  "play": {
+    "fromFrameTop": 14.6,
+    "fromFrameLeft": 14.6,
+    "fromVideoTop": 1.6,
+    "fromVideoLeft": 1.6,
+    "overlapsVideo": true,
+    "padNeededTop": 0,
+    "padNeededLeft": 0,
+    "playH": 35.6,
+    "framePad": "12px"
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "hero": {
+    "label": "hero",
+    "scrollY": 0,
+    "interestPVis": 0,
+    "interestH2Vis": 0,
+    "optical": 963.6,
+    "claimShare": 43.6,
+    "demoVis": 0,
+    "lmsToDemo": 44,
+    "deskVis": 172.8,
+    "procDesk": 31
+  },
+  "sweep": [
+    {
+      "label": "land+0",
+      "scrollY": 1025,
+      "interestPVis": 132.7,
+      "interestH2Vis": 8.3,
+      "optical": -61.4,
+      "claimShare": 43.6,
+      "demoVis": 117.4,
+      "lmsToDemo": 36,
+      "deskVis": 0,
+      "procDesk": 31
+    },
+    {
+      "label": "land+40",
+      "scrollY": 1065,
+      "interestPVis": 120.9,
+      "interestH2Vis": 0,
+      "optical": -101.4,
+      "claimShare": 43.6,
+      "demoVis": 157.4,
+      "lmsToDemo": 36,
+      "deskVis": 0,
+      "procDesk": 31
+    },
+    {
+      "label": "land+80",
+      "scrollY": 1105,
+      "interestPVis": 80.9,
+      "interestH2Vis": 0,
+      "optical": -141.4,
+      "claimShare": 43.6,
+      "demoVis": 197.4,
+      "lmsToDemo": 36,
+      "deskVis": 0,
+      "procDesk": 31
+    },
+    {
+      "label": "land+120",
+      "scrollY": 1145,
+      "interestPVis": 40.9,
+      "interestH2Vis": 0,
+      "optical": -181.4,
+      "claimShare": 43.6,
+      "demoVis": 237.4,
+      "lmsToDemo": 36,
+      "deskVis": 0,
+      "procDesk": 31
+    },
+    {
+      "label": "land+140",
+      "scrollY": 1165,
+      "interestPVis": 20.9,
+      "interestH2Vis": 0,
+      "optical": -201.4,
+      "claimShare": 43.6,
+      "demoVis": 257.4,
+      "lmsToDemo": 36,
+      "deskVis": 0,
+      "procDesk": 31
+    },
+    {
+      "label": "land+160",
+      "scrollY": 1185,
+      "interestPVis": 0.9,
+      "interestH2Vis": 0,
+      "optical": -221.4,
+      "claimShare": 43.6,
+      "demoVis": 277.4,
+      "lmsToDemo": 36,
+      "deskVis": 0,
+      "procDesk": 31
+    },
+    {
+      "label": "land+180",
+      "scrollY": 1205,
+      "interestPVis": 0,
+      "interestH2Vis": 0,
+      "optical": -241.4,
+      "claimShare": 43.6,
+      "demoVis": 297.4,
+      "lmsToDemo": 36,
+      "deskVis": 0,
+      "procDesk": 31
+    }
+  ],
+  "mbSweep": [
+    {
+      "mbRem": 1.4,
+      "label": "mb-1.4",
+      "scrollY": 1025,
+      "interestPVis": 132.7,
+      "interestH2Vis": 8.3,
+      "optical": -61.4,
+      "claimShare": 43.6,
+      "demoVis": 117.4,
+      "lmsToDemo": 36,
+      "deskVis": 0,
+      "procDesk": 31,
+      "lmsMb": "22.4px"
+    },
+    {
+      "mbRem": 1.5,
+      "label": "mb-1.5",
+      "scrollY": 1025,
+      "interestPVis": 132.7,
+      "interestH2Vis": 8.3,
+      "optical": -61.4,
+      "claimShare": 43.6,
+      "demoVis": 115.8,
+      "lmsToDemo": 37.6,
+      "deskVis": 0,
+      "procDesk": 31,
+      "lmsMb": "24px"
+    },
+    {
+      "mbRem": 1.55,
+      "label": "mb-1.55",
+      "scrollY": 1025,
+      "interestPVis": 132.7,
+      "interestH2Vis": 8.3,
+      "optical": -61.4,
+      "claimShare": 43.6,
+      "demoVis": 115,
+      "lmsToDemo": 38.4,
+      "deskVis": 0,
+      "procDesk": 31,
+      "lmsMb": "24.8px"
+    },
+    {
+      "mbRem": 1.6,
+      "label": "mb-1.6",
+      "scrollY": 1025,
+      "interestPVis": 132.7,
+      "interestH2Vis": 8.3,
+      "optical": -61.4,
+      "claimShare": 43.6,
+      "demoVis": 114.2,
+      "lmsToDemo": 39.2,
+      "deskVis": 0,
+      "procDesk": 31,
+      "lmsMb": "25.6px"
+    },
+    {
+      "mbRem": 1.65,
+      "label": "mb-1.65",
+      "scrollY": 1025,
+      "interestPVis": 132.7,
+      "interestH2Vis": 8.3,
+      "optical": -61.4,
+      "claimShare": 43.6,
+      "demoVis": 113.4,
+      "lmsToDemo": 40,
+      "deskVis": 0,
+      "procDesk": 31,
+      "lmsMb": "26.4px"
+    },
+    {
+      "mbRem": 1.7,
+      "label": "mb-1.7",
+      "scrollY": 1025,
+      "interestPVis": 132.7,
+      "interestH2Vis": 8.3,
+      "optical": -61.4,
+      "claimShare": 43.6,
+      "demoVis": 112.6,
+      "lmsToDemo": 40.8,
+      "deskVis": 0,
+      "procDesk": 31,
+      "lmsMb": "27.2px"
+    }
+  ],
+  "pbSweep": [
+    {
+      "pbRem": 0.85,
+      "label": "pb-0.85",
+      "scrollY": 1025,
+      "interestPVis": 132.7,
+      "interestH2Vis": 8.3,
+      "optical": -61.4,
+      "claimShare": 43.6,
+      "demoVis": 117.4,
+      "lmsToDemo": 36,
+      "deskVis": 0,
+      "procDesk": 31,
+      "pb": "13.6px"
+    },
+    {
+      "pbRem": 1,
+      "label": "pb-1",
+      "scrollY": 1025,
+      "interestPVis": 132.7,
+      "interestH2Vis": 8.3,
+      "optical": -61.4,
+      "claimShare": 43.6,
+      "demoVis": 115,
+      "lmsToDemo": 38.4,
+      "deskVis": 0,
+      "procDesk": 31,
+      "pb": "16px"
+    },
+    {
+      "pbRem": 1.1,
+      "label": "pb-1.1",
+      "scrollY": 1025,
+      "interestPVis": 132.7,
+      "interestH2Vis": 8.3,
+      "optical": -61.4,
+      "claimShare": 43.6,
+      "demoVis": 113.4,
+      "lmsToDemo": 40,
+      "deskVis": 0,
+      "procDesk": 31,
+      "pb": "17.6px"
+    },
+    {
+      "pbRem": 1.15,
+      "label": "pb-1.15",
+      "scrollY": 1025,
+      "interestPVis": 132.7,
+      "interestH2Vis": 8.3,
+      "optical": -61.4,
+      "claimShare": 43.6,
+      "demoVis": 112.6,
+      "lmsToDemo": 40.8,
+      "deskVis": 0,
+      "procDesk": 31,
+      "pb": "18.4px"
+    },
+    {
+      "pbRem": 1.25,
+      "label": "pb-1.25",
+      "scrollY": 1025,
+      "interestPVis": 132.7,
+      "interestH2Vis": 8.3,
+      "optical": -61.4,
+      "claimShare": 43.6,
+      "demoVis": 111,
+      "lmsToDemo": 42.4,
+      "deskVis": 0,
+      "procDesk": 31,
+      "pb": "20px"
+    }
+  ],
+  "midMb": [
+    {
+      "mbRem": 2.3,
+      "lmsToDemo": 48.8,
+      "demoVis": 136.8,
+      "lmsMb": "36.8px"
+    },
+    {
+      "mbRem": 2.25,
+      "lmsToDemo": 48,
+      "demoVis": 137.6,
+      "lmsMb": "36px"
+    },
+    {
+      "mbRem": 2.2,
+      "lmsToDemo": 47.2,
+      "demoVis": 138.4,
+      "lmsMb": "35.2px"
+    },
+    {
+      "mbRem": 2.15,
+      "lmsToDemo": 46.4,
+      "demoVis": 139.2,
+      "lmsMb": "34.4px"
+    },
+    {
+      "mbRem": 2.1,
+      "lmsToDemo": 45.6,
+      "demoVis": 140,
+      "lmsMb": "33.6px"
+    }
+  ]
+}

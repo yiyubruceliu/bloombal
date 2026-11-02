@@ -1,0 +1,125 @@
+{
+  "measures": {
+    "interest": {
+      "fs": "19.52px",
+      "maxW": "670.924px",
+      "w": 670.9,
+      "cssCh": 34.4,
+      "glyphCh": 68.9,
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgb(248, 246, 241)",
+      "contrast": 13.82,
+      "lh": "33.184px"
+    },
+    "urgBody": {
+      "fs": "18.88px",
+      "maxW": "671.746px",
+      "w": 671.7,
+      "cssCh": 35.6,
+      "glyphCh": 71.3,
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgb(241, 239, 233)",
+      "contrast": 12.98,
+      "lh": "31.7184px"
+    },
+    "mech": {
+      "fs": "25.6px",
+      "maxW": "848.475px",
+      "w": 848.5,
+      "cssCh": 33.1,
+      "glyphCh": 66.4,
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgb(246, 244, 239)",
+      "contrast": 13.57,
+      "lh": "37.888px"
+    },
+    "lms": {
+      "fs": "23.04px",
+      "maxW": "735.345px",
+      "w": 735.3,
+      "cssCh": 31.9,
+      "glyphCh": 63.9,
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgb(246, 244, 239)",
+      "contrast": 13.57,
+      "lh": "34.0992px"
+    },
+    "storyGrain": {
+      "content": "\"\"",
+      "opacity": "0.4",
+      "position": "absolute",
+      "bgImage": "radial-gradient(75% 50% at 88% 22%, rgba(8, 40, 72, 0.03), rgba(0, 0, 0, 0) 60%), url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' ",
+      "zIndex": "auto"
+    },
+    "copyGrain": {
+      "content": "\"\"",
+      "opacity": "0.45",
+      "position": "absolute",
+      "bgImage": "radial-gradient(80% 55% at 12% 18%, rgba(8, 40, 72, 0.035), rgba(0, 0, 0, 0) 62%), url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120'",
+      "zIndex": "auto"
+    },
+    "storyInnerZ": "1",
+    "copyInnerZ": "1"
+  },
+  "urgFrame": {
+    "urgOptical": 0.1,
+    "bodyBottom": 483.6,
+    "emptyBelowBody": 236.4,
+    "partnersVis": 0,
+    "storyBottomVp": 839.9,
+    "bodyToStoryEnd": 356.3
+  },
+  "desire": {
+    "title": {
+      "t": 236.8,
+      "b": 312,
+      "h": 75.3
+    },
+    "gaps": {
+      "titleToMech": 39.2,
+      "mechToLms": 31.2,
+      "lmsToDemo": 33.6
+    },
+    "claimShare": 40.2,
+    "claimH": 289.6,
+    "optical": -85.6,
+    "mech": {
+      "fs": "25.6px",
+      "maxW": "848.475px",
+      "w": 848.5,
+      "glyphCh": 66.4,
+      "marginTop": "39.2px",
+      "marginBottom": "0px"
+    },
+    "lms": {
+      "fs": "23.04px",
+      "maxW": "735.345px",
+      "w": 735.3,
+      "glyphCh": 63.9,
+      "marginTop": "31.2px",
+      "marginBottom": "21.6px"
+    },
+    "mechCss": {
+      "fs": "25.6px",
+      "mw": "848.475px",
+      "mt": "39.2px"
+    },
+    "lmsCss": {
+      "fs": "23.04px",
+      "mw": "735.345px",
+      "mt": "31.2px",
+      "fw": "400"
+    }
+  },
+  "mid": {
+    "gapDemoToCta": 39.7,
+    "urgVis": 110.0625,
+    "afterPadT": "40px"
+  },
+  "urgEntry": {
+    "midVis": 0,
+    "urgH2T": 300.9,
+    "storyT": 80.9,
+    "midBottom": -139.1
+  }
+}

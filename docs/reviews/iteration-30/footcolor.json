@@ -1,0 +1,26 @@
+{
+  "text": "Trial Bloombal",
+  "color": "rgb(8, 40, 72)",
+  "bg": "rgb(8, 40, 72)",
+  "footerColor": "rgb(246, 244, 239)",
+  "opacity": "1",
+  "visibility": "visible",
+  "t": 315.1,
+  "h": 82.3,
+  "footerT": 263.1,
+  "fs": "39.2px",
+  "fw": "400",
+  "contrast": 1,
+  "matched": [
+    {
+      "sel": ".look.look--footer h2",
+      "color": "",
+      "fs": "clamp(1.95rem, 3.2vw, 2.45rem)"
+    },
+    {
+      "sel": ".look--footer h2",
+      "color": "var(--bone)",
+      "fs": ""
+    }
+  ]
+}

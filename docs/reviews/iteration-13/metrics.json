@@ -1,0 +1,322 @@
+{
+  "paidCheck": {
+    "footerIndicesHidden": false,
+    "noActivePastSolution": true,
+    "partnerMarkH": [
+      112,
+      112,
+      112
+    ],
+    "partnerOcc": 43.2,
+    "urgencyOnMidCta": 80.28125,
+    "idleControls": false,
+    "playPresent": true
+  },
+  "deeper": {},
+  "hero1280": {
+    "ledeCtaGap": 27.1,
+    "ctaProcGap": 26.7,
+    "procDesk": 18,
+    "ctaMassRatio": 0.56,
+    "processHref": "#solution",
+    "demoIdPresent": false,
+    "indicesPos": "fixed",
+    "indexRulePos": "fixed",
+    "indexRuleH": 302.4,
+    "videoControlsIdle": false,
+    "playBtnPresent": true
+  },
+  "interestLand": {
+    "hash": "#problem",
+    "title": {
+      "t": 101,
+      "b": 305.3,
+      "visiblePx": 204.25,
+      "h": 204.3
+    },
+    "body": {
+      "t": 325.3,
+      "b": 416.3,
+      "visiblePx": 91.078125,
+      "h": 91.1
+    },
+    "bodyFullH": 91.1,
+    "activeIndex": "02",
+    "scrollMargin": "28px",
+    "readingClearance": 52,
+    "opticalCentreDelta": -156.9,
+    "lookH": 460.3,
+    "padRatio": 0.31
+  },
+  "afterProcess": {
+    "title": {
+      "t": 101.3,
+      "visiblePx": 91.375,
+      "cx": 535.1,
+      "w": 710.2
+    },
+    "mech": {
+      "t": 212.7,
+      "visiblePx": 63.34375,
+      "cx": 498.2,
+      "w": 636.3
+    },
+    "lms": {
+      "t": 289.6,
+      "visiblePx": 55.40625,
+      "cx": 447.9,
+      "w": 535.9
+    },
+    "demo": {
+      "t": 365,
+      "visiblePx": 354.953125,
+      "cx": 640,
+      "w": 920
+    },
+    "midCta": {
+      "t": 810.2,
+      "visiblePx": 0,
+      "cx": 309.1,
+      "w": 258.2
+    },
+    "claimStackH": 243.7,
+    "claimStackVisible": 243.71875,
+    "evidenceInView": true,
+    "activeIndex": "03",
+    "deltaTitleDemoCx": 104.9,
+    "titleWidthPct": 77.2
+  },
+  "desireFold": {
+    "title": {
+      "t": 101.3,
+      "b": 192.7,
+      "visiblePx": 91.375,
+      "h": 91.4
+    },
+    "mech": {
+      "t": 212.7,
+      "b": 276,
+      "visiblePx": 63.34375,
+      "h": 63.3
+    },
+    "lms": {
+      "t": 289.6,
+      "b": 345,
+      "visiblePx": 55.40625,
+      "h": 55.4
+    },
+    "demo": {
+      "t": 365,
+      "b": 794.2,
+      "visiblePx": 354.953125,
+      "h": 429.2
+    },
+    "play": {
+      "t": 556.5,
+      "b": 602.7,
+      "visiblePx": 46.1875,
+      "h": 46.2
+    },
+    "titleLines": 2,
+    "essayBeforeDemo": 263.71875,
+    "demoVisibleAtEntry": true,
+    "playOverPoster": true,
+    "playLabel": "Play",
+    "playArea": 3793,
+    "videoControls": false
+  },
+  "demoPlay": {
+    "controlsIdle": false,
+    "playHidden": false,
+    "playBox": {
+      "t": 337.5,
+      "b": 383.7,
+      "w": 82.1,
+      "h": 46.2,
+      "cy": 360.6
+    },
+    "videoBox": {
+      "t": 159,
+      "h": 403.2,
+      "cy": 360.6
+    },
+    "playCenterOffsetFromVideoCenter": 0,
+    "playOverlapOralZoneArea": 0,
+    "playPctOfVideoArea": 1.05,
+    "framePad": "12px",
+    "poster": "img/plates/process-still.png"
+  },
+  "afterDemo": {
+    "demo": {
+      "t": -120,
+      "visiblePx": 309.234375
+    },
+    "cta": {
+      "t": 325.2,
+      "visiblePx": 57.90625
+    },
+    "urgencyTitle": {
+      "t": 460.1,
+      "visiblePx": 80.28125
+    },
+    "afterH": 101.9,
+    "ctaH": 57.9,
+    "afterPadTop": 16,
+    "afterPadBottom": 28,
+    "padRatio": 0.43,
+    "isPast": false,
+    "activeIndex": "03"
+  },
+  "urgencyRail": {
+    "padRatio": 0.37,
+    "h": 258,
+    "isPast": true,
+    "isOverFooter": false,
+    "activeIndex": null,
+    "indicesOpacity": "1",
+    "indicesVisible": true,
+    "readingClearance": 52,
+    "bodyVis": 60.71875
+  },
+  "partners": {
+    "markHeights": [
+      112,
+      112,
+      112
+    ],
+    "markWidths": [
+      117.4,
+      168,
+      112
+    ],
+    "htmlHeightAttrs": [
+      "72",
+      "72",
+      "72"
+    ],
+    "cssHeight": "112px",
+    "occPct": 43.2,
+    "stripW": 920,
+    "gaps": [
+      40,
+      40
+    ],
+    "isPast": true,
+    "activeIndex": null,
+    "indicesOpacity": "1",
+    "gutterOverlapX": 0,
+    "stripLeftClearance": 273.3
+  },
+  "footerStart": {
+    "isOverFooter": false,
+    "isPast": true,
+    "indicesOpacity": "1",
+    "indexRuleOpacity": "1",
+    "yProbe": 2429,
+    "footerTop": 2491,
+    "h2": {
+      "t": 386.1,
+      "visiblePx": 31.53125
+    },
+    "ctaVis": 57.90625,
+    "activeIndex": null
+  },
+  "footerEnd": {
+    "isOverFooter": false,
+    "indicesOpacity": "1",
+    "pointerEvents": "auto",
+    "indexRuleOpacity": "1"
+  },
+  "footerThreshold": {
+    "isOverFooter": false,
+    "indicesOpacity": "1",
+    "partnersVis": 185,
+    "urgencyVis": 129.140625,
+    "contactH2Vis": 31.53125,
+    "contactCtaVis": 57.90625,
+    "scrollY": 2177
+  },
+  "partnersViewport": {
+    "urgencyVis": 258,
+    "partnersVis": 185,
+    "contactVis": 252.859375,
+    "afterDemoVis": 24.140625
+  },
+  "midCtaPath": {
+    "ctaCy": 360.2,
+    "demoBottomVisible": 315.234375,
+    "gapDemoToCta": 16,
+    "urgencyVisiblePx": 80.28125,
+    "ctaCx": 309.1,
+    "demoCx": 640,
+    "deltaCtaDemoCx": 330.9
+  },
+  "mobileHero": {
+    "brandVisible": true,
+    "titleVisible": true,
+    "ctaVisible": true,
+    "brandTop": 88,
+    "boneZ": "0",
+    "brandZ": "5",
+    "brandOp": "1",
+    "processClear": 148.8
+  },
+  "mobilePartners": {
+    "markH": [
+      112,
+      112,
+      112
+    ],
+    "rows": 1,
+    "gutterOverlapX": 44,
+    "stripLeft": 20,
+    "idxRight": 44,
+    "clearance": -87.7,
+    "isPast": true,
+    "indicesOpacity": "1",
+    "lookInnerPadLeft": "0px",
+    "lookInnerLeft": 20
+  },
+  "mobileInterest": {
+    "titleVis": 99.421875,
+    "bodyVis": 212.515625,
+    "bodyH": 212.5
+  },
+  "w1120Desire": {
+    "titleVis": 37.625,
+    "mechVis": 63.34375,
+    "lmsVis": 55.40625,
+    "demoVis": 408.859375,
+    "claimH": 190,
+    "brandOp": "1",
+    "brandVisible": true
+  },
+  "index03Land": {
+    "title": {
+      "t": 101.3,
+      "visiblePx": 91.375
+    },
+    "mech": {
+      "t": 212.7,
+      "visiblePx": 63.34375
+    },
+    "lms": {
+      "t": 289.6,
+      "visiblePx": 55.40625
+    },
+    "demo": {
+      "t": 365,
+      "visiblePx": 354.953125
+    },
+    "claimOccupiesViewportPct": 33.8,
+    "demoInFirstViewport": true,
+    "opticalCentreTitle": -213
+  },
+  "reducedMotion": {
+    "playHidden": false,
+    "controls": false,
+    "demoWill": false,
+    "demoIn": false,
+    "demoOp": "1"
+  }
+}

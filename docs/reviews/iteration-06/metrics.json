@@ -1,0 +1,801 @@
+{
+  "desktop": {
+    "brand": {
+      "sel": ".brand",
+      "x": 128,
+      "y": 24,
+      "w": 162.1,
+      "h": 36,
+      "bottom": 60,
+      "top": 24,
+      "fontSize": "18px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 5835,
+      "maxW": "none",
+      "pad": "0px",
+      "lh": "28.8px",
+      "border": "0px none rgb(8, 40, 72)",
+      "opacity": "1"
+    },
+    "mark": {
+      "sel": ".brand-mark",
+      "x": 128,
+      "y": 16,
+      "w": 52,
+      "h": 52,
+      "bottom": 68,
+      "top": 16,
+      "fontSize": "18px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 2704,
+      "maxW": "100%",
+      "pad": "0px",
+      "lh": "28.8px",
+      "border": "0px none rgb(8, 40, 72)",
+      "opacity": "1"
+    },
+    "main": {
+      "sel": ".headline-main",
+      "x": 128,
+      "y": 201.6,
+      "w": 1024,
+      "h": 72,
+      "bottom": 273.6,
+      "top": 201.6,
+      "fontSize": "89px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 73728,
+      "maxW": "none",
+      "pad": "0px 0px 8.9px",
+      "lh": "80.1px",
+      "border": "0px none rgb(8, 40, 72)",
+      "opacity": "1"
+    },
+    "validation": {
+      "sel": ".headline-validation",
+      "x": 128,
+      "y": 273.6,
+      "w": 396,
+      "h": 72,
+      "bottom": 345.6,
+      "top": 273.6,
+      "fontSize": "85px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 28514,
+      "maxW": "none",
+      "pad": "0px",
+      "lh": "85px",
+      "border": "0px none rgb(8, 40, 72)",
+      "opacity": "1"
+    },
+    "valText": {
+      "fontSize": "85px",
+      "color": "rgb(8, 40, 72)",
+      "borderBottom": "3px solid rgb(119, 202, 252)",
+      "w": 386.3,
+      "h": 91.4,
+      "area": 35304
+    },
+    "lede": {
+      "sel": ".hero-lede",
+      "x": 128,
+      "y": 360,
+      "w": 512,
+      "h": 37.7,
+      "bottom": 397.7,
+      "top": 360,
+      "fontSize": "29px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 19296,
+      "maxW": "none",
+      "pad": "2.9px 0px 0px",
+      "lh": "34.8px",
+      "border": "0px none rgb(8, 40, 72)",
+      "opacity": "1"
+    },
+    "cta": {
+      "sel": ".look--hero .cta-trial",
+      "x": 128,
+      "y": 417.6,
+      "w": 259.9,
+      "h": 59.2,
+      "bottom": 476.8,
+      "top": 417.6,
+      "fontSize": "16px",
+      "color": "rgb(246, 244, 239)",
+      "bg": "rgb(8, 40, 72)",
+      "fw": "400",
+      "area": 15384,
+      "maxW": "none",
+      "pad": "16.8px 21.6px",
+      "lh": "25.6px",
+      "border": "0px none rgb(246, 244, 239)",
+      "opacity": "1"
+    },
+    "process": {
+      "sel": ".process-link",
+      "x": 128,
+      "y": 478.8,
+      "w": 256,
+      "h": 36,
+      "bottom": 514.8,
+      "top": 478.8,
+      "fontSize": "16.8px",
+      "color": "rgb(90, 100, 128)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 9216,
+      "maxW": "none",
+      "pad": "3.2px 0px 0px",
+      "lh": "26.88px",
+      "border": "0px none rgb(90, 100, 128)",
+      "opacity": "1"
+    },
+    "midCta": {
+      "sel": "#solution .cta-trial",
+      "x": 180,
+      "y": 2062.9,
+      "w": 258.2,
+      "h": 57.9,
+      "bottom": 2120.8,
+      "top": 2062.9,
+      "fontSize": "15.2px",
+      "color": "rgb(246, 244, 239)",
+      "bg": "rgb(8, 40, 72)",
+      "fw": "400",
+      "area": 14949,
+      "maxW": "none",
+      "pad": "16.8px 24px",
+      "lh": "24.32px",
+      "border": "0px none rgb(246, 244, 239)",
+      "opacity": "1"
+    },
+    "footCta": {
+      "sel": "#contact .cta-trial",
+      "x": 180,
+      "y": 3329.1,
+      "w": 258.2,
+      "h": 57.9,
+      "bottom": 3387,
+      "top": 3329.1,
+      "fontSize": "15.2px",
+      "color": "rgb(246, 244, 239)",
+      "bg": "rgb(8, 40, 72)",
+      "fw": "400",
+      "area": 14949,
+      "maxW": "none",
+      "pad": "16.8px 24px",
+      "lh": "24.32px",
+      "border": "0px none rgb(246, 244, 239)",
+      "opacity": "1"
+    },
+    "deskTop": 532.8,
+    "deskH": 187.2,
+    "ruleBottom": 532.8,
+    "demo": {
+      "sel": ".demo-video",
+      "x": 103,
+      "y": 1539.4,
+      "w": 1074,
+      "h": 403.2,
+      "bottom": 1942.6,
+      "top": 1539.4,
+      "fontSize": "18px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgb(234, 232, 227)",
+      "fw": "400",
+      "area": 433023,
+      "maxW": "100%",
+      "pad": "0px",
+      "lh": "28.8px",
+      "border": "0px none rgb(8, 40, 72)",
+      "opacity": "1"
+    },
+    "frame": {
+      "sel": ".demo-frame",
+      "x": 90,
+      "y": 1526.4,
+      "w": 1100,
+      "h": 429.2,
+      "bottom": 1955.6,
+      "top": 1526.4,
+      "fontSize": "18px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgb(234, 232, 227)",
+      "fw": "400",
+      "area": 472106,
+      "maxW": "none",
+      "pad": "12px",
+      "lh": "28.8px",
+      "border": "1px solid rgba(8, 40, 72, 0.12)",
+      "opacity": "1"
+    },
+    "poster": "img/plates/process-still.png",
+    "src": "videos/two-factor-knowledge-validation-process.mp4",
+    "h2s": [
+      {
+        "id": "problem",
+        "fontSize": "45.6px",
+        "maxW": "446.515px",
+        "w": 446.5,
+        "text": "Are your students performing misconduct with ChatGPT?"
+      },
+      {
+        "id": "solution",
+        "fontSize": "40.8px",
+        "maxW": "443.904px",
+        "w": 443.9,
+        "text": "Unlock integrity with Two-Factor Knowledge Validation"
+      },
+      {
+        "id": "urgency",
+        "fontSize": "35.84px",
+        "maxW": "428.933px",
+        "w": 428.9,
+        "text": "The Cost of Ignoring This Problem Is Too High"
+      },
+      {
+        "id": "partners",
+        "fontSize": "32px",
+        "maxW": "487.424px",
+        "w": 487.4,
+        "text": "NHL Stenden · MODUL Vienna · FH Wien"
+      },
+      {
+        "id": "context",
+        "fontSize": "28.16px",
+        "maxW": "367.657px",
+        "w": 367.7,
+        "text": "About Bloombal"
+      },
+      {
+        "id": "contact",
+        "fontSize": "28.16px",
+        "maxW": "367.657px",
+        "w": 367.7,
+        "text": "Trial Bloombal"
+      }
+    ],
+    "ctas": [
+      {
+        "parent": "home",
+        "w": 259.9,
+        "h": 59.2,
+        "area": 15384,
+        "fontSize": "16px",
+        "bg": "rgb(8, 40, 72)"
+      },
+      {
+        "parent": "solution",
+        "w": 258.2,
+        "h": 57.9,
+        "area": 14949,
+        "fontSize": "15.2px",
+        "bg": "rgb(8, 40, 72)"
+      },
+      {
+        "parent": "contact",
+        "w": 258.2,
+        "h": 57.9,
+        "area": 14949,
+        "fontSize": "15.2px",
+        "bg": "rgb(8, 40, 72)"
+      }
+    ],
+    "partners": [
+      {
+        "alt": "NHL Stenden University of Applied Sciences",
+        "imgW": 50.3,
+        "imgH": 48,
+        "blend": "multiply"
+      },
+      {
+        "alt": "MODUL University Vienna",
+        "imgW": 72,
+        "imgH": 48,
+        "blend": "multiply"
+      },
+      {
+        "alt": "FH Wien University of Applied Sciences",
+        "imgW": 48,
+        "imgH": 48,
+        "blend": "multiply"
+      }
+    ],
+    "partnerStrip": {
+      "sel": ".partner-strip",
+      "x": 180,
+      "y": 2791.5,
+      "w": 920,
+      "h": 48,
+      "bottom": 2839.5,
+      "top": 2791.5,
+      "fontSize": "18px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 44160,
+      "maxW": "none",
+      "pad": "0px",
+      "lh": "28.8px",
+      "border": "0px none rgb(8, 40, 72)",
+      "opacity": "1"
+    },
+    "about": {
+      "sel": "#context",
+      "x": 0,
+      "y": 2951.5,
+      "w": 1280,
+      "h": 214.1,
+      "bottom": 3165.6,
+      "top": 2951.5,
+      "fontSize": "18px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgb(246, 244, 239)",
+      "fw": "400",
+      "area": 274080,
+      "maxW": "none",
+      "pad": "0px",
+      "lh": "28.8px",
+      "border": "",
+      "opacity": "1"
+    },
+    "footer": {
+      "sel": "#contact",
+      "x": 0,
+      "y": 3165.6,
+      "w": 1280,
+      "h": 453.6,
+      "bottom": 3619.2,
+      "top": 3165.6,
+      "fontSize": "18px",
+      "color": "rgb(246, 244, 239)",
+      "bg": "rgb(8, 40, 72)",
+      "fw": "400",
+      "area": 580600,
+      "maxW": "none",
+      "pad": "0px",
+      "lh": "28.8px",
+      "border": "0px none rgb(246, 244, 239)",
+      "opacity": "1"
+    },
+    "aboutBg": "rgb(246, 244, 239)",
+    "footerBg": "rgb(8, 40, 72)",
+    "bodyBg": "rgb(246, 244, 239)",
+    "mechanism": {
+      "sel": ".mechanism",
+      "x": 180,
+      "y": 1971.6,
+      "w": 636.3,
+      "h": 63.3,
+      "bottom": 2034.9,
+      "top": 1971.6,
+      "fontSize": "19.2px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 40308,
+      "maxW": "636.356px",
+      "pad": "0px",
+      "lh": "31.68px",
+      "border": "0px none rgb(8, 40, 72)",
+      "opacity": "1"
+    },
+    "urgencyP": {
+      "sel": "#urgency p",
+      "x": 180,
+      "y": 2406.1,
+      "w": 700.2,
+      "h": 60.7,
+      "bottom": 2466.8,
+      "top": 2406.1,
+      "fontSize": "18.4px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 42515,
+      "maxW": "700.188px",
+      "pad": "0px",
+      "lh": "30.36px",
+      "border": "0px none rgb(8, 40, 72)",
+      "opacity": "1"
+    },
+    "aboutP": {
+      "sel": "#context p",
+      "x": 180,
+      "y": 3060,
+      "w": 608.9,
+      "h": 49.6,
+      "bottom": 3109.6,
+      "top": 3060,
+      "fontSize": "16px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 30196,
+      "maxW": "608.859px",
+      "pad": "0px",
+      "lh": "24.8px",
+      "border": "0px none rgb(8, 40, 72)",
+      "opacity": "1"
+    },
+    "lookH3": false,
+    "lookEm": false,
+    "lookInk": false,
+    "heroRightEmpty": 0.591,
+    "processVsCta": {
+      "ctaBottom": 476.8,
+      "processTop": 478.8,
+      "gap": 2
+    },
+    "bonePlate": {
+      "sel": ".hero-bone-plate",
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 720,
+      "bottom": 720,
+      "top": 0,
+      "fontSize": "18px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 921600,
+      "maxW": "none",
+      "pad": "0px",
+      "lh": "28.8px",
+      "border": "0px none rgb(8, 40, 72)",
+      "opacity": "0.55"
+    },
+    "scrollBehavior": "smooth",
+    "socialColor": "rgba(246, 244, 239, 0.75)",
+    "footerEmail": {
+      "sel": ".footer-email",
+      "x": 442.5,
+      "y": 3345.9,
+      "w": 142.3,
+      "h": 23,
+      "bottom": 3369,
+      "top": 3345.9,
+      "fontSize": "14.4px",
+      "color": "rgba(246, 244, 239, 0.75)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 3279,
+      "maxW": "none",
+      "pad": "0px",
+      "lh": "23.04px",
+      "border": "0px none rgba(246, 244, 239, 0.75)",
+      "opacity": "1"
+    },
+    "copyright": {
+      "sel": ".copyright",
+      "x": 180,
+      "y": 3474.1,
+      "w": 535.1,
+      "h": 21.1,
+      "bottom": 3495.2,
+      "top": 3474.1,
+      "fontSize": "12.8px",
+      "color": "rgba(246, 244, 239, 0.45)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 11296,
+      "maxW": "535.138px",
+      "pad": "0px",
+      "lh": "21.12px",
+      "border": "0px none rgba(246, 244, 239, 0.45)",
+      "opacity": "1"
+    },
+    "problemInner": {
+      "sel": "#problem .look-inner",
+      "x": 180,
+      "y": 721,
+      "w": 920,
+      "h": 539.3,
+      "bottom": 1260.3,
+      "top": 721,
+      "fontSize": "18px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 496182,
+      "maxW": "none",
+      "pad": "112px 0px",
+      "lh": "28.8px",
+      "border": "0px none rgb(8, 40, 72)",
+      "opacity": "1"
+    },
+    "quietInner": {
+      "sel": "#context .look-inner",
+      "x": 180,
+      "y": 2952.5,
+      "w": 920,
+      "h": 213.1,
+      "bottom": 3165.6,
+      "top": 2952.5,
+      "fontSize": "18px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 196075,
+      "maxW": "none",
+      "pad": "56px 0px",
+      "lh": "28.8px",
+      "border": "0px none rgb(8, 40, 72)",
+      "opacity": "1"
+    },
+    "proofInner": {
+      "sel": "#partners .look-inner",
+      "x": 180,
+      "y": 2579.8,
+      "w": 920,
+      "h": 371.7,
+      "bottom": 2951.5,
+      "top": 2579.8,
+      "fontSize": "18px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 341924,
+      "maxW": "none",
+      "pad": "112px 0px",
+      "lh": "28.8px",
+      "border": "0px none rgb(8, 40, 72)",
+      "opacity": "1"
+    },
+    "storyInner": {
+      "sel": "#urgency .look-inner",
+      "x": 180,
+      "y": 2193.8,
+      "w": 920,
+      "h": 385,
+      "bottom": 2578.8,
+      "top": 2193.8,
+      "fontSize": "18px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 354200,
+      "maxW": "none",
+      "pad": "112px 0px",
+      "lh": "28.8px",
+      "border": "0px none rgb(8, 40, 72)",
+      "opacity": "1"
+    },
+    "solutionTitleInner": {
+      "sel": "#solution > .look-inner",
+      "x": 180,
+      "y": 1261.3,
+      "w": 920,
+      "h": 249.1,
+      "bottom": 1510.4,
+      "top": 1261.3,
+      "fontSize": "18px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 229138,
+      "maxW": "none",
+      "pad": "72px 0px 20px",
+      "lh": "28.8px",
+      "border": "0px none rgb(8, 40, 72)",
+      "opacity": "1"
+    },
+    "afterDemo": {
+      "sel": ".look-inner--after-demo",
+      "x": 180,
+      "y": 1939.6,
+      "w": 920,
+      "h": 253.3,
+      "bottom": 2192.8,
+      "top": 1939.6,
+      "fontSize": "18px",
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "fw": "400",
+      "area": 232990,
+      "maxW": "none",
+      "pad": "32px 0px 72px",
+      "lh": "28.8px",
+      "border": "0px none rgb(8, 40, 72)",
+      "opacity": "1"
+    },
+    "nowrapOverflow": {
+      "main": {
+        "scroll": 1024,
+        "client": 1024,
+        "overflow": false
+      },
+      "val": {
+        "scroll": 396,
+        "client": 396,
+        "overflow": false
+      }
+    },
+    "secondaryEqualPrimary": {
+      "ctaFs": "16px",
+      "processFs": "16.8px",
+      "processColor": "rgb(90, 100, 128)",
+      "processDeco": "underline"
+    },
+    "validationContrast": 13.57,
+    "ctaContrast": 13.57,
+    "ctaVsValArea": 0.44,
+    "mutedContrast": 5.35,
+    "footerEmailContrast": 13.57,
+    "socialContrast": 13.57,
+    "copyrightContrast": 13.57,
+    "demoPaint": {
+      "w": 1074,
+      "h": 403.2,
+      "maxHeight": "403.2px",
+      "objectFit": "contain",
+      "bg": "rgb(234, 232, 227)",
+      "mid": [
+        255,
+        255,
+        255
+      ],
+      "topContent": [
+        255,
+        255,
+        255
+      ],
+      "corners": [
+        [
+          234,
+          232,
+          227
+        ],
+        [
+          234,
+          232,
+          227
+        ],
+        [
+          234,
+          232,
+          227
+        ]
+      ],
+      "imgW": 1920,
+      "imgH": 1080,
+      "letterboxDy": 0,
+      "letterboxDx": 178.8
+    },
+    "rhythm": [
+      {
+        "id": "home",
+        "h": 720,
+        "top": 0,
+        "bg": "rgb(246, 244, 239)"
+      },
+      {
+        "id": "problem",
+        "h": 540,
+        "top": 720,
+        "bg": "rgb(246, 244, 239)"
+      },
+      {
+        "id": "solution",
+        "h": 933,
+        "top": 1260,
+        "bg": "rgb(246, 244, 239)"
+      },
+      {
+        "id": "urgency",
+        "h": 386,
+        "top": 2193,
+        "bg": "rgb(246, 244, 239)"
+      },
+      {
+        "id": "partners",
+        "h": 373,
+        "top": 2579,
+        "bg": "rgb(246, 244, 239)"
+      },
+      {
+        "id": "context",
+        "h": 214,
+        "top": 2951,
+        "bg": "rgb(246, 244, 239)"
+      },
+      {
+        "id": "contact",
+        "h": 454,
+        "top": 3166,
+        "bg": "rgb(8, 40, 72)"
+      }
+    ]
+  },
+  "mobile": {
+    "h2s": [
+      {
+        "id": "problem",
+        "fontSize": "29.6px",
+        "text": "Are your students performing misconduct "
+      },
+      {
+        "id": "solution",
+        "fontSize": "26.4px",
+        "text": "Unlock integrity with Two-Factor Knowled"
+      },
+      {
+        "id": "urgency",
+        "fontSize": "24.8px",
+        "text": "The Cost of Ignoring This Problem Is Too"
+      },
+      {
+        "id": "partners",
+        "fontSize": "22.4px",
+        "text": "NHL Stenden · MODUL Vienna · FH Wien"
+      },
+      {
+        "id": "context",
+        "fontSize": "20px",
+        "text": "About Bloombal"
+      },
+      {
+        "id": "contact",
+        "fontSize": "20px",
+        "text": "Trial Bloombal"
+      }
+    ],
+    "lede": {
+      "fontSize": "19.2px",
+      "color": "rgb(8, 40, 72)"
+    },
+    "cta": {
+      "w": 249.1,
+      "h": 56.3,
+      "fontSize": "15.2px",
+      "bottom": 417.3
+    },
+    "processBottom": 463.3,
+    "deskTop": 624.6,
+    "deskOverlap": -161.2,
+    "heroH": 844,
+    "partnersH": 404,
+    "stripH": 180.8,
+    "partnerImgs": [
+      {
+        "w": 50.3,
+        "h": 48
+      },
+      {
+        "w": 72,
+        "h": 48
+      },
+      {
+        "w": 48,
+        "h": 48
+      }
+    ],
+    "nowrap": {
+      "mainOverflow": false,
+      "valOverflow": false,
+      "mainScroll": 314,
+      "mainClient": 314
+    }
+  },
+  "live8080": {
+    "hasClay": true,
+    "has2025": true,
+    "hasPartnerStrip": false,
+    "hasProcessStill": false,
+    "ledeSize": "18.4px",
+    "ctaCount": 3,
+    "hasLookInk": true
+  }
+}

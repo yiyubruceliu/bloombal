@@ -1,0 +1,353 @@
+[
+  {
+    "note": "shipped",
+    "hero": {
+      "heroOpacity": "1",
+      "heroTransform": "none",
+      "heroTransition": "transform 0.52s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.48s cubic-bezier(0.22, 1, 0.36, 1)",
+      "ledeCta": 22.1,
+      "ctaProc": 22.4,
+      "procDesk": 31,
+      "deskVis": 172.8,
+      "procFw": "500",
+      "procColor": "rgba(8, 40, 72, 0.72)",
+      "wordFs": "26px",
+      "markW": 58
+    },
+    "demoPre": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "transition": "all",
+      "willReveal": true,
+      "isIn": false
+    },
+    "demoPost": {
+      "opacity": "1",
+      "transform": "none",
+      "transition": "transform 0.56s cubic-bezier(0.22, 1, 0.36, 1)",
+      "isIn": true
+    },
+    "land": {
+      "chromeAbove": 30.6,
+      "videoShare": 75.4,
+      "demoVis": 124.4,
+      "playFill": 64.6,
+      "oralOverlap": 0,
+      "playClearVideo": true,
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "lmsToDemo": 40,
+      "isIn": true,
+      "interestPVis": 9.9,
+      "bandOpacity": "1",
+      "bandTransform": "none",
+      "bandTransition": "transform 0.56s cubic-bezier(0.22, 1, 0.36, 1)",
+      "willReveal": true
+    },
+    "proofPre": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 10.6149)",
+      "transition": "transform 0.64s cubic-bezier(0.22, 1, 0.36, 1)"
+    },
+    "proofPost": {
+      "opacity": "1",
+      "transform": "none",
+      "transition": "transform 0.64s cubic-bezier(0.22, 1, 0.36, 1)",
+      "isSettled": true
+    },
+    "dualSeamOk": true,
+    "deskVisOk": true,
+    "dualGateOk": true,
+    "demoOpacityChannel": false,
+    "presenceHold": true,
+    "processHold": true
+  },
+  {
+    "note": "demo-reveal-092",
+    "hero": {
+      "heroOpacity": "1",
+      "heroTransform": "none",
+      "heroTransition": "transform 0.52s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.48s cubic-bezier(0.22, 1, 0.36, 1)",
+      "ledeCta": 22.1,
+      "ctaProc": 22.4,
+      "procDesk": 31,
+      "deskVis": 172.8,
+      "procFw": "500",
+      "procColor": "rgba(8, 40, 72, 0.72)",
+      "wordFs": "26px",
+      "markW": 58
+    },
+    "demoPre": {
+      "opacity": "0.92",
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "transition": "all",
+      "willReveal": true,
+      "isIn": false
+    },
+    "demoPost": {
+      "opacity": "1",
+      "transform": "none",
+      "transition": "transform 0.56s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.48s cubic-bezier(0.22, 1, 0.36, 1)",
+      "isIn": true
+    },
+    "land": {
+      "chromeAbove": 30.6,
+      "videoShare": 75.4,
+      "demoVis": 124.4,
+      "playFill": 64.6,
+      "oralOverlap": 0,
+      "playClearVideo": true,
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "lmsToDemo": 40,
+      "isIn": true,
+      "interestPVis": 9.9,
+      "bandOpacity": "1",
+      "bandTransform": "none",
+      "bandTransition": "transform 0.56s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.48s cubic-bezier(0.22, 1, 0.36, 1)",
+      "willReveal": true
+    },
+    "proofPre": null,
+    "proofPost": null,
+    "dualSeamOk": true,
+    "deskVisOk": true,
+    "dualGateOk": true,
+    "demoOpacityChannel": true,
+    "presenceHold": true,
+    "processHold": true
+  },
+  {
+    "note": "demo-reveal-094",
+    "hero": {
+      "heroOpacity": "1",
+      "heroTransform": "none",
+      "heroTransition": "transform 0.52s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.48s cubic-bezier(0.22, 1, 0.36, 1)",
+      "ledeCta": 22.1,
+      "ctaProc": 22.4,
+      "procDesk": 31,
+      "deskVis": 172.8,
+      "procFw": "500",
+      "procColor": "rgba(8, 40, 72, 0.72)",
+      "wordFs": "26px",
+      "markW": 58
+    },
+    "demoPre": {
+      "opacity": "0.94",
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "transition": "all",
+      "willReveal": true,
+      "isIn": false
+    },
+    "demoPost": {
+      "opacity": "1",
+      "transform": "none",
+      "transition": "transform 0.56s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.48s cubic-bezier(0.22, 1, 0.36, 1)",
+      "isIn": true
+    },
+    "land": {
+      "chromeAbove": 30.6,
+      "videoShare": 75.4,
+      "demoVis": 124.4,
+      "playFill": 64.6,
+      "oralOverlap": 0,
+      "playClearVideo": true,
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "lmsToDemo": 40,
+      "isIn": true,
+      "interestPVis": 9.9,
+      "bandOpacity": "1",
+      "bandTransform": "none",
+      "bandTransition": "transform 0.56s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.48s cubic-bezier(0.22, 1, 0.36, 1)",
+      "willReveal": true
+    },
+    "proofPre": null,
+    "proofPost": null,
+    "dualSeamOk": true,
+    "deskVisOk": true,
+    "dualGateOk": true,
+    "demoOpacityChannel": true,
+    "presenceHold": true,
+    "processHold": true
+  },
+  {
+    "note": "demo-reveal-090-y10",
+    "hero": {
+      "heroOpacity": "1",
+      "heroTransform": "none",
+      "heroTransition": "transform 0.52s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.48s cubic-bezier(0.22, 1, 0.36, 1)",
+      "ledeCta": 22.1,
+      "ctaProc": 22.4,
+      "procDesk": 31,
+      "deskVis": 172.8,
+      "procFw": "500",
+      "procColor": "rgba(8, 40, 72, 0.72)",
+      "wordFs": "26px",
+      "markW": 58
+    },
+    "demoPre": {
+      "opacity": "0.9",
+      "transform": "matrix(1, 0, 0, 1, 0, 10)",
+      "transition": "all",
+      "willReveal": true,
+      "isIn": false
+    },
+    "demoPost": {
+      "opacity": "1",
+      "transform": "none",
+      "transition": "transform 0.56s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1)",
+      "isIn": true
+    },
+    "land": {
+      "chromeAbove": 30.6,
+      "videoShare": 75.4,
+      "demoVis": 124.4,
+      "playFill": 64.6,
+      "oralOverlap": 0,
+      "playClearVideo": true,
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "lmsToDemo": 40,
+      "isIn": true,
+      "interestPVis": 9.9,
+      "bandOpacity": "1",
+      "bandTransform": "none",
+      "bandTransition": "transform 0.56s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1)",
+      "willReveal": true
+    },
+    "proofPre": null,
+    "proofPost": null,
+    "dualSeamOk": true,
+    "deskVisOk": true,
+    "dualGateOk": true,
+    "demoOpacityChannel": true,
+    "presenceHold": true,
+    "processHold": true
+  },
+  {
+    "note": "proof-settle-094",
+    "hero": {
+      "heroOpacity": "1",
+      "heroTransform": "none",
+      "heroTransition": "transform 0.52s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.48s cubic-bezier(0.22, 1, 0.36, 1)",
+      "ledeCta": 22.1,
+      "ctaProc": 22.4,
+      "procDesk": 31,
+      "deskVis": 172.8,
+      "procFw": "500",
+      "procColor": "rgba(8, 40, 72, 0.72)",
+      "wordFs": "26px",
+      "markW": 58
+    },
+    "demoPre": {
+      "opacity": "1",
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "transition": "all",
+      "willReveal": true,
+      "isIn": false
+    },
+    "demoPost": {
+      "opacity": "1",
+      "transform": "none",
+      "transition": "transform 0.56s cubic-bezier(0.22, 1, 0.36, 1)",
+      "isIn": true
+    },
+    "land": {
+      "chromeAbove": 30.6,
+      "videoShare": 75.4,
+      "demoVis": 124.4,
+      "playFill": 64.6,
+      "oralOverlap": 0,
+      "playClearVideo": true,
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "lmsToDemo": 40,
+      "isIn": true,
+      "interestPVis": 9.9,
+      "bandOpacity": "1",
+      "bandTransform": "none",
+      "bandTransition": "transform 0.56s cubic-bezier(0.22, 1, 0.36, 1)",
+      "willReveal": true
+    },
+    "proofPre": {
+      "opacity": "0.948467",
+      "transform": "matrix(1, 0, 0, 1, 0, 10.6147)",
+      "transition": "transform 0.64s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.52s cubic-bezier(0.22, 1, 0.36, 1)"
+    },
+    "proofPost": {
+      "opacity": "1",
+      "transform": "none",
+      "transition": "transform 0.64s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.52s cubic-bezier(0.22, 1, 0.36, 1)",
+      "isSettled": true
+    },
+    "dualSeamOk": true,
+    "deskVisOk": true,
+    "dualGateOk": true,
+    "demoOpacityChannel": false,
+    "presenceHold": true,
+    "processHold": true
+  },
+  {
+    "note": "demo-092+proof-094",
+    "hero": {
+      "heroOpacity": "1",
+      "heroTransform": "none",
+      "heroTransition": "transform 0.52s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.48s cubic-bezier(0.22, 1, 0.36, 1)",
+      "ledeCta": 22.1,
+      "ctaProc": 22.4,
+      "procDesk": 31,
+      "deskVis": 172.8,
+      "procFw": "500",
+      "procColor": "rgba(8, 40, 72, 0.72)",
+      "wordFs": "26px",
+      "markW": 58
+    },
+    "demoPre": {
+      "opacity": "0.92",
+      "transform": "matrix(1, 0, 0, 1, 0, 8)",
+      "transition": "all",
+      "willReveal": true,
+      "isIn": false
+    },
+    "demoPost": {
+      "opacity": "1",
+      "transform": "none",
+      "transition": "transform 0.56s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.48s cubic-bezier(0.22, 1, 0.36, 1)",
+      "isIn": true
+    },
+    "land": {
+      "chromeAbove": 30.6,
+      "videoShare": 75.4,
+      "demoVis": 124.4,
+      "playFill": 64.6,
+      "oralOverlap": 0,
+      "playClearVideo": true,
+      "optical": -72.4,
+      "claimShare": 43.6,
+      "lmsToDemo": 40,
+      "isIn": true,
+      "interestPVis": 9.9,
+      "bandOpacity": "1",
+      "bandTransform": "none",
+      "bandTransition": "transform 0.56s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.48s cubic-bezier(0.22, 1, 0.36, 1)",
+      "willReveal": true
+    },
+    "proofPre": {
+      "opacity": "0.948463",
+      "transform": "matrix(1, 0, 0, 1, 0, 10.6154)",
+      "transition": "transform 0.64s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.52s cubic-bezier(0.22, 1, 0.36, 1)"
+    },
+    "proofPost": {
+      "opacity": "1",
+      "transform": "none",
+      "transition": "transform 0.64s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.52s cubic-bezier(0.22, 1, 0.36, 1)",
+      "isSettled": true
+    },
+    "dualSeamOk": true,
+    "deskVisOk": true,
+    "dualGateOk": true,
+    "demoOpacityChannel": true,
+    "presenceHold": true,
+    "processHold": true
+  }
+]

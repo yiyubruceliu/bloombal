@@ -1,0 +1,52 @@
+{
+  "d1280": {
+    "before": {
+      "className": "demo-band will-reveal",
+      "ratio": 0.215,
+      "threshold": 0.22,
+      "wouldFire": false,
+      "demoVis": 99.4
+    },
+    "after": {
+      "className": "demo-band will-reveal is-in",
+      "transform": "none",
+      "lmsToDemo": 40,
+      "mechToLms": 39.2,
+      "titleToMech": 39.2,
+      "demoVis": 113.4,
+      "videoVis": 68.4,
+      "claimShare": 43.6,
+      "optical": -61.4,
+      "interestPVis": 132.7,
+      "solutionGrain": {
+        "content": "\"\"",
+        "opacity": "0.25"
+      }
+    }
+  },
+  "w1120": {
+    "before": {
+      "className": "demo-band will-reveal is-in",
+      "ratio": 0.289,
+      "threshold": 0.22,
+      "wouldFire": true,
+      "demoVis": 133.4
+    },
+    "after": {
+      "className": "demo-band will-reveal is-in",
+      "transform": "none",
+      "lmsToDemo": 52,
+      "mechToLms": 39.2,
+      "titleToMech": 39.2,
+      "demoVis": 133.6,
+      "videoVis": 88.6,
+      "claimShare": 41.3,
+      "optical": -85.6,
+      "interestPVis": 132.7,
+      "solutionGrain": {
+        "content": "\"\"",
+        "opacity": "0.25"
+      }
+    }
+  }
+}

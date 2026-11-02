@@ -1,0 +1,235 @@
+{
+  "authored": {
+    "ioThreshold": "0.12",
+    "rootMargin": "0px 0px 12% 0px",
+    "travelCss": "8px",
+    "lmsMbBase": "2.3",
+    "lmsMb1280": "1.4"
+  },
+  "hero": {
+    "deskVisibleH": 720,
+    "procDesk": -516.2,
+    "ledeCta": 22.1,
+    "ctaProc": 22.4,
+    "claimTopPct": 0,
+    "ctaYPct": 59.9,
+    "procYPct": 69.4,
+    "brandText": "Bloombal",
+    "validation": false
+  },
+  "midBlock": {
+    "gapDemoToCta": 39.9,
+    "urgH2Vis": 0,
+    "deltaCx": 0,
+    "afterPadT": "40px"
+  },
+  "interestHash": {
+    "optical": -44.9,
+    "bodyVis": 132.7,
+    "activeIndex": "02",
+    "grainOp": "0.45",
+    "field": "rgb(248, 246, 241)"
+  },
+  "processLand": {
+    "d1280": {
+      "optical": -61.4,
+      "claimShare": 43.6,
+      "titleLines": 2,
+      "titleToMech": 39.2,
+      "mechToLms": 39.2,
+      "lmsToDemo": 36,
+      "lmsMb": "22.4px",
+      "lmsMt": "39.2px",
+      "demoVis": 117.4,
+      "videoVis": 72.4,
+      "bandVis": 117.4,
+      "bandH": 461.2,
+      "ratio": 0.254,
+      "className": "demo-band will-reveal is-in",
+      "transform": "none",
+      "interestPVis": 132.7,
+      "interestH2Vis": 8.3,
+      "play": {
+        "t": 609.2,
+        "l": 189.8,
+        "oralOverlapArea": 0,
+        "overlapsVideoBox": false
+      },
+      "solutionGrain": {
+        "content": "\"\"",
+        "opacity": "0.25"
+      },
+      "copyGrainOp": "0.45",
+      "storyGrainOp": "0.4",
+      "proofGrainOp": "0.3"
+    },
+    "d1280_settled": {
+      "optical": -61.4,
+      "claimShare": 43.6,
+      "titleLines": 2,
+      "titleToMech": 39.2,
+      "mechToLms": 39.2,
+      "lmsToDemo": 36,
+      "lmsMb": "22.4px",
+      "lmsMt": "39.2px",
+      "demoVis": 117.4,
+      "videoVis": 72.4,
+      "bandVis": 117.4,
+      "bandH": 461.2,
+      "ratio": 0.254,
+      "className": "demo-band will-reveal is-in",
+      "transform": "none",
+      "interestPVis": 132.7,
+      "interestH2Vis": 8.3,
+      "play": {
+        "t": 609.2,
+        "l": 189.8,
+        "oralOverlapArea": 0,
+        "overlapsVideoBox": false
+      },
+      "solutionGrain": {
+        "content": "\"\"",
+        "opacity": "0.25"
+      },
+      "copyGrainOp": "0.45",
+      "storyGrainOp": "0.4",
+      "proofGrainOp": "0.3"
+    },
+    "w1120": {
+      "optical": -85.6,
+      "claimShare": 41.3,
+      "titleLines": 2,
+      "titleToMech": 39.2,
+      "mechToLms": 39.2,
+      "lmsToDemo": 48.8,
+      "lmsMb": "36.8px",
+      "lmsMt": "39.2px",
+      "demoVis": 136.8,
+      "videoVis": 91.8,
+      "bandVis": 136.8,
+      "bandH": 461.2,
+      "ratio": 0.297,
+      "className": "demo-band will-reveal is-in",
+      "transform": "none",
+      "interestPVis": 132.7,
+      "interestH2Vis": 16.1,
+      "play": {
+        "t": 589.8,
+        "l": 109.8,
+        "oralOverlapArea": 0,
+        "overlapsVideoBox": false
+      },
+      "solutionGrain": {
+        "content": "\"\"",
+        "opacity": "0.25"
+      },
+      "copyGrainOp": "0.45",
+      "storyGrainOp": "0.4",
+      "proofGrainOp": "0.3"
+    },
+    "w1120_settled": {
+      "optical": -85.6,
+      "claimShare": 41.3,
+      "titleLines": 2,
+      "titleToMech": 39.2,
+      "mechToLms": 39.2,
+      "lmsToDemo": 48.8,
+      "lmsMb": "36.8px",
+      "lmsMt": "39.2px",
+      "demoVis": 136.8,
+      "videoVis": 91.8,
+      "bandVis": 136.8,
+      "bandH": 461.2,
+      "ratio": 0.297,
+      "className": "demo-band will-reveal is-in",
+      "transform": "none",
+      "interestPVis": 132.7,
+      "interestH2Vis": 16.1,
+      "play": {
+        "t": 589.8,
+        "l": 109.8,
+        "oralOverlapArea": 0,
+        "overlapsVideoBox": false
+      },
+      "solutionGrain": {
+        "content": "\"\"",
+        "opacity": "0.25"
+      },
+      "copyGrainOp": "0.45",
+      "storyGrainOp": "0.4",
+      "proofGrainOp": "0.3"
+    }
+  },
+  "revealSeries": {
+    "d1280": [
+      {
+        "t": 0,
+        "className": "demo-band will-reveal",
+        "transform": "matrix(1, 0, 0, 1, 0, 8)"
+      },
+      {
+        "t": 450,
+        "className": "demo-band will-reveal is-in",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0268749)"
+      }
+    ],
+    "w1120": [
+      {
+        "t": 0,
+        "className": "demo-band will-reveal",
+        "transform": "matrix(1, 0, 0, 1, 0, 8)"
+      },
+      {
+        "t": 450,
+        "className": "demo-band will-reveal is-in",
+        "transform": "matrix(1, 0, 0, 1, 0, 0.0269105)"
+      }
+    ]
+  },
+  "partners": {
+    "urgPeek": 0,
+    "contactPeek": 0,
+    "proofGrain": "0.3",
+    "partnersH2Fs": "31.36px"
+  },
+  "urgency": {
+    "partnersPeek": 0,
+    "storyGrain": "0.4",
+    "bodyGlyph": 71.3,
+    "h2Fs": "35.84px",
+    "stickyPast": true
+  },
+  "footer": {
+    "h2Color": "rgb(246, 244, 239)",
+    "h2Fs": "39.2px",
+    "contrast": 13.57,
+    "emailOp": "rgba(246, 244, 239, 0.58)",
+    "copyOp": "rgba(246, 244, 239, 0.42)",
+    "solutionH2Fs": "40.8px"
+  },
+  "accept": {
+    "item1_revealFires1280": true,
+    "item1_transformNone": true,
+    "item1_lmsBand": false,
+    "item1_demoVis113": true,
+    "item2_demoVis115": true,
+    "item2_lmsBand": false,
+    "item3_1120Band": false,
+    "claimShare40": true,
+    "midBreath": true,
+    "partnersPeek0": true
+  },
+  "diagnosis": {
+    "live1280_lmsToDemo": 36,
+    "live1280_demoVis": 117.4,
+    "live1280_isIn": true,
+    "live1120_lmsToDemo": 48.8,
+    "live1120_demoVis": 136.8,
+    "interestBleedAtProcess": 132.7,
+    "settled1280_demoVis": 117.4,
+    "settled1280_lmsToDemo": 36,
+    "demoVisVs115": 2.4,
+    "demoVisVs120": -2.6,
+    "lmsOvershoot1120": 0.8
+  }
+}

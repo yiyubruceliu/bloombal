@@ -1,0 +1,555 @@
+{
+  "hero1280": {
+    "lede": {
+      "t": 345.6,
+      "b": 383.3,
+      "l": 128,
+      "r": 640,
+      "w": 512,
+      "h": 37.7,
+      "cx": 384
+    },
+    "cta": {
+      "t": 410.4,
+      "b": 470.1,
+      "l": 128,
+      "r": 395.5,
+      "w": 267.5,
+      "h": 59.7,
+      "cx": 261.7
+    },
+    "proc": {
+      "t": 496.8,
+      "b": 529.2,
+      "l": 128,
+      "r": 384,
+      "w": 256,
+      "h": 32.4,
+      "cx": 256
+    },
+    "desk": {
+      "t": 547.2,
+      "b": 720,
+      "l": 0,
+      "r": 1280,
+      "w": 1280,
+      "h": 172.8,
+      "cx": 640
+    },
+    "val": {
+      "t": 273.6,
+      "b": 345.6,
+      "l": 128,
+      "r": 524,
+      "w": 396,
+      "h": 72,
+      "cx": 326
+    },
+    "brand": {
+      "t": 24,
+      "b": 60,
+      "l": 128,
+      "r": 290.1,
+      "w": 162.1,
+      "h": 36,
+      "cx": 209
+    },
+    "indices": {
+      "t": 0,
+      "b": 178.2,
+      "l": 0,
+      "r": 128,
+      "w": 128,
+      "h": 178.2,
+      "cx": 64
+    },
+    "indicesPos": "fixed",
+    "indexRule": {
+      "t": 0,
+      "b": 547.2,
+      "l": 122.2,
+      "r": 123.2,
+      "w": 1,
+      "h": 547.2,
+      "cx": 122.7
+    },
+    "indexRulePos": "absolute",
+    "ledeCtaGap": 27.1,
+    "ctaProcGap": 26.7,
+    "procDesk": 18,
+    "ctaMassRatio": 0.56,
+    "processHref": "#solution",
+    "demoIdPresent": false,
+    "brandIdxOverlap": 0,
+    "headlineIdxOverlap": 0,
+    "rightEmptyPct": 77.3
+  },
+  "afterProcess": {
+    "scrollY": 1152,
+    "hash": "#solution",
+    "title": {
+      "t": 101.3,
+      "b": 192.7,
+      "l": 180,
+      "visiblePx": 91.375,
+      "cx": 535.1
+    },
+    "mech": {
+      "t": 212.7,
+      "b": 276,
+      "l": 180,
+      "visiblePx": 63.34375,
+      "cx": 498.2
+    },
+    "lms": {
+      "t": 289.6,
+      "b": 345,
+      "l": 180,
+      "visiblePx": 55.40625,
+      "cx": 447.9
+    },
+    "demo": {
+      "t": 365,
+      "b": 794.2,
+      "l": 180,
+      "visiblePx": 354.953125,
+      "cx": 640
+    },
+    "midCta": {
+      "t": 811.8,
+      "b": 869.7,
+      "l": 180,
+      "visiblePx": 0,
+      "cx": 309.1
+    },
+    "problem": {
+      "t": -432,
+      "b": 28.3,
+      "l": 0,
+      "visiblePx": 28.328125,
+      "cx": 640
+    },
+    "activeIndex": "03",
+    "claimStackH": 243.7,
+    "evidenceInView": true
+  },
+  "hashDemo": {
+    "hash": "#solution",
+    "scrollY": 1152,
+    "title": {
+      "t": 101.3,
+      "visiblePx": 91.375,
+      "above": false
+    },
+    "mech": {
+      "t": 212.7,
+      "visiblePx": 63.34375,
+      "above": false
+    },
+    "lms": {
+      "t": 289.6,
+      "visiblePx": 55.40625,
+      "above": false
+    },
+    "demo": {
+      "t": 365,
+      "visiblePx": 354.953125,
+      "above": false
+    },
+    "demoId": false
+  },
+  "desire": {
+    "title": {
+      "t": 101.3,
+      "b": 192.7,
+      "l": 180,
+      "w": 710.2,
+      "h": 91.4,
+      "cx": 535.1
+    },
+    "mech": {
+      "t": 212.7,
+      "b": 276,
+      "l": 180,
+      "w": 636.3,
+      "h": 63.3,
+      "cx": 498.2
+    },
+    "lms": {
+      "t": 289.6,
+      "b": 345,
+      "l": 180,
+      "w": 535.9,
+      "h": 55.4,
+      "cx": 447.9
+    },
+    "demo": {
+      "t": 365.1,
+      "b": 794.3,
+      "l": 180,
+      "w": 920,
+      "h": 429.2,
+      "cx": 640
+    },
+    "inner": {
+      "t": 29.3,
+      "b": 365,
+      "l": 180,
+      "w": 920,
+      "h": 335.7,
+      "cx": 640
+    },
+    "cta": {
+      "t": 811.8,
+      "b": 869.7,
+      "l": 180,
+      "w": 258.2,
+      "h": 57.9,
+      "cx": 309.1
+    },
+    "indices": {
+      "t": 0,
+      "b": 178.2,
+      "l": 0,
+      "w": 128,
+      "h": 178.2,
+      "cx": 64
+    },
+    "deltaTitleDemoLeft": 0,
+    "deltaTitleDemoCx": 104.9,
+    "titleWidthPctOfDemo": 77.2,
+    "titleLines": 2,
+    "h2MaxW": "min(710.246px, 100%)",
+    "lmsAboveDemo": true,
+    "ctaAloneUnderDemo": true,
+    "indicesOverlapTitleX": null,
+    "indicesOverlapInnerX": null,
+    "readingClearance": null,
+    "orderTops": {
+      "title": 101.3,
+      "mech": 212.7,
+      "lms": 289.6,
+      "demo": 365.1,
+      "cta": 811.8
+    }
+  },
+  "demoChrome": {
+    "videoControls": true,
+    "videoH": 403.2,
+    "frameH": 429.2,
+    "controlsReserveEstimate": 48,
+    "oralRowRiskZoneFromBottom": 64,
+    "framePad": "12px",
+    "demoOp": "1",
+    "hasWill": true,
+    "hasIn": true,
+    "poster": "img/plates/process-still.png"
+  },
+  "afterDemoViewport": {
+    "demo": {
+      "t": -134,
+      "b": 295.2,
+      "visiblePx": 295.234375
+    },
+    "cta": {
+      "t": 312.8,
+      "b": 370.7,
+      "visiblePx": 57.90625
+    },
+    "lms": {
+      "t": -209.4,
+      "b": -154,
+      "visiblePx": 0
+    },
+    "urgencyTitle": {
+      "t": 475.7,
+      "b": 556,
+      "visiblePx": 80.28125
+    },
+    "afterPadTop": 17.6,
+    "afterPadBottom": 56,
+    "afterH": 131.5,
+    "ctaH": 57.9
+  },
+  "urgency": {
+    "h": 258,
+    "pad": 96,
+    "padRatio": 0.37,
+    "activeIndex": "03",
+    "indicesInView": true,
+    "indicesOverlapH2X": 0,
+    "readingClearance": 52
+  },
+  "partners": {
+    "gaps": [
+      40,
+      40
+    ],
+    "occPct": 27.8,
+    "stripW": 920,
+    "markHs": [
+      72,
+      72,
+      72
+    ],
+    "justify": "center",
+    "activeIndex": "03"
+  },
+  "footer": {
+    "kids": [
+      {
+        "tag": "H2",
+        "t": 386.7
+      },
+      {
+        "tag": "A.cta-trial",
+        "t": 438.3
+      },
+      {
+        "tag": "A.footer-email",
+        "t": 516.2
+      },
+      {
+        "tag": "DIV.social-links",
+        "t": 555.2
+      },
+      {
+        "tag": "P.copyright",
+        "t": 606.3
+      }
+    ],
+    "activeIndex": "03",
+    "indicesInView": true,
+    "indicesOnInk": true,
+    "indicesColor": "rgb(183, 181, 174)",
+    "activeColor": "rgb(8, 40, 72)",
+    "footerBg": "rgb(8, 40, 72)",
+    "readingClearance": 52,
+    "indicesVsInkContrastRisk": "stone/ink on ink field"
+  },
+  "indexPath": [
+    {
+      "sel": "#home",
+      "idx": "01",
+      "indicesVisible": true,
+      "indicesTop": 0,
+      "fieldBg": "rgb(246, 244, 239)",
+      "activeColor": "rgb(8, 40, 72)",
+      "stoneColor": "rgb(183, 181, 174)"
+    },
+    {
+      "sel": "#problem",
+      "idx": "02",
+      "indicesVisible": true,
+      "indicesTop": 0,
+      "fieldBg": "rgb(246, 244, 239)",
+      "activeColor": "rgb(8, 40, 72)",
+      "stoneColor": "rgb(183, 181, 174)"
+    },
+    {
+      "sel": "#solution",
+      "idx": "03",
+      "indicesVisible": true,
+      "indicesTop": 0,
+      "fieldBg": "rgb(246, 244, 239)",
+      "activeColor": "rgb(8, 40, 72)",
+      "stoneColor": "rgb(183, 181, 174)"
+    },
+    {
+      "sel": "#urgency",
+      "idx": "03",
+      "indicesVisible": true,
+      "indicesTop": 0,
+      "fieldBg": "rgb(246, 244, 239)",
+      "activeColor": "rgb(8, 40, 72)",
+      "stoneColor": "rgb(183, 181, 174)"
+    },
+    {
+      "sel": "#partners",
+      "idx": "03",
+      "indicesVisible": true,
+      "indicesTop": 0,
+      "fieldBg": "rgb(246, 244, 239)",
+      "activeColor": "rgb(8, 40, 72)",
+      "stoneColor": "rgb(183, 181, 174)"
+    },
+    {
+      "sel": "#contact",
+      "idx": "03",
+      "indicesVisible": true,
+      "indicesTop": 0,
+      "fieldBg": "rgb(8, 40, 72)",
+      "activeColor": "rgb(8, 40, 72)",
+      "stoneColor": "rgb(183, 181, 174)"
+    }
+  ],
+  "index02Click": {
+    "title": {
+      "t": 101,
+      "visiblePx": 204.25
+    },
+    "body": {
+      "t": 325.3,
+      "visiblePx": 91.078125
+    },
+    "scrollMargin": "28px",
+    "clearance": 52,
+    "titleOpticalFromCenter": -156.9
+  },
+  "index03Click": {
+    "title": {
+      "t": 101.3,
+      "visiblePx": 91.375
+    },
+    "mech": {
+      "t": 212.7,
+      "visiblePx": 63.34375
+    },
+    "lms": {
+      "t": 289.6,
+      "visiblePx": 55.40625
+    },
+    "demo": {
+      "t": 365,
+      "visiblePx": 354.953125
+    },
+    "demoVisibleEnough": true
+  },
+  "desireEntryFold": {
+    "claimH": 243.7,
+    "roomBelowClaim": 375,
+    "demoTop": 365,
+    "demoVisiblePx": 354.953125,
+    "titleTop": 101.3,
+    "scrollMargin": "28px",
+    "evidenceStartsBelowFold": false
+  },
+  "hero1120": {
+    "brand": {
+      "t": 88,
+      "b": 140,
+      "l": 56,
+      "r": 1100,
+      "op": "1",
+      "z": "5",
+      "pos": "relative"
+    },
+    "idx": {
+      "t": 88,
+      "b": 213.4,
+      "l": 0,
+      "r": 44,
+      "op": "1",
+      "z": "20",
+      "pos": "fixed"
+    },
+    "brandIdxOverlap": 0,
+    "indicesW": 44,
+    "ledeCtaGap": 20,
+    "brandOp": "1"
+  },
+  "hero390": {
+    "brand": {
+      "t": 88,
+      "b": 140,
+      "l": 56,
+      "r": 370,
+      "op": "1"
+    },
+    "idx": {
+      "t": 88,
+      "b": 213.4,
+      "l": 0,
+      "r": 44,
+      "op": "1"
+    },
+    "brandIdxOverlap": 0,
+    "titleIdxOverlap": 0,
+    "padLeft": "56px",
+    "indicesW": 44,
+    "procDeskClear": 148.8,
+    "ctaFont": "15.2px",
+    "procFont": "14.08px"
+  },
+  "partners390": {
+    "imgs": [
+      {
+        "t": 339.4,
+        "l": 27.3,
+        "w": 75.5,
+        "h": 72
+      },
+      {
+        "t": 339.4,
+        "l": 142.7,
+        "w": 108,
+        "h": 72
+      },
+      {
+        "t": 339.4,
+        "l": 290.7,
+        "w": 72,
+        "h": 72
+      }
+    ],
+    "rowCount": 1,
+    "indicesOverlapStripX": 24,
+    "activeIndex": "03"
+  },
+  "sectionRhythm": {
+    "secs": [
+      {
+        "sel": "#problem",
+        "h": 460.3,
+        "pad": 144,
+        "padRatio": 0.31
+      },
+      {
+        "sel": "#solution",
+        "h": 897.4,
+        "pad": 92,
+        "padRatio": 0.1
+      },
+      {
+        "sel": "#urgency",
+        "h": 258,
+        "pad": 96,
+        "padRatio": 0.37
+      },
+      {
+        "sel": "#partners",
+        "h": 145,
+        "pad": 72,
+        "padRatio": 0.5
+      },
+      {
+        "sel": "#contact",
+        "h": 405.8,
+        "pad": 144,
+        "padRatio": 0.35
+      }
+    ],
+    "afterDemo": {
+      "h": 131.5,
+      "pad": 73.6,
+      "ctaH": 57.9,
+      "padRatio": 0.56,
+      "orphanRatio": 0.56
+    },
+    "lookOrder": [
+      "home",
+      "problem",
+      "solution",
+      "urgency",
+      "partners",
+      "contact"
+    ]
+  },
+  "live8080": {
+    "hasStatistics": true,
+    "hasAbout": true,
+    "hasPartners": false,
+    "hasSolution": true,
+    "title": "Bloombal | Two-Factor Knowledge Validation"
+  }
+}

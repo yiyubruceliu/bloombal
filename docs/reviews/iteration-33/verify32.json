@@ -1,0 +1,323 @@
+{
+  "hero": {
+    "deskVis": 172.8,
+    "procDesk": 31,
+    "ledeCta": 22.1,
+    "ctaProc": 22.4,
+    "liveLag": {
+      "hasOverFooterLogicHint": false,
+      "scriptHint": false
+    }
+  },
+  "measures": {
+    "interest": {
+      "fs": "19.52px",
+      "maxW": "670.924px",
+      "w": 670.9,
+      "cssCh": 34.4,
+      "glyphCh": 68.9,
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgb(248, 246, 241)",
+      "contrast": 13.82,
+      "fw": "400",
+      "mt": "0px",
+      "mb": "0px",
+      "lh": "33.184px"
+    },
+    "urgBody": {
+      "fs": "18.88px",
+      "maxW": "671.746px",
+      "w": 671.7,
+      "cssCh": 35.6,
+      "glyphCh": 71.3,
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgb(241, 239, 233)",
+      "contrast": 12.98,
+      "fw": "400",
+      "mt": "0px",
+      "mb": "0px",
+      "lh": "31.7184px"
+    },
+    "mech": {
+      "fs": "25.6px",
+      "maxW": "848.475px",
+      "w": 848.5,
+      "cssCh": 33.1,
+      "glyphCh": 66.4,
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgb(246, 244, 239)",
+      "contrast": 13.57,
+      "fw": "400",
+      "mt": "39.2px",
+      "mb": "0px",
+      "lh": "37.888px"
+    },
+    "lms": {
+      "fs": "23.04px",
+      "maxW": "763.628px",
+      "w": 763.6,
+      "cssCh": 33.1,
+      "glyphCh": 66.4,
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgb(246, 244, 239)",
+      "contrast": 13.57,
+      "fw": "400",
+      "mt": "39.2px",
+      "mb": "26.4px",
+      "lh": "34.0992px"
+    },
+    "storyGrain": {
+      "content": "\"\"",
+      "opacity": "0.4",
+      "bgImage": "radial-gradient(75% 50% at 88% 22%, rgba(8, 40, 72, 0.03), rgba(0, 0, 0, 0) 60%), url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfi"
+    },
+    "copyGrain": {
+      "content": "\"\"",
+      "opacity": "0.45",
+      "bgImage": "radial-gradient(80% 55% at 12% 18%, rgba(8, 40, 72, 0.035), rgba(0, 0, 0, 0) 62%), url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cf"
+    },
+    "proofGrain": {
+      "content": "\"\"",
+      "opacity": "0.3",
+      "bgImage": "radial-gradient(70% 45% at 50% 0%, rgba(8, 40, 72, 0.027), rgba(0, 0, 0, 0) 55%), url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfi"
+    },
+    "solutionGrain": {
+      "content": "\"\"",
+      "opacity": "0.25",
+      "bgImage": "radial-gradient(65% 40% at 70% 8%, rgba(8, 40, 72, 0.024), rgba(0, 0, 0, 0) 58%), url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfi"
+    },
+    "solutionPos": "relative",
+    "proofInnerZ": "1",
+    "proofBg": "rgb(234, 232, 227)"
+  },
+  "desire1280": {
+    "title": {
+      "t": 252.9,
+      "b": 344.3,
+      "h": 91.4
+    },
+    "titleLines": 2,
+    "gaps": {
+      "titleToMech": 39.2,
+      "mechToLms": 39.1,
+      "lmsToDemo": 53.9
+    },
+    "claimShare": 43.6,
+    "optical": -61.4,
+    "interestH2Vis": 8.3,
+    "interestPVis": 132.7,
+    "mechVis": 75.8,
+    "lmsVis": 68.2,
+    "demoVis": 99.4,
+    "videoVis": 54.4,
+    "lmsMb": "26.4px",
+    "lmsMt": "39.2px",
+    "lms": {
+      "fs": "23.04px",
+      "maxW": "763.628px",
+      "w": 763.6,
+      "cssCh": 33.1,
+      "glyphCh": 66.4,
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgb(246, 244, 239)",
+      "contrast": 13.57,
+      "fw": "400",
+      "mt": "39.2px",
+      "mb": "26.4px",
+      "lh": "34.0992px"
+    },
+    "mech": {
+      "fs": "25.6px",
+      "maxW": "848.475px",
+      "w": 848.5,
+      "cssCh": 33.1,
+      "glyphCh": 66.4,
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgb(246, 244, 239)",
+      "contrast": 13.57,
+      "fw": "400",
+      "mt": "39.2px",
+      "mb": "0px",
+      "lh": "37.888px"
+    },
+    "viewProcess": {
+      "found": true,
+      "text": "View process",
+      "top": 627.2,
+      "left": 189.8,
+      "overlapsVideo": false,
+      "oralOverlap": true
+    }
+  },
+  "desire1120": {
+    "title": {
+      "t": 236.8,
+      "b": 312,
+      "h": 75.3
+    },
+    "titleLines": 2,
+    "gaps": {
+      "titleToMech": 39.2,
+      "mechToLms": 39.2,
+      "lmsToDemo": 52
+    },
+    "claimShare": 41.3,
+    "optical": -85.6,
+    "interestH2Vis": 16.1,
+    "interestPVis": 132.7,
+    "lms": {
+      "fs": "23.04px",
+      "maxW": "763.628px",
+      "w": 763.6,
+      "cssCh": 33.1,
+      "glyphCh": 66.4,
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgb(246, 244, 239)",
+      "contrast": 13.57,
+      "fw": "400",
+      "mt": "39.2px",
+      "mb": "40px",
+      "lh": "34.0992px"
+    },
+    "mech": {
+      "fs": "25.6px",
+      "maxW": "848.475px",
+      "w": 848.5,
+      "cssCh": 33.1,
+      "glyphCh": 66.4,
+      "color": "rgb(8, 40, 72)",
+      "bg": "rgb(246, 244, 239)",
+      "contrast": 13.57,
+      "fw": "400",
+      "mt": "39.2px",
+      "mb": "0px",
+      "lh": "37.888px"
+    }
+  },
+  "mid": {
+    "gapDemoToCta": 39.8,
+    "urgVis": 110.265625,
+    "afterPadT": "40px",
+    "deltaCx": 0
+  },
+  "urg": {
+    "urgOptical": 0.9,
+    "partnersVis": 0,
+    "contactVis": 0
+  },
+  "partners": {
+    "urgVis": 0,
+    "contactVis": 0,
+    "logoCount": 3,
+    "proofGrainOpacity": "0.3"
+  },
+  "footer": {
+    "h2Vis": 82.3,
+    "ctaVis": 57.9,
+    "h2Color": "rgb(246, 244, 239)",
+    "h2Fs": "39.2px",
+    "footerBg": "rgb(8, 40, 72)",
+    "contrast": 13.57,
+    "solutionFs": "40.8px",
+    "contactOp": "1",
+    "copyOp": "1"
+  },
+  "interestLand": {
+    "optical": 0.1,
+    "emptyBelow": 105.1,
+    "field": "rgb(248, 246, 241)",
+    "grainOp": "0.45"
+  },
+  "accept": {
+    "iter32_lmsToDemoBand1280": {
+      "value": 53.9,
+      "pass": false,
+      "target": "40-48"
+    },
+    "iter32_demoVis1280": {
+      "value": 99.4,
+      "pass": false,
+      "target": ">=115 prefer>=120"
+    },
+    "iter32_mechToLms1120": {
+      "titleToMech": 39.2,
+      "mechToLms": 39.2,
+      "pass": true,
+      "target": "~titleToMech (~39, >=36)"
+    },
+    "iter32_mechToLms1280": {
+      "titleToMech": 39.2,
+      "mechToLms": 39.1,
+      "pass": true,
+      "target": "~titleToMech (~39, >=36)"
+    },
+    "iter32_solutionGrain": {
+      "value": {
+        "content": "\"\"",
+        "opacity": "0.25",
+        "bgImage": "radial-gradient(65% 40% at 70% 8%, rgba(8, 40, 72, 0.024), rgba(0, 0, 0, 0) 58%), url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfi"
+      },
+      "pass": true,
+      "target": "0.22-0.28"
+    },
+    "lmsGlyph": {
+      "value": 66.4,
+      "pass": true,
+      "target": ">=65"
+    },
+    "lmsToDemo1120": {
+      "value": 52,
+      "pass": true,
+      "target": ">=40"
+    },
+    "lmsToDemo1280": {
+      "value": 53.9,
+      "pass": true,
+      "target": ">=40"
+    },
+    "claimShare1120": {
+      "value": 41.3,
+      "pass": true,
+      "target": ">=40"
+    },
+    "claimShare1280": {
+      "value": 43.6,
+      "pass": true,
+      "target": ">=40"
+    },
+    "titleLines1120": {
+      "value": 2,
+      "pass": true,
+      "target": "2"
+    },
+    "optical1120": {
+      "value": -85.6,
+      "pass": true,
+      "target": "±120"
+    },
+    "proofGrain": {
+      "value": "0.3",
+      "pass": true,
+      "target": "0.25–0.35"
+    },
+    "partnersPeeks": {
+      "urgVis": 0,
+      "contactVis": 0,
+      "pass": true
+    },
+    "midBreath": {
+      "gap": 39.8,
+      "urgVis": 110.265625,
+      "pass": false
+    },
+    "footerContrast": {
+      "value": 13.57,
+      "pass": true
+    },
+    "dualSeam": {
+      "ledeCta": 22.1,
+      "ctaProc": 22.4,
+      "pass": true
+    }
+  }
+}
