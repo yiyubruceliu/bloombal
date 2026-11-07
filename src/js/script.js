@@ -120,7 +120,7 @@ function showFinalMotionState() {
   document.documentElement.classList.add('reduce-motion', 'motion-settled', 'splyt-ready');
   document
     .querySelectorAll(
-      '.hero-content, .hero-text-scroll, .msg-text-scroll, .clip-title, .video-box, .scroll-indicator, .hero-lede, .hero-cta, .proof-text-scroll, .hero-title-line, .balance-text-scroll, .balance-clip, .story-text-scroll, .partner-card, .footer-mega'
+      '.hero-content, .hero-text-scroll, .msg-text-scroll, .clip-title, .video-box, .scroll-indicator, .hero-lede, .hero-cta, .proof-text-scroll, .hero-title-line, .balance-text-scroll, .balance-clip, .story-text-scroll, .footer-mega'
     )
     .forEach((el) => {
       el.style.clipPath = FULL_CLIP;
@@ -483,7 +483,7 @@ function initBalanceMotion() {
 
   const line = section.querySelector('.balance-line');
   if (line) {
-    const chars = SplitText.create(line, { type: 'chars', charsClass: 'split-char' });
+    const chars = SplitText.create(line, { type: 'words, chars', wordsClass: 'split-word', charsClass: 'split-char' });
     gsap.from(chars.chars, {
       yPercent: 110,
       stagger: 0.02,
@@ -608,63 +608,6 @@ function initStoryMotion() {
   });
 }
 
-/** Partners — scrub titles + rising cards (testimonial energy) */
-function initPartnersMotion() {
-  const section = document.querySelector('.partners-section');
-  if (!section) return;
-
-  gsap
-    .timeline({
-      scrollTrigger: {
-        trigger: section,
-        start: 'top bottom',
-        end: 'center top',
-        scrub: true
-      }
-    })
-    .to('.partners-scrub--a', { xPercent: 40, ease: 'none' }, 0)
-    .to('.partners-scrub--b', { xPercent: -18, ease: 'none' }, 0)
-    .to('.partners-scrub--c', { xPercent: 28, ease: 'none' }, 0);
-
-  const rotations = [-4, 2, -2];
-  const cards = gsap.utils.toArray('.partner-card');
-
-  if (!isTablet()) {
-    const rise = gsap.timeline({
-      scrollTrigger: {
-        trigger: section,
-        start: 'top 15%',
-        end: '+=110%',
-        scrub: 1.4,
-        pin: true,
-        pinType: 'transform',
-        anticipatePin: 1
-      }
-    });
-
-    cards.forEach((card, i) => {
-      const rot = rotations[i] ?? 0;
-      rise.fromTo(
-        card,
-        { yPercent: 140, rotation: rot },
-        { yPercent: i === 1 ? -3 : 0, rotation: rot, ease: 'power1.inOut' },
-        i * 0.12
-      );
-    });
-  } else {
-    cards.forEach((card, i) => {
-      gsap.from(card, {
-        y: 80,
-        opacity: 0,
-        rotation: rotations[i] ?? 0,
-        duration: 0.7,
-        ease: 'power2.out',
-        scrollTrigger: { trigger: section, start: 'top 65%' }
-      });
-    });
-  }
-}
-
 /** Footer mega title rise */
 function initFooterMotion() {
   const footer = document.querySelector('.footer-section');
@@ -711,7 +654,6 @@ async function initSplytMotion() {
     initDemoVideo();
     initBalanceMotion();
     initStoryMotion();
-    initPartnersMotion();
     initFooterMotion();
   }, root);
 

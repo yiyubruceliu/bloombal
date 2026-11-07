@@ -1,7 +1,7 @@
-/* Hallmark · shape: Feature Stack (draw 197eac Bento Grid swapped · GSAP cinema) · genre: modern-minimal · theme: brand · redesign: full
- * paper: #e8f0fb · accent: #ff8a3d · display: Fredoka · body: Nunito · hero: Corridor (Counter swapped · DESIGN.md sky) · nav: slab (search-led swapped · DESIGN.md chrome) · footer: mast · signature: clay orange plate on navy–steel sky wash
- * axes: light/rounded-sans/warm · posture: Corridor · contrast: pass · fold: pass · v2.0.0
- * Hallmark · locked: DESIGN.md · copy: tightened 19/54/58 · draw: 197eac */
+/* Hallmark · shape: Feature Stack (draw 197eac Bento Grid swapped · GSAP cinema) · genre: modern-minimal · theme: brand · redesign: restyle
+ * paper: #f5f8fc · accent: #ff8a3d (CTA only) · display: Space Grotesk · body: Inter · hero: Corridor · nav: slab · footer: mast · signature: ice plate flattened/refined (soft tint + ice text, no tilt) · remaining ABE clay panels replaced with clean abstract/icon media · stats: icons not clay art
+ * axes: light/geometric-sans/cool · posture: Corridor · contrast: pass · fold: pass · v2.0.0
+ * Hallmark · restyle overrides DESIGN.md clay aesthetic on purpose · brand field kept (#082848 / #77cafc) · layout/wiring verbatim */
 /* Hallmark · pre-emit critique: P_ok H_ok E_ok S_ok R_ok V_ok · weakest: H, Corridor keeps product nouns in the plate without a below-fold video in the first screen */
 /* Hallmark · waive 26b · no form controls or aria-disabled anywhere · Bloombal trial landing has no disabled button states */
 /* Hallmark · reworded hero/benefit/urgency/about/services copy · 19 and 58 · listed in handoff */
@@ -10,6 +10,16 @@
 @import url("./tokens.css");
 @import url("./base.css");
 
+:root {
+    /* Hero CSS abstract mesh — no illustration file */
+    --color-hero-grid: rgba(232, 244, 251, 0.045);
+    --color-hero-glow-ice: rgba(119, 202, 252, 0.14);
+    --color-hero-glow-steel: rgba(56, 100, 145, 0.22);
+    --color-hero-glow-navy: rgba(14, 58, 102, 0.55);
+    --color-proof-icon-navy: var(--color-ice);
+    --color-proof-icon-light: var(--color-primary);
+    --color-proof-icon-steel: var(--color-ice-soft);
+}
 
 html,
 body {
@@ -30,9 +40,7 @@ body {
     font-weight: 400;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
-    background:
-        linear-gradient(180deg, var(--color-paper-sky), var(--color-paper-sky-deep)),
-        url("../img/abe/bg-sky.png") top center / cover no-repeat fixed;
+    background: linear-gradient(180deg, var(--color-paper-sky), var(--color-paper-sky-deep));
 }
 
 h1,
@@ -87,7 +95,7 @@ footer a:focus-visible {
 }
 
 .clip-title-inner--cta {
-    --clip-bg: var(--color-cta);
+    --clip-bg: var(--color-ice);
     --clip-fg: var(--color-ink);
     --clip-border: var(--color-primary);
 }
@@ -140,13 +148,6 @@ footer a:focus-visible {
 
 .cta-button {
     white-space: nowrap;
-}
-
-.logos {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: var(--gap-columns);
-    align-items: stretch;
 }
 
 .story-body,
@@ -221,8 +222,8 @@ img {
 .stat-link:focus-visible,
 .scroll-indicator:focus-visible,
 footer a:focus-visible {
-    outline: 3px solid var(--secondary);
-    outline-offset: 3px;
+    outline: var(--focus-ring);
+    outline-offset: var(--focus-offset);
 }
 
 /* --------------------------------------------------------------------------
@@ -267,14 +268,13 @@ footer#contact {
     background: var(--color-nav) !important;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border-bottom: var(--border-game);
-    border-bottom-color: var(--color-ice-border);
+    border-bottom: none;
     box-shadow: var(--shadow-md);
     min-height: 64px;
     padding: 0.35rem var(--space-sm);
     transition:
-        background var(--dur-med) var(--ease-game),
-        box-shadow var(--dur-med) var(--ease-game);
+        background var(--dur-med) var(--ease-out),
+        box-shadow var(--dur-med) var(--ease-out);
 }
 
 #mainNav.navbar.scrolled {
@@ -283,8 +283,8 @@ footer#contact {
 }
 
 #mainNav .navbar-brand img {
-    border: 2px solid var(--color-ice-edge);
-    border-radius: 12px;
+    border: 1px solid var(--color-ice-edge);
+    border-radius: var(--radius-mark);
     box-shadow: var(--shadow-sm);
     margin-right: var(--space-xs);
     vertical-align: middle;
@@ -303,18 +303,18 @@ footer#contact {
 
 #mainNav .nav-link {
     align-items: center;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     border-radius: var(--radius-sm);
     color: var(--chrome-link) !important;
     display: flex;
     font-family: var(--font-sans);
-    font-weight: 700;
+    font-weight: 600;
     min-height: 44px;
     padding: var(--space-xs) 0.9rem;
     transition:
-        background var(--dur-fast) var(--ease-game),
-        color var(--dur-fast) var(--ease-game),
-        border-color var(--dur-fast) var(--ease-game);
+        background var(--dur-fast) var(--ease-out),
+        color var(--dur-fast) var(--ease-out),
+        border-color var(--dur-fast) var(--ease-out);
 }
 
 #mainNav .nav-link:hover,
@@ -328,7 +328,7 @@ footer#contact {
     background: var(--color-ice-well);
     border-color: var(--color-ice-edge);
     color: var(--secondary) !important;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .navbar-nav .nav-link i {
@@ -337,11 +337,11 @@ footer#contact {
 
 .navbar-nav .nav-link.active i,
 .navbar-nav .nav-link:hover i {
-    color: var(--cta);
+    color: var(--secondary);
 }
 
 .navbar-toggler {
-    border: 2px solid var(--color-ice-border);
+    border: 1px solid var(--color-ice-border);
     border-radius: var(--radius-sm);
     margin-right: var(--space-sm);
     min-height: 44px;
@@ -361,31 +361,30 @@ footer#contact {
     padding: 0.85rem 1.6rem;
     background: var(--primary);
     color: var(--color-white);
-    border: var(--border-game);
+    border: 1px solid transparent;
     border-radius: var(--radius-md);
-    box-shadow: var(--shadow-sm), var(--shadow-inset);
+    box-shadow: var(--shadow-sm);
     font-family: var(--font-display);
     font-size: 1rem;
     font-weight: 600;
-    letter-spacing: 0.01em;
+    letter-spacing: var(--tracking-display);
     text-decoration: none;
     cursor: pointer;
     transition:
-        transform var(--dur-fast) var(--ease-game),
-        background-color var(--dur-fast) var(--ease-game),
-        box-shadow var(--dur-fast) var(--ease-game);
+        background-color var(--dur-fast) var(--ease-out),
+        box-shadow var(--dur-fast) var(--ease-out),
+        border-color var(--dur-fast) var(--ease-out);
 }
 
 .cta-button:hover {
     background: var(--primary-hover);
     box-shadow: var(--shadow-md);
     color: var(--color-white);
-    transform: translateY(-2px);
 }
 
 .cta-button:active {
-    box-shadow: none;
-    transform: translateY(2px) scale(0.98);
+    box-shadow: var(--shadow-sm);
+    background: var(--color-navy-mid);
 }
 
 .hero-cta,
@@ -393,7 +392,7 @@ footer#contact {
 .footer-section .cta-button,
 header .cta-button {
     background: var(--cta);
-    border-color: var(--ink-line);
+    border-color: var(--color-border-strong);
     color: var(--ink);
 }
 
@@ -462,7 +461,28 @@ header.hero::before {
     inset: -24% 0 -18%;
     z-index: 0;
     pointer-events: none;
-    background: url("../img/abe/bg-sky.png") center top / cover no-repeat;
+    background-color: var(--color-void);
+    background-image:
+        repeating-linear-gradient(
+            0deg,
+            transparent 0,
+            transparent 47px,
+            var(--color-hero-grid) 47px,
+            var(--color-hero-grid) 48px
+        ),
+        repeating-linear-gradient(
+            90deg,
+            transparent 0,
+            transparent 47px,
+            var(--color-hero-grid) 47px,
+            var(--color-hero-grid) 48px
+        ),
+        radial-gradient(ellipse 72% 58% at 82% 12%, var(--color-hero-glow-ice), transparent 62%),
+        radial-gradient(ellipse 58% 52% at 10% 88%, var(--color-hero-glow-navy), transparent 68%),
+        radial-gradient(ellipse 48% 42% at 48% 48%, var(--color-hero-glow-steel), transparent 70%),
+        linear-gradient(160deg, var(--color-void) 0%, var(--color-primary) 45%, var(--color-navy-band) 100%);
+    background-repeat: repeat, repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: auto, auto, auto, auto, auto, auto;
     transform: translate3d(0, 0, 0) scale(1.18);
     will-change: transform;
 }
@@ -474,10 +494,11 @@ header.hero::before {
     pointer-events: none;
     will-change: transform, opacity;
     background: linear-gradient(
-        160deg,
+        165deg,
         var(--color-wash-start) 0%,
-        var(--color-wash-mid) 48%,
-        var(--color-wash-end) 100%
+        var(--color-wash-mid) 42%,
+        var(--color-wash-end) 78%,
+        transparent 100%
     );
 }
 
@@ -498,7 +519,7 @@ header.hero::before {
     font-size: clamp(2.1rem, 4.2vw, 3.35rem);
     font-weight: 700;
     line-height: 1.12;
-    letter-spacing: 0.01em;
+    letter-spacing: var(--tracking-display);
     color: var(--color-white);
     text-shadow: 0 2px 16px var(--color-title-shadow);
     overflow: visible;
@@ -523,21 +544,22 @@ header.hero::before {
     margin: 0.05em 0;
     overflow: hidden;
     clip-path: polygon(50% 0%, 50% 0%, 50% 100%, 50% 100%);
-    transform: rotate(-2deg);
+    transform: none;
 }
 
 .hero-title-plate {
     display: inline-block;
-    padding: 0.22em 0.5em;
+    padding: 0.14em 0.32em 0.18em;
     max-width: 100%;
     font-size: 0.95em;
     line-height: 1.15;
     white-space: normal;
-    background: var(--cta);
-    color: var(--ink);
-    border: var(--border-game);
-    border-radius: var(--radius-md);
-    box-shadow: var(--shadow-md);
+    /* Soft ice tint + ice text — not a saturated candy slab */
+    background: var(--color-hero-glow-ice);
+    color: var(--color-ice);
+    border: none;
+    border-radius: var(--radius-sm);
+    box-shadow: none;
 }
 
 .hero-lede {
@@ -581,7 +603,7 @@ header.hero::before {
     position: relative;
     width: 30px;
     height: 50px;
-    border: 3px solid var(--color-mouse-border);
+    border: 1px solid var(--color-mouse-border);
     border-radius: 20px;
 }
 
@@ -592,7 +614,7 @@ header.hero::before {
     width: 4px;
     height: 8px;
     border-radius: 2px;
-    background-color: var(--cta);
+    background-color: var(--secondary);
     transform: translate(-50%, 0);
     animation: scroll-wheel 1.5s infinite;
 }
@@ -617,7 +639,9 @@ header.hero::before {
     .hero-title-plate {
         font-size: 0.9em;
         padding: 0.28em 0.55em;
-        max-width: 11.5ch;
+        max-width: none;
+        overflow-wrap: normal;
+        word-break: keep-all;
     }
 
     .hero-lede {
@@ -663,7 +687,7 @@ header.hero::before {
     font-size: clamp(1.85rem, 3.8vw, 3rem);
     font-weight: 700;
     line-height: 1.15;
-    letter-spacing: 0.01em;
+    letter-spacing: var(--tracking-display);
     color: var(--color-msg-dim);
 }
 
@@ -681,16 +705,17 @@ header.hero::before {
 
 .msg-plate {
     display: inline-block;
-    padding: 0.28em 0.7em;
+    padding: 0.22em 0.55em;
     font-family: var(--font-display);
     font-size: clamp(1.65rem, 3.4vw, 2.6rem);
     font-weight: 700;
     line-height: 1;
-    background: var(--cta);
+    letter-spacing: var(--tracking-display);
+    background: var(--color-ice);
     color: var(--ink);
     border: var(--border-game);
     border-radius: var(--radius-md);
-    box-shadow: var(--shadow-lg);
+    box-shadow: var(--shadow-sm);
 }
 
 .message-body {
@@ -738,7 +763,7 @@ header.hero::before {
     font-family: var(--font-display);
     font-size: clamp(1.85rem, 3.5vw, 2.75rem);
     font-weight: 700;
-    letter-spacing: 0.01em;
+    letter-spacing: var(--tracking-display);
     color: var(--primary);
 }
 
@@ -755,15 +780,16 @@ header.hero::before {
 
 .proof-plate {
     display: inline-block;
-    padding: 0.28em 0.55em;
+    padding: 0.22em 0.48em;
     font-family: var(--font-display);
     font-size: clamp(1.15rem, 2.2vw, 1.75rem);
     font-weight: 700;
+    letter-spacing: var(--tracking-display);
     background: var(--primary);
     color: var(--color-white);
     border: var(--border-game);
     border-radius: var(--radius-md);
-    box-shadow: var(--shadow-md);
+    box-shadow: var(--shadow-sm);
 }
 
 .proof-slider {
@@ -782,16 +808,17 @@ header.hero::before {
     isolation: isolate;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    width: min(400px, 72vw);
-    min-width: 280px;
-    min-height: 400px;
-    height: clamp(400px, 52vh, 480px);
-    padding: 0;
-    overflow: visible;
+    justify-content: space-between;
+    gap: var(--space-md);
+    width: min(360px, 72vw);
+    min-width: 260px;
+    min-height: 280px;
+    height: clamp(280px, 38vh, 340px);
+    padding: var(--space-xl) 1.75rem 1.75rem;
+    overflow: hidden;
     border: var(--border-game);
     border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-lg);
+    box-shadow: var(--shadow-card);
     transform: rotate(-4deg);
 }
 
@@ -810,107 +837,62 @@ header.hero::before {
 }
 
 .proof-card--navy {
-    background:
-        radial-gradient(ellipse at 70% 28%, var(--color-ice-glow), transparent 55%),
-        linear-gradient(160deg, var(--color-navy-mid), var(--color-primary));
+    background: linear-gradient(160deg, var(--color-navy-mid), var(--color-primary));
     color: var(--color-white);
 }
 
 .proof-card--ice {
-    background:
-        radial-gradient(ellipse at 30% 20%, var(--color-white-glow), transparent 50%),
-        linear-gradient(160deg, var(--color-ice-soft), var(--color-ice));
+    background: var(--color-surface);
     color: var(--ink);
+    border-color: var(--color-ice-border-soft);
 }
 
 .proof-card--clay {
-    background:
-        radial-gradient(ellipse at 65% 22%, var(--color-cream-glow), transparent 52%),
-        linear-gradient(160deg, var(--color-cta-soft), var(--color-cta));
+    background: linear-gradient(160deg, var(--color-paper), var(--color-paper-2));
     color: var(--ink);
 }
 
 .proof-card--steel {
-    background:
-        radial-gradient(ellipse at 40% 25%, var(--color-ice-glow-soft), transparent 55%),
-        linear-gradient(160deg, var(--color-steel-soft), var(--color-steel));
+    background: linear-gradient(160deg, var(--color-steel), var(--color-navy-mid));
     color: var(--color-white);
 }
 
 .proof-card-media {
-    position: absolute;
-    inset: -8% -16%;
+    position: relative;
     z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     pointer-events: none;
-    overflow: visible;
+    line-height: 1;
 }
 
-.proof-drink {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 24%;
-    z-index: 2;
-    margin-inline: auto;
-    width: auto;
-    height: auto;
-    max-width: min(52%, 220px);
-    max-height: 54%;
-    object-fit: contain;
-    object-position: center bottom;
-    filter: drop-shadow(0 18px 28px var(--color-drop-navy));
-    will-change: transform;
+.proof-card-media .bi {
+    font-size: 2.2rem;
+    line-height: 1;
+    color: var(--color-proof-icon-navy);
 }
 
-.proof-card--navy .proof-drink {
-    max-width: min(38%, 170px);
-    max-height: 64%;
-    bottom: 16%;
+.proof-card--ice .proof-card-media .bi,
+.proof-card--clay .proof-card-media .bi {
+    color: var(--color-proof-icon-light);
 }
 
+.proof-card--steel .proof-card-media .bi {
+    color: var(--color-proof-icon-steel);
+}
+
+.proof-drink,
 .proof-elements {
-    position: absolute;
-    top: -4%;
-    left: -18%;
-    z-index: 3;
-    width: 136%;
-    max-width: none;
-    height: auto;
-    max-height: 44%;
-    object-fit: contain;
-    object-position: center top;
-    opacity: 0.94;
-    filter: drop-shadow(0 12px 18px var(--color-ink-veil));
-    will-change: transform;
-}
-
-.proof-card:nth-child(even) .proof-elements {
-    top: -2%;
-    left: -20%;
-    width: 140%;
+    display: none;
 }
 
 .proof-card-copy {
     position: relative;
     z-index: 4;
-    padding: var(--space-xl) 1.75rem 1.75rem;
-    border-radius: 0 0 var(--radius-xl) var(--radius-xl);
-    background: linear-gradient(
-        180deg,
-        transparent 0%,
-        var(--color-ink-fade) 28%,
-        var(--color-ink-veil) 100%
-    );
-}
-
-.proof-card--navy .proof-card-copy,
-.proof-card--steel .proof-card-copy {
-    background: linear-gradient(
-        180deg,
-        transparent 0%,
-        var(--color-void-fade) 35%,
-        var(--color-void-veil) 100%
-    );
+    padding: 0;
+    margin-top: auto;
+    background: transparent;
 }
 
 .proof-number {
@@ -919,6 +901,7 @@ header.hero::before {
     font-size: clamp(2.75rem, 5vw, 3.75rem);
     font-weight: 700;
     line-height: 1;
+    font-variant-numeric: tabular-nums;
 }
 
 .proof-desc {
@@ -942,15 +925,15 @@ header.hero::before {
     display: inline-block;
     margin-top: 0.35rem;
     padding-bottom: var(--space-3xs);
-    border-bottom: 3px solid var(--cta);
+    border-bottom: 1px solid var(--color-ice);
     color: var(--primary);
-    font-weight: 700;
+    font-weight: 600;
     text-decoration: none;
-    transition: color var(--dur-fast) var(--ease-game);
+    transition: color var(--dur-fast) var(--ease-out);
 }
 
 .stat-link:hover {
-    color: var(--cta-hover);
+    color: var(--color-navy-mid);
 }
 
 .proof-card--navy .stat-link,
@@ -987,10 +970,10 @@ header.hero::before {
 
 .benefit-kicker {
     margin-bottom: var(--space-sm);
-    font-family: var(--font-display);
+    font-family: var(--font-body);
     font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: 0.02em;
+    font-weight: 500;
+    letter-spacing: normal;
     color: var(--color-benefit-muted);
 }
 
@@ -1029,9 +1012,10 @@ header.hero::before {
     padding: var(--space-md) 1.4rem;
     background: var(--clip-bg, var(--primary));
     color: var(--clip-fg, var(--color-white));
-    border: 3px solid var(--clip-border, var(--ink-line));
+    border: var(--border-game);
+    border-color: var(--clip-border, var(--color-border-strong));
     border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-md);
+    box-shadow: var(--shadow-sm);
 }
 
 .clip-title-inner p {
@@ -1127,7 +1111,7 @@ header.hero::before {
 
 
 /* --------------------------------------------------------------------------
-   6. BALANCE -- nutrition-style title plate + twin clay columns
+   6. BALANCE -- title plate + twin comparison columns
    -------------------------------------------------------------------------- */
 
 .balance-section {
@@ -1190,16 +1174,17 @@ header.hero::before {
 
 .balance-plate {
     display: inline-block;
-    padding: 0.28em 0.65em;
+    padding: 0.2em 0.5em;
     font-family: var(--font-display);
     font-size: clamp(2rem, 5.5vw, 3.75rem);
     font-weight: 700;
     line-height: 1;
-    background: var(--cta);
-    color: var(--ink);
+    letter-spacing: var(--tracking-display);
+    background: var(--primary);
+    color: var(--color-white);
     border: var(--border-game);
     border-radius: var(--radius-md);
-    box-shadow: var(--shadow-lg);
+    box-shadow: var(--shadow-sm);
 }
 
 .balance-sub {
@@ -1212,8 +1197,14 @@ header.hero::before {
 
 .balance-big-img {
     width: min(100%, 420px);
+    aspect-ratio: 4 / 5;
     justify-self: end;
-    filter: drop-shadow(0 18px 30px var(--color-shadow-balance));
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border);
+    box-shadow: var(--shadow-sm);
+    background:
+        radial-gradient(ellipse at 28% 22%, var(--color-ice-well), transparent 52%),
+        linear-gradient(165deg, var(--color-primary) 0%, var(--color-navy-mid) 52%, var(--color-steel) 100%);
     transform: translateY(8%);
 }
 
@@ -1238,7 +1229,7 @@ header.hero::before {
 }
 
 .balance-col--neg {
-    background: linear-gradient(165deg, var(--color-cta-soft), var(--color-surface));
+    background: linear-gradient(165deg, var(--color-paper-2), var(--color-surface));
     transform: rotate(1.5deg);
 }
 
@@ -1251,13 +1242,14 @@ header.hero::before {
 
 .balance-clip span {
     display: inline-block;
-    padding: 0.35em 0.7em;
+    padding: 0.3em 0.6em;
     font-family: var(--font-display);
     font-size: clamp(1.25rem, 2.4vw, 1.75rem);
     font-weight: 700;
+    letter-spacing: var(--tracking-display);
     border: var(--border-game);
     border-radius: var(--radius-md);
-    box-shadow: var(--shadow-md);
+    box-shadow: var(--shadow-sm);
 }
 
 .balance-clip--pos span {
@@ -1266,8 +1258,8 @@ header.hero::before {
 }
 
 .balance-clip--neg span {
-    background: var(--cta);
-    color: var(--ink);
+    background: var(--color-navy-mid);
+    color: var(--color-white);
 }
 
 .balance-col ul {
@@ -1360,14 +1352,15 @@ header.hero::before {
 
 .story-plate {
     display: inline-block;
-    padding: 0.22em 0.6em;
+    padding: 0.18em 0.48em;
     font-family: var(--font-display);
     font-size: clamp(2rem, 6vw, 4.25rem);
     font-weight: 700;
     line-height: 1;
+    letter-spacing: var(--tracking-display);
     border: var(--border-game);
     border-radius: var(--radius-md);
-    box-shadow: var(--shadow-lg);
+    box-shadow: var(--shadow-sm);
 }
 
 .story-plate--navy {
@@ -1382,7 +1375,7 @@ header.hero::before {
 }
 
 .story-plate--clay {
-    background: var(--cta);
+    background: var(--secondary);
     color: var(--ink);
 }
 
@@ -1420,19 +1413,27 @@ header.hero::before {
 }
 
 .media-frame,
-.story-media .media-frame,
-.story-media img.media-frame {
-    display: block;
-    background: var(--surface);
-    border: var(--border-game);
-    border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-lg);
-}
-
-.story-media .media-frame,
-.story-media img.media-frame {
+.story-media .media-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     max-width: 520px;
+    aspect-ratio: 1 / 1;
+    min-height: 14rem;
+    background:
+        radial-gradient(ellipse at 35% 30%, var(--color-ice-well), transparent 55%),
+        linear-gradient(165deg, var(--color-paper) 0%, var(--color-paper-2) 100%);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+}
+
+.media-frame .bi {
+    font-size: clamp(3.25rem, 7vw, 5.25rem);
+    line-height: 1;
+    color: var(--color-steel);
+    opacity: 0.5;
 }
 
 .story-float {
@@ -1440,7 +1441,15 @@ header.hero::before {
 }
 
 .story-section--navy .story-media .media-frame {
-    background: var(--color-media-veil);
+    background:
+        radial-gradient(ellipse at 40% 28%, var(--color-ice-glow-soft), transparent 55%),
+        linear-gradient(165deg, var(--color-void) 0%, var(--color-navy-mid) 60%, var(--color-steel) 100%);
+    border-color: var(--color-ice-border-soft);
+}
+
+.story-section--navy .story-media .media-frame .bi {
+    color: var(--color-ice);
+    opacity: 0.55;
 }
 
 /* About -- 1:1 teams art + readable navy type (var(--color-about-body) body, white scrub, ice highlights) */
@@ -1475,8 +1484,6 @@ header.hero::before {
     max-width: min(26rem, 38vw);
     aspect-ratio: 1 / 1;
     height: auto;
-    object-fit: cover;
-    object-position: center;
 }
 
 #about .story-scrub {
@@ -1497,120 +1504,6 @@ header.hero::before {
 #about .highlight-text {
     color: var(--secondary);
     font-weight: 700;
-}
-
-/* --------------------------------------------------------------------------
-   10. PARTNERS -- rising logo cards
-   -------------------------------------------------------------------------- */
-
-.partners-section {
-    position: relative;
-    z-index: 2;
-    width: 100%;
-    box-sizing: border-box;
-    min-height: 110vh;
-    min-height: 110dvh;
-    padding: 5.5rem clamp(var(--space-lg), 5vw, 4.5rem) var(--space-2xl);
-    overflow: hidden;
-    background: var(--paper);
-    text-align: center;
-}
-
-.partners-titles {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.15rem;
-    margin-bottom: var(--space-xl);
-}
-
-.partners-scrub {
-    margin: 0;
-    font-family: var(--font-display);
-    font-size: clamp(2.5rem, 9vw, 6.5rem);
-    font-weight: 700;
-    line-height: 0.92;
-    letter-spacing: -0.03em;
-    color: var(--primary);
-    will-change: transform;
-}
-
-.partners-scrub--b {
-    color: var(--cta);
-}
-
-.partners-pin-box {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: var(--space-md) 0 2rem;
-}
-
-.partners-section .logos {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    justify-content: center;
-    align-items: stretch;
-    gap: clamp(var(--space-md), 3vw, 2rem);
-    width: min(960px, 100%);
-    margin: 0 auto;
-}
-
-.partner-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    width: min(280px, 78vw);
-    padding: var(--space-lg) 1.25rem;
-    background: var(--surface-raised);
-    border: var(--border-game);
-    border-radius: var(--radius-xl);
-    box-shadow: var(--shadow-lg);
-}
-
-.partner-card:nth-child(1) {
-    transform: rotate(-4deg);
-}
-
-.partner-card:nth-child(2) {
-    transform: rotate(2deg) translateY(-0.75rem);
-}
-
-.partner-card:nth-child(3) {
-    transform: rotate(-2deg);
-}
-
-.partner-card img,
-.logos img {
-    width: 100%;
-    height: auto;
-    max-height: 120px;
-    object-fit: contain;
-    background: transparent;
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-    filter: grayscale(12%);
-    opacity: 1;
-    padding: 0;
-    margin: 0;
-    transition: filter var(--dur-med) var(--ease-game);
-}
-
-.partner-card:hover img {
-    filter: grayscale(0%);
-}
-
-.partners-lede {
-    margin: 0 auto;
-    max-width: 36rem;
-    font-size: 1.1rem;
-    color: var(--ink);
-}
-
-#social-proof {
-    display: block;
 }
 
 /* --------------------------------------------------------------------------
@@ -1741,17 +1634,11 @@ footer .cta-button {
 .social-link {
     color: var(--secondary);
     font-size: 1.5rem;
-    transition:
-        color var(--dur-fast) var(--ease-game),
-        transform var(--dur-fast) var(--ease-game);
-}
-
-.social-link:hover {
-    transform: translateY(-2px);
+    transition: color var(--dur-fast) var(--ease-out);
 }
 
 .social-link:hover i {
-    color: var(--cta);
+    color: var(--color-ice-soft);
 }
 
 
@@ -1802,8 +1689,7 @@ a.scroll-indicator:hover .scroll-indicator-label {
 .clip-title,
 .video-box,
 .balance-clip,
-.story-float,
-.partner-card {
+.story-float {
     backface-visibility: hidden;
 }
 
@@ -1822,14 +1708,12 @@ a.scroll-indicator:hover .scroll-indicator-label {
 .vd-pin-section,
 .balance-section,
 .story-section,
-.partners-section,
 .footer-section {
     -webkit-font-smoothing: antialiased;
 }
 
 .proof-section,
 .benefit-section,
-.partners-section,
 .balance-section,
 .story-section--cream {
     background-attachment: scroll;
@@ -1856,10 +1740,6 @@ a.scroll-indicator:hover .scroll-indicator-label {
 }
 
 @media (max-width: 900px) {
-    .partners-section .logos {
-        grid-template-columns: minmax(0, 1fr);
-    }
-
     .balance-hero,
     .balance-grid,
     .story-body {
@@ -1896,9 +1776,7 @@ a.scroll-indicator:hover .scroll-indicator-label {
         text-align: left;
     }
 
-    .story-media .media-frame,
-    .story-media img.media-frame {
-        display: block;
+    .story-media .media-frame {
         margin-inline: auto;
     }
 
@@ -1914,10 +1792,6 @@ a.scroll-indicator:hover .scroll-indicator-label {
         max-width: min(22rem, 78vw);
     }
 
-    .partners-section {
-        min-height: auto;
-    }
-
     .proof-slider {
         gap: clamp(3rem, 8vw, 5.5rem);
         padding-inline: var(--space-lg);
@@ -1925,9 +1799,9 @@ a.scroll-indicator:hover .scroll-indicator-label {
 
     .proof-card,
     .proof-card:nth-child(even) {
-        width: min(340px, 78vw);
-        min-width: 260px;
-        min-height: 360px;
+        width: min(320px, 78vw);
+        min-width: 240px;
+        min-height: 260px;
         height: auto;
         transform: none;
     }
@@ -1971,13 +1845,6 @@ a.scroll-indicator:hover .scroll-indicator-label {
         min-width: 0;
     }
 
-    .proof-elements {
-        top: 0;
-        left: -10%;
-        width: 120%;
-        max-height: 36%;
-    }
-
     .benefit-section {
         min-height: auto;
         padding: var(--space-2xl) 1.25rem 0;
@@ -2000,12 +1867,6 @@ a.scroll-indicator:hover .scroll-indicator-label {
 
     .social-links {
         justify-content: center;
-    }
-
-    .partner-card:nth-child(1),
-    .partner-card:nth-child(2),
-    .partner-card:nth-child(3) {
-        transform: none;
     }
 }
 
@@ -2032,13 +1893,6 @@ a.scroll-indicator:hover .scroll-indicator-label {
         font-size: clamp(1.6rem, 10vw, 2.35rem);
     }
 
-    .partners-scrub {
-        font-size: clamp(2rem, 12vw, 3.25rem);
-    }
-
-    .proof-elements {
-        opacity: 0.85;
-    }
 }
 
 /* --------------------------------------------------------------------------
@@ -2080,8 +1934,7 @@ a.scroll-indicator:hover .scroll-indicator-label {
 
     .hero-sky,
     .hero-wash,
-    .scroll-indicator,
-    .proof-elements {
+    .scroll-indicator {
         display: none !important;
     }
 
@@ -2125,17 +1978,18 @@ a.scroll-indicator:hover .scroll-indicator-label {
     /* second line follows first in paint timeline */
 }
 
-/* Proof contract: sparse cards, wide gaps, spilling elements */
+/* Proof contract: sparse cards, wide gaps, icon + number (no clay art) */
 .proof-slider .proof-card {
-    /* ~400px cards; gap handled on .proof-slider */
+    /* ~360px cards; gap handled on .proof-slider */
 }
 
-.proof-card-media .proof-elements {
-    /* wider than card; overflow visible on parents */
+.proof-card-media .bi {
+    /* understated bootstrap-icons outline mark above the count */
 }
 
-.proof-card-media .proof-drink {
-    /* primary vertical graphic; scrubbed y on pin */
+.proof-drink,
+.proof-elements {
+    /* clay panel images removed; selectors kept harmless for legacy GSAP hooks */
 }
 
 /* Benefit contract */
@@ -2163,7 +2017,7 @@ a.scroll-indicator:hover .scroll-indicator-label {
 /* Balance contract */
 .balance-col--pos,
 .balance-col--neg {
-    /* twin clay panels */
+    /* twin comparison panels */
 }
 
 .balance-clip--pos,
@@ -2181,18 +2035,7 @@ a.scroll-indicator:hover .scroll-indicator-label {
 }
 
 .story-section--cream .story-plate--clay {
-    /* clay/orange plate on cream (services) */
-}
-
-/* Partners contract */
-.partners-titles .partners-scrub--a,
-.partners-titles .partners-scrub--b,
-.partners-titles .partners-scrub--c {
-    /* scrubbed xPercent on pin */
-}
-
-.partners-pin-box .partner-card {
-    /* rising cards */
+    /* ice plate on cream (services) */
 }
 
 /* Footer contract -- compact */
@@ -2246,11 +2089,6 @@ footer.footer-section .footer-art {
         padding-right: 4.5rem;
     }
 
-    .partners-section {
-        padding-left: 4.5rem;
-        padding-right: 4.5rem;
-    }
-
     #about .story-media .media-frame {
         max-width: min(26rem, 32vw);
     }
@@ -2267,10 +2105,6 @@ footer.footer-section .footer-art {
 
     .story-scrub {
         font-size: clamp(2.75rem, 5.5vw, 5.25rem);
-    }
-
-    .partners-scrub {
-        font-size: clamp(3rem, 7vw, 6.75rem);
     }
 }
 
@@ -2308,19 +2142,14 @@ footer.footer-section .footer-art {
    -------------------------------------------------------------------------- */
 
 .proof-card .stat-link:focus-visible {
-    outline: 3px solid var(--secondary);
-    outline-offset: 4px;
-}
-
-.partner-card:focus-within {
-    outline: 3px solid var(--secondary);
+    outline: var(--focus-ring);
     outline-offset: 4px;
 }
 
 .footer-actions .cta-button:focus-visible,
 .benefit-cta:focus-visible,
 .hero-cta:focus-visible {
-    outline: 3px solid var(--secondary);
+    outline: var(--focus-ring);
     outline-offset: 4px;
 }
 
@@ -2360,10 +2189,6 @@ footer.footer-section .footer-art {
     /* how it works cream story */
 }
 
-#social-proof.partners-section {
-    /* partners */
-}
-
 #contact.footer-section {
     /* contact / footer */
 }
@@ -2377,19 +2202,17 @@ footer.footer-section .footer-art {
 .benefit-section h2::after,
 .balance-section h2::after,
 .story-section h2::after,
-.partners-section h2::after,
 .footer-section h2::after {
     display: none;
 }
 
 /* --------------------------------------------------------------------------
-   Clay elevation helpers used by interactive surfaces
+   Elevation helpers used by interactive surfaces
    -------------------------------------------------------------------------- */
 
 .cta-button,
 .proof-card,
 .clip-title-inner,
-.partner-card,
 .balance-col,
 .media-frame,
 .msg-plate,
@@ -2397,12 +2220,11 @@ footer.footer-section .footer-art {
 .proof-plate,
 .balance-plate,
 .story-plate {
-    /* clay grammar: thick border + soft bottom shadow via tokens */
+    /* hairline border + soft diffuse shadow via tokens */
 }
 
-.cta-button:active,
-.partner-card:active {
-    /* press feel for game-like UI */
+.cta-button:active {
+    /* professional press: background shift only */
 }
 
 /* --------------------------------------------------------------------------
@@ -2413,7 +2235,6 @@ footer.footer-section .footer-art {
     .cta-button,
     .proof-card,
     .clip-title-inner,
-    .partner-card,
     .msg-plate,
     .hero-title-plate,
     .story-plate,
@@ -2473,7 +2294,6 @@ html.reduce-motion .hero-title-line,
 html.reduce-motion .balance-text-scroll,
 html.reduce-motion .balance-clip,
 html.reduce-motion .story-text-scroll,
-html.reduce-motion .partner-card,
 html.reduce-motion .footer-mega {
     opacity: 1 !important;
     clip-path: none !important;

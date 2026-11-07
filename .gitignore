@@ -44,3 +44,4 @@ Thumbs.db
 
 # Webpack build stats
 stats.json .hallmark/
+.hallmark/

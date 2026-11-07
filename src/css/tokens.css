@@ -48,10 +48,10 @@
   --z-toast: 500;
   --z-tooltip: 600;
 
-  /* DESIGN.md locked brand */
-  --color-paper: #e8f0fb;
-  --color-paper-2: #d4e3f7;
-  --color-paper-3: #fffdf9;
+  /* Brand field (Bloombal) — premium academic SaaS restyle */
+  --color-paper: #f5f8fc;
+  --color-paper-2: #e7edf5;
+  --color-paper-3: #ffffff;
   --color-ink: #1a2240;
   --color-ink-2: #082848;
   --color-muted: #5a6480;
@@ -66,7 +66,7 @@
   --color-cta: #ff8a3d;
   --color-cta-hover: #f07322;
   --color-cta-soft: #ffe8d6;
-  --color-surface: #fffdf9;
+  --color-surface: #ffffff;
   --color-surface-raised: #ffffff;
   --color-chrome-link: #e8f4fb;
   --color-white: #ffffff;
@@ -86,8 +86,8 @@
   --color-wash-start: rgba(8, 40, 72, 0.82);
   --color-wash-mid: rgba(19, 49, 83, 0.62);
   --color-wash-end: rgba(56, 100, 145, 0.4);
-  --color-paper-sky: rgba(232, 240, 251, 0.92);
-  --color-paper-sky-deep: rgba(212, 227, 247, 0.96);
+  --color-paper-sky: rgba(245, 248, 252, 0.92);
+  --color-paper-sky-deep: rgba(231, 237, 245, 0.96);
   --color-hero-copy: rgba(255, 255, 255, 0.92);
   --color-mouse-border: rgba(255, 255, 255, 0.85);
   --color-msg-muted: rgba(232, 240, 251, 0.88);
@@ -95,7 +95,7 @@
   --color-ice-glow: rgba(119, 202, 252, 0.28);
   --color-ice-glow-soft: rgba(119, 202, 252, 0.22);
   --color-white-glow: rgba(255, 255, 255, 0.55);
-  --color-cream-glow: rgba(255, 253, 249, 0.45);
+  --color-cream-glow: rgba(255, 255, 255, 0.5);
   --color-ink-fade: rgba(8, 40, 72, 0.04);
   --color-ink-veil: rgba(8, 40, 72, 0.22);
   --color-void-fade: rgba(4, 20, 40, 0.15);
@@ -114,34 +114,35 @@
   --color-lede-shadow: rgba(8, 40, 72, 0.35);
   --color-lede-shadow-sm: rgba(8, 40, 72, 0.55);
   --color-about-body: #e8f4fb;
-
+  --color-border: rgba(8, 40, 72, 0.12);
+  --color-border-strong: rgba(8, 40, 72, 0.18);
 
   --color-msg-dim: rgba(232, 240, 251, 0.22);
   --color-shadow-balance: rgba(8, 40, 72, 0.2);
-  --color-media-veil: rgba(255, 253, 249, 0.92);
+  --color-media-veil: rgba(255, 255, 255, 0.92);
   --color-about-copy: rgba(232, 244, 251, 0.92);
   --color-footer-copy: rgba(255, 255, 255, 0.95);
-  --color-logo-glow: rgba(255, 138, 61, 0.25);
+  --color-logo-glow: rgba(119, 202, 252, 0.22);
 
-  --font-display: "Fredoka", "Nunito", ui-rounded, system-ui, sans-serif;
-  --font-body: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
   --font-outlier: var(--font-body);
   --display-weight: 700;
-  --tracking-display: 0.01em;
-  --radius-card: 22px;
+  --tracking-display: -0.015em;
+  --radius-card: 8px;
   --radius-pill: 999px;
-  --radius-sm: 10px;
-  --radius-md: 16px;
-  --radius-lg: 22px;
-  --radius-xl: 28px;
-  --radius-mark: 12px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 10px;
+  --radius-mark: 6px;
   --rule-hair: 1px;
-  --border-game: 3px solid var(--color-ink-2);
-  --shadow-card: 0 4px 0 rgba(8, 40, 72, 0.1), 0 10px 24px rgba(8, 40, 72, 0.08);
-  --shadow-sm: 0 2px 0 rgba(8, 40, 72, 0.08);
-  --shadow-md: 0 4px 0 rgba(8, 40, 72, 0.1), 0 10px 24px rgba(8, 40, 72, 0.08);
-  --shadow-lg: 0 6px 0 rgba(8, 40, 72, 0.12), 0 18px 40px rgba(8, 40, 72, 0.12);
-  --shadow-inset: inset 0 -3px 0 rgba(8, 40, 72, 0.08);
+  --border-game: 1px solid var(--color-border);
+  --shadow-sm: 0 1px 2px rgba(8, 40, 72, 0.06);
+  --shadow-card: 0 1px 3px rgba(8, 40, 72, 0.08), 0 8px 24px rgba(8, 40, 72, 0.06);
+  --shadow-md: 0 1px 3px rgba(8, 40, 72, 0.08), 0 8px 24px rgba(8, 40, 72, 0.06);
+  --shadow-lg: 0 4px 12px rgba(8, 40, 72, 0.1), 0 20px 48px rgba(8, 40, 72, 0.1);
+  --shadow-inset: none;
   --nav-clearance: 70px;
   --nav-height: 64px;
   --focus-ring: 3px solid var(--color-focus);
