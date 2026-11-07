@@ -16,6 +16,9 @@
     --color-hero-glow-ice: rgba(119, 202, 252, 0.14);
     --color-hero-glow-steel: rgba(56, 100, 145, 0.22);
     --color-hero-glow-navy: rgba(14, 58, 102, 0.55);
+    --color-hero-mesh-light: rgba(255, 255, 255, 0.022);
+    --color-hero-mesh-dark: rgba(0, 0, 0, 0.14);
+    --color-hero-sheen: rgba(119, 202, 252, 0.07);
     --color-proof-icon-navy: var(--color-ice);
     --color-proof-icon-light: var(--color-primary);
     --color-proof-icon-steel: var(--color-ice-soft);
@@ -463,28 +466,24 @@ header.hero::before {
     pointer-events: none;
     background-color: var(--color-void);
     background-image:
-        repeating-linear-gradient(
-            0deg,
-            transparent 0,
-            transparent 47px,
-            var(--color-hero-grid) 47px,
-            var(--color-hero-grid) 48px
-        ),
-        repeating-linear-gradient(
-            90deg,
-            transparent 0,
-            transparent 47px,
-            var(--color-hero-grid) 47px,
-            var(--color-hero-grid) 48px
-        ),
         radial-gradient(ellipse 72% 58% at 82% 12%, var(--color-hero-glow-ice), transparent 62%),
         radial-gradient(ellipse 58% 52% at 10% 88%, var(--color-hero-glow-navy), transparent 68%),
         radial-gradient(ellipse 48% 42% at 48% 48%, var(--color-hero-glow-steel), transparent 70%),
-        linear-gradient(160deg, var(--color-void) 0%, var(--color-primary) 45%, var(--color-navy-band) 100%);
-    background-repeat: repeat, repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+        repeating-linear-gradient(45deg, var(--color-hero-mesh-light) 0 2px, transparent 2px 7px),
+        repeating-linear-gradient(-45deg, var(--color-hero-mesh-dark) 0 2px, transparent 2px 7px),
+        linear-gradient(160deg, var(--color-void-deep) 0%, var(--color-primary) 48%, var(--color-navy-band) 100%);
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat, repeat, no-repeat;
     background-size: auto, auto, auto, auto, auto, auto;
     transform: translate3d(0, 0, 0) scale(1.18);
     will-change: transform;
+}
+
+.hero-sky::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(115deg, transparent 40%, var(--color-hero-sheen) 50%, transparent 60%);
 }
 
 .hero-wash {
