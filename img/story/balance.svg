@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" width="480" height="600" role="img" aria-label="Balancing the benefits and challenges of ChatGPT in education">
+  <defs>
+    <linearGradient id="bgb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061a30"/><stop offset="0.5" stop-color="#082848"/><stop offset="1" stop-color="#0a3054"/>
+    </linearGradient>
+    <pattern id="gridb" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="480" height="600" rx="20" fill="url(#bgb)"/>
+  <rect width="480" height="600" rx="20" fill="url(#gridb)"/>
+  <!-- central column -->
+  <rect x="234" y="150" width="12" height="320" rx="6" fill="#2f6ea8"/>
+  <circle cx="240" cy="150" r="14" fill="#77cafc"/>
+  <rect x="150" y="466" width="180" height="16" rx="8" fill="#2f6ea8"/>
+  <!-- beam -->
+  <rect x="96" y="176" width="288" height="12" rx="6" fill="#77cafc"/>
+  <!-- left pan (positives, ice) -->
+  <line x1="120" y1="186" x2="120" y2="250" stroke="#77cafc" stroke-width="2.5"/>
+  <path d="M70 250h100l-18 46a34 34 0 0 1-64 0z" fill="#0d2d52" stroke="#77cafc" stroke-width="2.5"/>
+  <circle cx="120" cy="268" r="16" fill="#8ff0c0"/>
+  <path d="M112 268l5 5 10-11" fill="none" stroke="#082848" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- right pan (challenges, orange) -->
+  <line x1="360" y1="186" x2="360" y2="250" stroke="#ff8a3d" stroke-width="2.5"/>
+  <path d="M310 250h100l-18 46a34 34 0 0 1-64 0z" fill="#0d2d52" stroke="#ff8a3d" stroke-width="2.5"/>
+  <g stroke="#ffb37a" stroke-width="3.5" stroke-linecap="round">
+    <line x1="360" y1="262" x2="360" y2="274"/><circle cx="360" cy="284" r="1.6" fill="#ffb37a" stroke="none"/>
+    <path d="M345 258a15 15 0 0 1 30 0" fill="none"/>
+  </g>
+  <!-- labels -->
+  <text x="120" y="340" text-anchor="middle" font-family="'Space Grotesk',sans-serif" font-size="20" font-weight="700" fill="#8ff0c0">Benefits</text>
+  <text x="360" y="340" text-anchor="middle" font-family="'Space Grotesk',sans-serif" font-size="20" font-weight="700" fill="#ffb37a">Challenges</text>
+  <text x="240" y="524" text-anchor="middle" font-family="'Space Grotesk',sans-serif" font-size="22" font-weight="700" fill="#eaf2fb">ChatGPT in education</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Educators and technologists collaborating as a team">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061a30"/><stop offset="0.5" stop-color="#082848"/><stop offset="1" stop-color="#0a3054"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#77cafc" stop-opacity="0.18"/><stop offset="1" stop-color="#77cafc" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid2" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="600" rx="20" fill="url(#bg2)"/>
+  <rect width="600" height="600" rx="20" fill="url(#grid2)"/>
+  <rect width="600" height="600" rx="20" fill="url(#glow2)"/>
+  <!-- connecting lines -->
+  <g stroke="#77cafc" stroke-opacity="0.45" stroke-width="2.5">
+    <line x1="300" y1="300" x2="180" y2="180"/>
+    <line x1="300" y1="300" x2="420" y2="180"/>
+    <line x1="300" y1="300" x2="160" y2="400"/>
+    <line x1="300" y1="300" x2="440" y2="400"/>
+    <line x1="180" y1="180" x2="420" y2="180"/>
+  </g>
+  <!-- person node template -->
+  <g>
+    <!-- center (orange, lead) -->
+    <circle cx="300" cy="300" r="52" fill="#0d2d52" stroke="#ff8a3d" stroke-width="2.5"/>
+    <circle cx="300" cy="286" r="16" fill="none" stroke="#ff8a3d" stroke-width="3"/>
+    <path d="M276 330c0-16 14-24 24-24s24 8 24 24" fill="none" stroke="#ff8a3d" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g fill="#0d2d52" stroke="#77cafc" stroke-width="2.5">
+    <circle cx="180" cy="180" r="40"/><circle cx="420" cy="180" r="40"/>
+    <circle cx="160" cy="400" r="40"/><circle cx="440" cy="400" r="40"/>
+  </g>
+  <g fill="none" stroke="#bfe3ff" stroke-width="2.6" stroke-linecap="round">
+    <g><circle cx="180" cy="170" r="12"/><path d="M162 204c0-12 10-18 18-18s18 6 18 18"/></g>
+    <g><circle cx="420" cy="170" r="12"/><path d="M402 204c0-12 10-18 18-18s18 6 18 18"/></g>
+    <g><circle cx="160" cy="390" r="12"/><path d="M142 424c0-12 10-18 18-18s18 6 18 18"/></g>
+    <g><circle cx="440" cy="390" r="12"/><path d="M422 424c0-12 10-18 18-18s18 6 18 18"/></g>
+  </g>
+  <text x="300" y="516" text-anchor="middle" font-family="'Space Grotesk',sans-serif" font-size="24" font-weight="700" fill="#eaf2fb">Educators + technologists</text>
+</svg>

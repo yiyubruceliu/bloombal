@@ -61,6 +61,16 @@ module.exports = {
                     to: "videos"
                 },
                 {
+                    from: "src/privacy.html",
+                    to: "privacy.html",
+                    toType: "file"
+                },
+                {
+                    from: "src/terms.html",
+                    to: "terms.html",
+                    toType: "file"
+                },
+                {
                     from: "CNAME",
                     to: "CNAME",
                     toType: "file"
