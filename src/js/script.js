@@ -13,6 +13,8 @@ ScrollTrigger.defaults({
 const prefersReducedMotion = () =>
   window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+const isFirefox = () => /firefox/i.test(navigator.userAgent);
+
 const isMobile = () => window.matchMedia('(max-width: 768px)').matches;
 const isTablet = () => window.matchMedia('(max-width: 1024px)').matches;
 
@@ -120,13 +122,17 @@ function showFinalMotionState() {
   document.documentElement.classList.add('reduce-motion', 'motion-settled', 'splyt-ready');
   document
     .querySelectorAll(
-      '.hero-content, .hero-text-scroll, .msg-text-scroll, .clip-title, .video-box, .scroll-indicator, .hero-lede, .hero-cta, .proof-text-scroll, .hero-title-line, .balance-text-scroll, .balance-clip, .story-text-scroll, .footer-mega'
+      '.hero-content, .hero-text-scroll, .msg-text-scroll, .clip-title, .video-box, .scroll-indicator, .hero-lede, .hero-cta, .proof-text-scroll, .hero-title-line, .balance-text-scroll, .balance-clip, .story-text-scroll, .footer-mega, .story-copy p, .story-copy li, .story-float, .proof-card, .balance-col, .media-frame, .media-illustration, .balance-big-img, .msg-plate, .story-plate, .hero-title-plate'
     )
     .forEach((el) => {
       el.style.clipPath = FULL_CLIP;
       el.style.opacity = '1';
       el.style.transform = '';
     });
+  // Un-collapse the demo video reveal (static path never runs the pin scrub)
+  document.querySelectorAll('.video-box').forEach((v) => {
+    v.style.clipPath = 'none';
+  });
   // SplitText .from() can leave chars at yPercent:200 if init fails mid-tween
   document.querySelectorAll('.split-char, .split-word').forEach((el) => {
     el.style.transform = 'none';
@@ -675,10 +681,14 @@ document.addEventListener('DOMContentLoaded', () => {
   initNavbarScroll();
   initNavCollapse();
 
-  // Splyt-grade scroll cinema always runs in JS (reference site does not gate on
-  // prefers-reduced-motion). Soften only autoplay media when reduce is set.
-  if (prefersReducedMotion()) {
-    initReducedMedia();
+  const useStatic = isFirefox() || prefersReducedMotion();
+  if (prefersReducedMotion()) initReducedMedia();
+
+  if (useStatic) {
+    // Firefox: the ScrollSmoother + pinned cinema mis-measures (giant empty
+    // pin-spacers, stuck reveals). Render the page static + fully visible.
+    showFinalMotionState();
+    return;
   }
 
   initSplytMotion().catch((err) => {

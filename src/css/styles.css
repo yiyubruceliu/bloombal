@@ -2378,3 +2378,26 @@ html.reduce-motion .footer-mega {
     clip-path: none !important;
     transform: none !important;
 }
+
+/* Static path (reduce-motion / Firefox): natural-flow proof cards + scrub plates */
+html.reduce-motion .proof-slider {
+    transform: none !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-lg, 24px);
+    width: 100%;
+}
+
+html.reduce-motion .proof-card {
+    position: static;
+    flex: 0 1 300px;
+}
+
+html.reduce-motion .story-scrub,
+html.reduce-motion .msg-plate,
+html.reduce-motion .story-plate,
+html.reduce-motion .proof-text-scroll {
+    transform: none !important;
+    opacity: 1 !important;
+}
