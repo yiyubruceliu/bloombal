@@ -1099,13 +1099,31 @@ header.hero::before {
 
 @media (max-width: 768px) {
     .video-box {
+        position: relative;
+        inset: auto;
+        height: auto;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        margin: 0 auto;
+        border-radius: var(--radius-md, 10px);
+        overflow: hidden;
         clip-path: circle(100% at 50% 50%);
     }
 
     .vd-pin-section {
         height: auto;
-        min-height: 70vh;
+        min-height: auto;
         margin-top: var(--space-lg);
+        padding: var(--space-lg) 0;
+    }
+
+    .vd-pin-section .video-box video,
+    .vd-pin-section .demo-video {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }
 
@@ -1812,6 +1830,10 @@ a.scroll-indicator:hover .scroll-indicator-label {
    -------------------------------------------------------------------------- */
 
 @media (max-width: 768px) {
+    .hero-container {
+        overflow: hidden;
+    }
+
     .navbar-brand {
         font-size: 1.15rem;
         margin-left: var(--space-sm);
@@ -2273,6 +2295,32 @@ footer.footer-section .footer-art {
     object-fit: cover;
     border-radius: 0;
     border: 0;
+}
+
+/* Mobile: reassert 16:9 demo box after full-bleed reaffirmation (cascade) */
+@media (max-width: 768px) {
+    .vd-pin-section .video-box,
+    .benefit-section .vd-pin-section .video-box {
+        position: relative;
+        inset: auto;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        margin: 0 auto;
+        border-radius: var(--radius-md, 10px);
+        overflow: hidden;
+        clip-path: circle(100% at 50% 50%);
+    }
+
+    .vd-pin-section .video-box video,
+    .vd-pin-section .demo-video,
+    .benefit-section .vd-pin-section .video-box .demo-video {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
 /* End of production stylesheet */
