@@ -328,19 +328,47 @@ footer#contact {
 }
 
 .navbar-nav .nav-link.active {
-    background: var(--color-ice-well);
-    border-color: var(--color-ice-edge);
-    color: var(--secondary) !important;
+    background: var(--color-ice);
+    border-color: transparent;
+    color: var(--color-primary) !important;
     font-weight: 600;
 }
 
-.navbar-nav .nav-link i {
-    color: var(--secondary);
-}
+@media (min-width: 992px) {
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        gap: var(--space-3xs);
+        padding: var(--space-2xs) var(--space-xs);
+        background: var(--color-ice-well);
+        border: 1px solid var(--color-ice-border-soft);
+        border-radius: 999px;
+    }
 
-.navbar-nav .nav-link.active i,
-.navbar-nav .nav-link:hover i {
-    color: var(--secondary);
+    #mainNav .nav-link {
+        padding: 0.45rem 0.95rem;
+        border-radius: 999px;
+        font-family: var(--font-display);
+        font-weight: 600;
+        font-size: 0.95rem;
+        letter-spacing: 0.01em;
+        color: var(--color-ice-soft) !important;
+        transition:
+            background var(--dur-fast) var(--ease-out),
+            color var(--dur-fast) var(--ease-out);
+    }
+
+    #mainNav .nav-link:hover,
+    #mainNav .nav-link:focus-visible {
+        background: var(--color-ice-well-hover);
+        border-color: transparent;
+        color: var(--color-white) !important;
+    }
+
+    .navbar-nav .nav-link.active {
+        background: var(--color-ice);
+        color: var(--color-primary) !important;
+    }
 }
 
 .navbar-toggler {
