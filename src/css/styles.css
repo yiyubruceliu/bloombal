@@ -2365,7 +2365,6 @@ html.reduce-motion .hero-text-scroll,
 html.reduce-motion .msg-text-scroll,
 html.reduce-motion .clip-title,
 html.reduce-motion .video-box,
-html.reduce-motion .scroll-indicator,
 html.reduce-motion .hero-lede,
 html.reduce-motion .hero-cta,
 html.reduce-motion .proof-text-scroll,
@@ -2377,6 +2376,15 @@ html.reduce-motion .footer-mega {
     opacity: 1 !important;
     clip-path: none !important;
     transform: none !important;
+}
+
+/* Scroll indicator stays horizontally centered on the static path
+   (it centers via left:50% + translateX(-50%); a blanket transform:none
+   would shift it left by half its width). */
+html.reduce-motion .scroll-indicator {
+    opacity: 1 !important;
+    clip-path: none !important;
+    transform: translateX(-50%) !important;
 }
 
 /* Static path (reduce-motion / Firefox): natural-flow proof cards + scrub plates */
