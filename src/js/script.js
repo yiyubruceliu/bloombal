@@ -127,7 +127,34 @@ function showFinalMotionState() {
       el.style.opacity = '1';
       el.style.transform = '';
     });
+  // SplitText .from() can leave chars at yPercent:200 if init fails mid-tween
+  document.querySelectorAll('.split-char, .split-word').forEach((el) => {
+    el.style.transform = 'none';
+    el.style.opacity = '1';
+  });
   document.getElementById('home')?.classList.add('hero-ready');
+}
+
+/** Settle hero intro targets to their final visible state (reduced motion / a11y). */
+function settleHeroIntro(chars) {
+  gsap.set('.hero-content', { opacity: 1, y: 0, clearProps: 'transform' });
+  gsap.set('.hero-text-scroll', { clipPath: FULL_CLIP });
+  gsap.set('.hero-title-line, .hero-lede, .hero-cta', {
+    opacity: 1,
+    y: 0,
+    clearProps: 'transform'
+  });
+  gsap.set('.scroll-indicator', {
+    opacity: 1,
+    y: 0,
+    xPercent: -50,
+    clearProps: 'transform'
+  });
+  if (chars?.length) {
+    gsap.set(chars, { yPercent: 0, y: 0, x: 0, opacity: 1, clearProps: 'transform' });
+  }
+  document.getElementById('home')?.classList.add('hero-ready');
+  document.documentElement.classList.add('motion-settled', 'splyt-ready', 'reduce-motion');
 }
 
 /** Splyt HeroSection — enter + scrub fold */
@@ -137,29 +164,36 @@ function initHeroMotion() {
 
   const titleSplit = SplitText.create(plate, { type: 'chars', charsClass: 'split-char' });
 
-  gsap.set('.hero-content', { opacity: 0, y: 100 });
-  gsap.set('.hero-text-scroll', { clipPath: COLLAPSED_CLIP });
-  gsap.set('.hero-title-line, .hero-lede, .hero-cta', { opacity: 0, y: 40 });
-  gsap.set('.scroll-indicator', { opacity: 0, y: 24, xPercent: -50 });
+  if (prefersReducedMotion()) {
+    // GSAP .from() + reduced-motion can leave chars stuck at yPercent:200.
+    // Skip the staggered intro; land on final visible values immediately.
+    settleHeroIntro(titleSplit.chars);
+  } else {
+    gsap.set('.hero-content', { opacity: 0, y: 100 });
+    gsap.set('.hero-text-scroll', { clipPath: COLLAPSED_CLIP });
+    gsap.set('.hero-title-line, .hero-lede, .hero-cta', { opacity: 0, y: 40 });
+    gsap.set('.scroll-indicator', { opacity: 0, y: 24, xPercent: -50 });
 
-  gsap
-    .timeline({ delay: 0.8 })
-    .to('.hero-content', { opacity: 1, y: 0, ease: 'power1.inOut', duration: 1 })
-    .to('.hero-title-line', { opacity: 1, y: 0, stagger: 0.15, duration: 0.5 }, '-=0.35')
-    .to('.hero-text-scroll', { duration: 1.1, clipPath: FULL_CLIP, ease: 'circ.out' }, '-=0.4')
-    .from(
-      titleSplit.chars,
-      { yPercent: 200, stagger: 0.02, ease: 'power2.out', duration: 0.65 },
-      '-=0.55'
-    )
-    .to('.hero-lede', { opacity: 1, y: 0, duration: 0.5 }, '-=0.15')
-    .to('.hero-cta', { opacity: 1, y: 0, duration: 0.5 }, '-=0.28')
-    .to('.scroll-indicator', { opacity: 1, y: 0, xPercent: -50, duration: 0.45 }, '-=0.1')
-    .add(() => {
-      document.getElementById('home')?.classList.add('hero-ready');
-      document.documentElement.classList.add('motion-settled', 'splyt-ready');
-    });
+    gsap
+      .timeline({ delay: 0.8 })
+      .to('.hero-content', { opacity: 1, y: 0, ease: 'power1.inOut', duration: 1 })
+      .to('.hero-title-line', { opacity: 1, y: 0, stagger: 0.15, duration: 0.5 }, '-=0.35')
+      .to('.hero-text-scroll', { duration: 1.1, clipPath: FULL_CLIP, ease: 'circ.out' }, '-=0.4')
+      .from(
+        titleSplit.chars,
+        { yPercent: 200, stagger: 0.02, ease: 'power2.out', duration: 0.65 },
+        '-=0.55'
+      )
+      .to('.hero-lede', { opacity: 1, y: 0, duration: 0.5 }, '-=0.15')
+      .to('.hero-cta', { opacity: 1, y: 0, duration: 0.5 }, '-=0.28')
+      .to('.scroll-indicator', { opacity: 1, y: 0, xPercent: -50, duration: 0.45 }, '-=0.1')
+      .add(() => {
+        document.getElementById('home')?.classList.add('hero-ready');
+        document.documentElement.classList.add('motion-settled', 'splyt-ready');
+      });
+  }
 
+  // Scroll fold still runs under reduce (DESIGN.md: scroll-cinema stays on).
   gsap
     .timeline({
       scrollTrigger: {

@@ -43,4 +43,4 @@ Thumbs.db
 .yarn-integrity
 
 # Webpack build stats
-stats.json 
+stats.json .hallmark/
