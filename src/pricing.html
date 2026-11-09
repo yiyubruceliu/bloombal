@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing | Bloombal</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --navy:#082848; --navy-deep:#061a30; --ice:#77cafc; --orange:#ff8a3d;
+      --ink:#1a2240; --paper:#f5f8fc; --muted:#5a6b82; --border:#dce6f2;
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:'Inter',sans-serif;color:var(--ink);background:var(--paper);line-height:1.65;-webkit-font-smoothing:antialiased}
+    .topbar{background:linear-gradient(160deg,var(--navy-deep),var(--navy));padding:20px 0}
+    .wrap{width:min(1100px,92vw);margin:0 auto}
+    .brand{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:22px}
+    .brand img{width:34px;height:34px}
+    main{padding:64px 0 96px}
+    h1{font-family:'Space Grotesk',sans-serif;font-size:clamp(2rem,5vw,2.8rem);font-weight:700;color:var(--navy);margin-bottom:10px;letter-spacing:-.01em}
+    .subline{color:var(--muted);font-size:15px;margin-bottom:24px}
+    a{color:#1663a8;text-decoration:underline;text-underline-offset:2px}
+    a:hover{color:var(--orange)}
+    .note{background:#eef4fb;border:1px solid var(--border);border-left:3px solid var(--ice);border-radius:10px;padding:16px 18px;margin:24px 0 36px;font-size:15.5px;color:var(--muted)}
+    footer{border-top:1px solid var(--border);padding:28px 0;color:var(--muted);font-size:14.5px}
+    footer a{color:var(--muted);margin-right:14px}
+    .back{display:inline-block;margin-top:48px;font-family:'Space Grotesk',sans-serif;font-weight:600;color:var(--navy);text-decoration:none}
+    .back:hover{color:var(--orange)}
+
+    .billing-toggle{
+      display:inline-flex;background:#fff;border:1px solid var(--border);border-radius:12px;
+      padding:4px;gap:4px;margin:8px 0 36px;box-shadow:0 1px 2px rgba(8,40,72,.04)
+    }
+    .billing-toggle button{
+      font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:14.5px;
+      border:none;background:transparent;color:var(--muted);padding:10px 20px;
+      border-radius:9px;cursor:pointer;transition:background .15s,color .15s
+    }
+    .billing-toggle button.active{background:var(--navy);color:#fff}
+
+    .pricing-grid{
+      display:grid;grid-template-columns:repeat(4,1fr);gap:20px;align-items:stretch
+    }
+    @media (max-width:1000px){.pricing-grid{grid-template-columns:repeat(2,1fr)}}
+    @media (max-width:560px){.pricing-grid{grid-template-columns:1fr}}
+
+    .plan{
+      background:#fff;border:1px solid var(--border);border-radius:14px;
+      padding:28px 24px 24px;display:flex;flex-direction:column;
+      box-shadow:0 4px 18px rgba(8,40,72,.05);position:relative
+    }
+    .plan.recommended{
+      border-color:var(--ice);box-shadow:0 6px 24px rgba(119,202,252,.22);
+      outline:1px solid rgba(119,202,252,.35)
+    }
+    .badge{
+      position:absolute;top:-11px;left:50%;transform:translateX(-50%);
+      background:linear-gradient(120deg,var(--ice),var(--orange));color:#fff;
+      font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:12px;
+      letter-spacing:.02em;padding:4px 12px;border-radius:999px;white-space:nowrap
+    }
+    .plan-name{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.2rem;color:var(--navy);margin-bottom:14px}
+    .price-row{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;min-height:48px;margin-bottom:6px}
+    .price{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:2rem;color:var(--navy);letter-spacing:-.02em}
+    .price-unit{color:var(--muted);font-size:14px;font-weight:500}
+    .price-was{color:var(--muted);font-size:15px;text-decoration:line-through}
+    .save-tag{
+      display:none;margin-top:4px;margin-bottom:8px;align-self:flex-start;
+      background:#eef8ff;color:#1663a8;border:1px solid #cfe6f7;
+      font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:12.5px;
+      padding:3px 9px;border-radius:999px
+    }
+    body.yearly .save-tag{display:inline-block}
+    body.yearly .price-was{display:inline}
+    .price-was{display:none}
+    .features{list-style:none;padding:0;margin:18px 0 28px;flex:1}
+    .features li{
+      position:relative;padding-left:22px;margin-bottom:10px;
+      color:#394a63;font-size:15px
+    }
+    .features li::before{
+      content:"";position:absolute;left:0;top:8px;width:8px;height:8px;
+      border-radius:50%;background:var(--ice)
+    }
+    .features li.highlight{
+      background:#eef4fb;border:1px solid var(--border);border-left:3px solid var(--orange);
+      border-radius:8px;padding:10px 12px 10px 28px;margin-top:6px
+    }
+    .features li.highlight::before{top:16px;left:10px;background:var(--orange)}
+    .cta{
+      display:block;text-align:center;text-decoration:none !important;
+      background:var(--orange);color:#fff !important;
+      font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:15px;
+      padding:12px 16px;border-radius:10px;transition:background .15s,filter .15s
+    }
+    .cta:hover{background:#e6752a;color:#fff !important}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="wrap"><a class="brand" href="index.html"><img src="img/logo.png" alt="Bloombal"> Bloombal</a></div></div>
+  <main><div class="wrap">
+    <h1>Plans &amp; Pricing</h1>
+    <p class="subline">Simple plans for classrooms, departments, and institutions evaluating Bloombal.</p>
+
+    <div class="note">Pricing shown here is for the Bloombal pre-release and may change before launch.</div>
+
+    <div class="billing-toggle" role="group" aria-label="Billing period">
+      <button type="button" id="btn-monthly" class="active" aria-pressed="true">Monthly</button>
+      <button type="button" id="btn-yearly" aria-pressed="false">Yearly</button>
+    </div>
+
+    <div class="pricing-grid">
+      <article class="plan" data-plan="free">
+        <h2 class="plan-name">Free</h2>
+        <div class="price-row">
+          <span class="price" data-price>€0</span>
+        </div>
+        <ul class="features">
+          <li>Up to 5 players</li>
+          <li>1 active game</li>
+          <li>Core simulation</li>
+        </ul>
+        <a class="cta" href="index.html#contact">Trial pre-release</a>
+      </article>
+
+      <article class="plan" data-plan="classroom">
+        <h2 class="plan-name">Classroom</h2>
+        <div class="price-row">
+          <span class="price" data-price>€30</span>
+          <span class="price-unit">/mo</span>
+          <span class="price-was" data-was>€30/mo</span>
+        </div>
+        <span class="save-tag" data-save>Save €5/mo</span>
+        <ul class="features">
+          <li>Up to 25 students</li>
+          <li>Multiple games</li>
+          <li>Knowledge exams &amp; reports</li>
+        </ul>
+        <a class="cta" href="index.html#contact">Trial pre-release</a>
+      </article>
+
+      <article class="plan recommended" data-plan="department">
+        <span class="badge">Recommended</span>
+        <h2 class="plan-name">Department</h2>
+        <div class="price-row">
+          <span class="price" data-price>€116</span>
+          <span class="price-unit">/mo</span>
+          <span class="price-was" data-was>€116/mo</span>
+        </div>
+        <span class="save-tag" data-save>Save €21/mo</span>
+        <ul class="features">
+          <li>Up to 100 players</li>
+          <li>Unlimited games</li>
+          <li>Priority support</li>
+          <li class="highlight">Knowledge Validation package: open to assignments beyond game content</li>
+        </ul>
+        <a class="cta" href="index.html#contact">Trial pre-release</a>
+      </article>
+
+      <article class="plan" data-plan="enterprise">
+        <h2 class="plan-name">Enterprise / Gov</h2>
+        <div class="price-row">
+          <span class="price" data-price>Custom</span>
+        </div>
+        <ul class="features">
+          <li>Everything in Department</li>
+          <li>Knowledge Validation for any assignment</li>
+          <li>LMS integration</li>
+          <li>Custom player limits</li>
+          <li>Multi-campus and government licensing</li>
+          <li>Dedicated onboarding and SLA</li>
+        </ul>
+        <a class="cta" href="index.html#contact">Trial pre-release</a>
+      </article>
+    </div>
+
+    <a class="back" href="index.html">&larr; Back to home</a>
+  </div></main>
+  <footer><div class="wrap">© 2026 Bloombal. <a href="privacy.html">Privacy Policy</a> <a href="terms.html">Terms of Use</a></div></footer>
+
+  <script>
+    (function () {
+      var prices = {
+        classroom: { monthly: '€30', yearly: '€25' },
+        department: { monthly: '€116', yearly: '€95' }
+      };
+      var btnMonthly = document.getElementById('btn-monthly');
+      var btnYearly = document.getElementById('btn-yearly');
+
+      function setBilling(mode) {
+        var yearly = mode === 'yearly';
+        document.body.classList.toggle('yearly', yearly);
+        btnMonthly.classList.toggle('active', !yearly);
+        btnYearly.classList.toggle('active', yearly);
+        btnMonthly.setAttribute('aria-pressed', String(!yearly));
+        btnYearly.setAttribute('aria-pressed', String(yearly));
+
+        Object.keys(prices).forEach(function (key) {
+          var card = document.querySelector('[data-plan="' + key + '"]');
+          if (!card) return;
+          var priceEl = card.querySelector('[data-price]');
+          priceEl.textContent = yearly ? prices[key].yearly : prices[key].monthly;
+        });
+      }
+
+      btnMonthly.addEventListener('click', function () { setBilling('monthly'); });
+      btnYearly.addEventListener('click', function () { setBilling('yearly'); });
+      setBilling('monthly');
+    })();
+  </script>
+</body>
+</html>

@@ -71,6 +71,11 @@ module.exports = {
                     toType: "file"
                 },
                 {
+                    from: "src/pricing.html",
+                    to: "pricing.html",
+                    toType: "file"
+                },
+                {
                     from: "CNAME",
                     to: "CNAME",
                     toType: "file"
